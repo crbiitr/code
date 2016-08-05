@@ -1,0 +1,232 @@
+<html>
+<head>
+
+<script type="text/javascript">
+
+function myChange() {
+    document.write("Document Changed");
+}
+
+function innerHtmlFunction() {
+    var carname = "Volvo";
+    document.getElementById("demo").innerHTML=carname;
+}
+
+function validateForm() {
+    var x = document.forms["validationForm"]["textValue"].value;
+    if(x == null || x == "") {
+        alert("Text Box is empty");
+        return false;
+    }
+    return true;
+}
+
+</script>
+
+
+</head>
+
+<body>
+<h2>Hello</h2>
+<h1>How are you</h1>
+<button onclick="myChange()"> Try it</button>
+
+
+<!-- <p id="demo">Paragraph</p> -->
+
+<!--
+
+//This for using some javascript from outside
+<script type="text/javascript" src="/home/ops/workspace/javascriptTesting/temp.js">
+display();
+
+ -->
+
+<!--
+
+<script >
+document.write("<p>Befor testing</p>");
+var a = document.getElementById("demo").innerHTML="My First JavaScript";
+document.writeln();
+document.write(a);
+</script>
+
+ -->
+
+<!--How to use variable
+ -->
+ 
+<script >
+    var x=1;
+    var y=3;
+    var z=x+y
+        
+    document.write("<br>" + x + "<br>");
+    document.write(y + "<br>");
+    document.write(z + "<br>");
+    
+    
+    var str = "Chetan";
+    var str1 = "Raj";
+    document.write(str + "<br>");
+    document.write(str1 + "<br>");
+    document.write(str+ " " + str1 + "<br>");
+    
+    //Here value wont change after redefine also
+    var c = "car";
+    var c;    
+    document.write(c + "<br>");
+    
+    var str = "Hi your 'name'";
+    var str1 = 'Hi your "name"';
+    document.write(str + "<br>");
+    document.write(str1 + "<br>");
+    document.write(str+ " <-> " + str1 + "<br>");
+    
+    //boolean variable
+    var b = true;
+    var a = false;
+    document.write(a + "  +  " + b + "<br>");
+    
+    //Array
+    var arr1 = new Array();
+    arr1[0] = "c";
+    arr1[1] = "r";
+    arr1[2] = "b";
+    var arr2 = new Array("r","k","s");
+    var arr3 = ["a","b","c"];
+    
+    for ( var i = 0; i < 3; i++) {
+        document.write("arr1[" + i +"] : " +arr1[i] + ",   ");
+        document.write("arr2[" + i +"] : " +arr2[i] + ",   ");
+        document.write("arr3[" + i +"] : " +arr3[i] + "<br>");
+    }
+    
+    //Object data types
+    var person = {
+            fname:"chetan",
+            lname:"bharti",
+            id:1234
+    }
+    
+    document.write(person.fname + " ");
+    document.write(person["lname"] + " ");
+    document.write("and id is :  " + person.id + "<br>");
+    
+    //undefine and null
+    var ca = "Volvos";
+    var caa;
+    document.write("ca is : " + ca);
+    document.write(",  caa is : " + caa);
+    caa = null;
+    document.write(",   caa is : " + caa + "<br>");
+    
+    //Declaring variables as Objects
+    var kisaan = new String;
+    var kisan = new String("Chetan Raj");
+    var lan = kisan.length;
+    document.write(" Length of kisan String is : " + lan + "<br>");
+    var no = new Number;
+    //var inte = new Integer; X
+    var boo = new Boolean;
+    
+    //Creating own objects
+    var car = new Object();
+    car.color = "blue";
+    car.light = 2;
+    car.working = false;
+    document.write(car.color + " " + car.light + " " + car.working + "<br>");
+    
+    //Accessing properties of objects
+    var xs = "RatanSharma";
+    document.write(xs.length + " " + xs.indexOf("Sharma") +  " " +xs.toUpperCase() + "<br>");
+    
+   
+    
+    
+
+</script>
+    
+<button onclick="innerHtmlFunction()"> Try It </button>
+<p id="demo"> </p>
+
+<form action="/home/user/workspace/TestingJS/Cookies.html" name="validationForm" onsubmit="return validateForm()"  method="get">
+Enter Value : <input type="text" name="textValue">
+<input type="submit" value="Submit" >
+
+</form>
+
+<!--Following code is for catching the exception  -->
+<script type="text/javascript">
+    
+    try {
+        prompt("hi", "qw");
+        //aleart("XXXXXXXXXXXXXXXXXX");    
+    } catch (e) {
+        document.write(e.message);
+    }
+</script>
+    
+<!-- If you calculate a number outside the largest number provided by Javascript, Javascript will return the value of Infinity or -Infinity (positive or negative overflow) -->    
+<script >
+var myNumber = 2;
+while(myNumber != Infinity) {
+    myNumber = myNumber*myNumber;
+    document.write("<br>" + myNumber);
+}
+
+/* Division by 0 (zero) also generates Infinity: */
+var x = 2/0;
+var y = -2/0; 
+document.write("<br> x is : " + x + ",  y is : " + y)
+
+/* function isNaN(value) to find out if a value is a number. */
+var x = 1000 / "Apple";
+var y = 2;
+var z = 100/"1000";
+var r = 10000/0;
+document.write("<br> isNaN(x) is : " + isNaN(x) );
+document.write("<br> isNaN(y) is : " + isNaN(y) );
+document.write("<br> isNaN(z) is : " + isNaN(z) );
+/* Division by 0 (zero) generates Infinity, but Infinity is a number: */
+document.write("<br> isNaN(r) is : " + isNaN(r) );
+
+var x = new Number(123);
+var y = 123;
+document.write("<br>y is : " + typeof(x) + "  and  x is : " + typeof(x));
+var str = "";
+if(x === y) {
+    str = "<br>x and y has the same value and type";
+    document.write(str)
+} else {
+    str = "<br>x and y has the same value and but different type";
+    document.write(str)
+}
+
+document.write("<br>" + Math.round(8.6));
+document.write("<br>" + Math.random());
+
+</script>
+
+<!--  Regular Expressions -->
+	<script type="text/javascript">
+		function regesp() {
+			var str = "chetan rAj bharti";
+			var patt = /a/gi;
+			var result = str.match(patt);
+			document.getElementById("demo1").innerHTML = result;
+
+		}
+		
+		var patt = new RegExp("e");
+		document.write("<br>test() method of RegExp returns true/false---->   " + patt.test("The BEst things in the life are free"));
+		document.write("<br>exec() method of RegExp return pattern    ---->   " + patt.exec("The BEst things in the life are free"));
+	</script>
+
+	<br>
+	<button onclick="regesp()"> Try It </button>
+    <p id="demo1"> </p>
+
+</body>
+</html>
+

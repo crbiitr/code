@@ -1,0 +1,88 @@
+<html>
+<head>
+<title>Objects</title>
+</head>
+<body>
+
+<!--  Creating a direct Instance   -->
+<script >
+var person = new Object();
+person.fname = "Chetan";
+person.lname = "Bharti";
+person.age = 22;
+
+document.write("<br>Person-->    Name : " + person.fname + person.lname + " and age is : " + person.age)
+</script>
+
+<!--  Alternate way to Creating a direct Instance   -->
+<script >
+var person1 = new Object();
+person1 = {fname:"Ratan",lname:"kumar",age:23};
+
+document.write("<br>Person1-->    Name : " + person.fname + person.lname + " and age is : " + person.age)
+</script>
+
+
+<!--  The following example uses a function to construct the object   -->
+<script >
+function person3(fname,lname,age) {
+    this.fname = fname; //this.fname = fname1 will also work; 
+    this.lname = lname;
+    this.age = age;
+    
+    this.changeAge = changeAge;//Important point 
+    function changeAge( age ) {
+        this.age = age;
+    }
+}
+
+myBrother = new person3("Boby","Singh",12);
+
+//Creating JavaScript Object Instances 
+var myMother=new person3("Sally","Rally",48);
+document.write("<br>myBrother-->    Name : " + myBrother.fname + myBrother.lname + " and age is : " + myBrother.age)
+document.write("<br>myMother-->    Name : " + myMother.fname + myMother.lname + " and age is : " + myMother.age)
+myMother.changeAge(50);
+document.write("<br>Use change function on myMother object  --> So now myMother's age is : " + myMother.age)
+
+</script>
+
+<script >
+function myFunction() {
+    var person4 = {fname:"Raman",lname:"Kumar",age:23};
+    
+    var txt = "<br>";
+    for(var x in person4) {
+        txt = txt + "  " + person4[x]; 
+    }
+document.getElementById("demo").innerHTML=txt;
+}
+</script>
+
+<!--  
+<script>
+    function myFunction()
+    {
+        var txt="";
+        var person={fname:"John",lname:"Doe",age:25}; 
+        
+        for (var x in person)
+        {
+            txt=txt + person[x];
+        }
+        
+        document.getElementById("demo").innerHTML=txt;
+    }
+</script>
+ -->
+<h2>Click Here for getting Objects value Using inLoop </h2>
+<button onclick="myFunction()"> Try It </button>
+<p id="demo"></p>
+
+
+
+
+
+</body>
+
+</html>
