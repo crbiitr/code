@@ -17,8 +17,8 @@ public class MaxDiffOfTwoPartsOfArray {
 		for(int i=0;i<=arr.length-2;i++ ) {
 			if(lmax<arr[i]) lmax = arr[i];
 			
-			if((Math.abs(lmax-arr[(int)S.peek()]))>max) {
-				max = Math.abs(lmax-arr[(int)S.peek()]); 
+			if((Math.abs(lmax-arr[(Integer)S.peek()]))>max) {
+				max = Math.abs(lmax-arr[(Integer)S.peek()]);
 			}
 			
 			S.pop();
@@ -43,3 +43,4 @@ public class MaxDiffOfTwoPartsOfArray {
 		return S;
 	}
 }
+

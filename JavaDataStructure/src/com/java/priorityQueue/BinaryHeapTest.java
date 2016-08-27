@@ -45,16 +45,6 @@ class BinaryHeap {
 		this.capacity = capacity;
 	}
 
-	public void insertHeapElement(int data) {
-		if(isFull()) {
-			ResizeHeap();
-		} else {
-			heap[getCount()] = data;
-			setCount(getCount() + 1);
-		}
-		heapifyFromDownToTop(getCount() -1);
-	}
-
 	public boolean isFull() {
 		if(getCount() == getCapacity()) return true;
 
@@ -119,6 +109,26 @@ class BinaryHeap {
 
 	}
 
+    public int deleteMaxElementFromHeap() {
+        int temp;
+        if(isEmpty()) return temp = -1;
+        temp = heap[0];
+        heap[0] = heap[count - 1];
+        count--;
+        heapifyFromTopToDown(0);
+        return temp;
+    }
+
+    public void insertHeapElement(int data) {
+        if(isFull()) {
+            ResizeHeap();
+        } else {
+            heap[getCount()] = data;
+            setCount(getCount() + 1);
+        }
+        heapifyFromDownToTop(getCount() -1);
+    }
+
 	public void heapifyFromDownToTop(int childIndex) {
 		int rootIndex = getParentIndex(childIndex);
 
@@ -128,6 +138,7 @@ class BinaryHeap {
 			rootIndex = getParentIndex(childIndex);
 		}
 	}
+
 	private void swap(int x, int y) {
 		int temp;
 		temp = heap[x];
@@ -144,16 +155,6 @@ class BinaryHeap {
 			}
 		}
 		System.out.println();
-	}
-
-	public int deleteMaxElementFromHeap() {
-		int temp;
-		if(isEmpty()) temp = -1;
-		temp = heap[0];
-		heap[0] = heap[count - 1];
-		count--;
-		heapifyFromTopToDown(0);
-		return temp;
 	}
 
 	public void ResizeHeap() {
@@ -217,9 +218,7 @@ class BinaryHeap {
 	
 	public boolean isLeaf(int i) {
 		boolean leaf = false;
-		
 		if(getLeftChildIndex(i) == -1 && getRightChildIndex(i) == -1) leaf = true;
-		
 		return leaf;
 	}
 

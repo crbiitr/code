@@ -300,15 +300,32 @@ class SLL<T> {
 	public Node<T> getMiddleNodeOfLL() {
 		Node<T> slowNode = getFirst();
 		Node<T> fastNode = getFirst();
-		
+		/*
+		//This is the old logic(Commented code) which i wrote, and it is wrong. Please follow the
+		// Uncommented logic. Because this commented logic does not work for EVEN no of elements.
 		while(fastNode != null && fastNode.getNext() != null) {
-			
 			if(fastNode != null && fastNode.getNext() != null) {
 				fastNode= fastNode.getNext().getNext();
 			}
-			
 			slowNode = slowNode.getNext();
 		}
+        */
+
+        if (fastNode == null) {
+            return fastNode;
+        }
+        int i = 0;
+        while (fastNode.getNext() != null) {
+        // Main logic is to check fastNode's next pointer is null, not the fastNode pointer is null
+            if (i == 0) {
+                fastNode = fastNode.getNext();
+                i = 1;
+            } else if (i == 1) {
+                fastNode = fastNode.getNext();
+                slowNode = slowNode.getNext();
+                i = 0;
+            }
+        }
 		return slowNode;
 	}
 	
@@ -415,9 +432,15 @@ public class SingleLL {
 		System.out.println("Linked List after reverse :: ");
 		ll.setFirst(ll.reverseLL());
 		ll.display(); 
-		
-		System.out.println("Middle Of the Linked List is :: " + ll.getMiddleNodeOfLL().getData());
-		
+
+        Node<Integer> node;
+        node = ll.getMiddleNodeOfLL();
+        if (node != null) {
+            System.out.println("Middle Of the Linked List is :: " + ll.getMiddleNodeOfLL().getData());
+        } else {
+            System.out.println("Linked List is null");
+        }
+
 		System.out.println("Display Linked List from last :: ");
 		ll.printLLfromLast(ll.getFirst());
 		System.out.println();
