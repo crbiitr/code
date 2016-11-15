@@ -14,8 +14,8 @@ public class TLG {
 
 	public static void main(String[] args) throws IOException {
 
-		Reader r =new Reader(System.in);
-		Writer w =new Writer(System.out);
+		Reader_1 r =new Reader_1(System.in);
+		Writer_1 w =new Writer_1(System.out);
 		int n=r.readInt();  
 		int player1=0, player2=0;
 		int player1Score=0, player2Score=0;
@@ -32,7 +32,7 @@ public class TLG {
 }
 
 
-class Reader
+class Reader_1
 {
 	private static final int  BUFSIZE   = 0x10000;
 	private final byte[]      buffer    = new byte[BUFSIZE];
@@ -60,7 +60,7 @@ class Reader
 		return (FileInputStream) in;
 	}
 
-	Reader(InputStream in) throws IOException
+	Reader_1(InputStream in) throws IOException
 	{
 		this.channel = this.getFileInputStream(in).getChannel();
 	}
@@ -137,7 +137,7 @@ class Reader
 
 }
 
-class Writer
+class Writer_1
 {
 	private static final int       BUFSIZE = 0x10000;
 	private final FileOutputStream fos;
@@ -167,7 +167,7 @@ class Writer
 		return null;
 	}
 
-	Writer(PrintStream out) throws IOException
+	Writer_1(PrintStream out) throws IOException
 	{
 		fos = getFileOutputStream(out);
 	}

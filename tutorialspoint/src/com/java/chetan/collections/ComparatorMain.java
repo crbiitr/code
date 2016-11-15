@@ -32,7 +32,7 @@ public class ComparatorMain {
 		
 		Collections.sort(listOfCounties, new CountrySortByIdComparator());
 		
-		System.out.println("After Sort : ");
+		System.out.println("After Sort by id : ");
 		for(int i=0; i<listOfCounties.size(); i++) {
 			Country c = listOfCounties.get(i);
 			System.out.println("Country id : " + c.getCountryId() + 

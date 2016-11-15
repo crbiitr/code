@@ -1,21 +1,47 @@
-class A {
-	
-	void create() {
-		System.out.println("Class A's create mathod called");
-	}
-}
+import java.util.*;
 
-class B extends A {
-	
-	void create() {
-		System.out.println("Class B's create mathod called");
-	}
-}
 public class Test9 {
 
-	public static void main(String []args) {
+	public  static void main(String []args) {
+//        long starttime = System.currentTimeMillis();
+        long starttime = System.nanoTime();
+        String str = "kincenwinh";
+        System.out.println(substringCalculator(str));
+//        solve(str);
+//        long endtime = System.currentTimeMillis();
+        long endtime = System.nanoTime();
 
-		A b = new B();
-		b.create();
-	}
+        test();
+
+        System.out.println("Time : " + (endtime-starttime));
+    }
+
+    public static long substringCalculator(String st) {
+//        ArrayList<String> set = new ArrayList<String>();
+//        Set<String> set = new HashSet<String>();
+        Set<String> set = new HashSet<String>();
+        for (int i = 0; i < st.length(); i++) {
+            for (int j = 0; j < st.length() - i; j++) {
+                String element = st.substring(j, j + (i + 1));
+                if (!set.contains(element)) {
+                    set.add(element);
+                }
+            }
+        }
+        return set.size();
+    }
+
+
+    public static void test() {
+        HashMap<String,String > map = new HashMap<String, String>();
+
+        map.put("123","abc");
+        map.put("123","abc");
+        map.put("123","xyz");
+
+        for (String key: map.keySet()) {
+            System.out.println(key  +"  :  "+ map.get(key));
+        }
+    }
 }
+
