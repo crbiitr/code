@@ -1,12 +1,11 @@
 package com.java.testing;
 
-import java.util.Arrays;
 import java.util.Collections;
-import java.util.Scanner;
-import java.util.Stack;
+/*
 
 public class Solution {
     public static void main(String args[]) {
+*/
 /*        Scanner scanner = new Scanner(System.in);
         int numberOfTestCases = scanner.nextInt();
         int numberOfElement = scanner.nextInt();
@@ -20,7 +19,8 @@ public class Solution {
         }
         int result = findMax(ar1,ar2);
         System.out.println(result);
-        System.out.println(Arrays.toString(ar1));*/
+        System.out.println(Arrays.toString(ar1));*//*
+
 
         int a[] =  {4,2,3,9,7,5,6,8};
         solution(a);
@@ -93,4 +93,57 @@ public class Solution {
 
         return result;
     }
+}*/
+
+import java.util.ArrayList;
+
+public class Solution {
+    public static class Interval implements Comparable<Interval>{
+        int first;
+        int last;
+        private Interval(int s, int e){
+            this.first = s;
+            this.last = e;
+        }
+
+        public int compareTo(Interval i){
+            int getend = ((Interval) i).last;
+            return this.last - getend;
+        }
+    }
+
+    public static int findConflictingAppointments(ArrayList<Interval>inter){
+        Collections.sort(inter);
+        int count = 0;
+        for (int i =1;i<inter.size();i++){
+            if(inter.get(i).first <= inter.get(i - 1).last){
+//                System.out.println(inter.get(i));
+                count++;
+            }
+        }
+        return count;
+    }
+
+    public static int solution(int[] A, int[]B) {
+        ArrayList<Interval> list = new ArrayList<Interval>();
+        for (int i = 0; i <A.length ; i++) {
+            list.add(new Interval(A[i],B[i]));
+
+
+        }
+        System.out.println(findConflictingAppointments(list));
+        System.out.println(list.size());
+
+        return (list.size() - 2*findConflictingAppointments(list) + findConflictingAppointments(list));
+
+    }
+    public static void main(String[]  args){
+        int A[] = {1,12,42,70,36,-4,43,15};
+        int B[] = {5,15,44,72,36,2,69,24};
+        System.out.println(solution(A, B));
+
+
+
+    }
 }
+
