@@ -47,9 +47,9 @@ public class HashMapTesting {
                 testMap.get(superKey).put(key, increaseValue);
             }
         }
-//			System.out.println("Press y for continue and n for stop the program : ");
+//			System.out.println("Press com.java.Inheritance.y for continue and n for stop the program : ");
 //			option = br.readLine();
-//		} while (option.equals("y"));
+//		} while (option.equals("com.java.Inheritance.y"));
         outputstream = new PrintWriter(new FileWriter("/home/user/outputstream.txt"));
         fileWrite(testMap, outputstream);
         outputstream.close();

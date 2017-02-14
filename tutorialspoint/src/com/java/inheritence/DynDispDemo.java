@@ -44,6 +44,9 @@ public class DynDispDemo {
 		
 		supRef = sub2Obj;
 		supRef.who();
+
+//        Below line is not possible. It's an error.
+//        supRef.Display();
 		
 	}
 }

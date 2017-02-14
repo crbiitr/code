@@ -1,7 +1,7 @@
 class abc {
 	public int x = 0;
 	public abc(){
-		//x=1;
+		//com.java.Inheritance.x=1;
 	}
 }
 

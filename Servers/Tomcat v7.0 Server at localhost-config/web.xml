@@ -428,7 +428,7 @@
   <!--                                                                      -->
   <!--   contentType         A regex pattern that must be matched before    -->
   <!--                       SSI processing is applied.                     -->
-  <!--                       [text/x-server-parsed-html(;.*)?]              -->
+  <!--                       [text/com.java.Inheritance.x-server-parsed-html(;.*)?]              -->
   <!--                                                                      -->
   <!--   debug               Debugging detail level for messages logged     -->
   <!--                       by this servlet.  [0]                          -->
@@ -451,7 +451,7 @@
         </filter-class>
         <init-param>
           <param-name>contentType</param-name>
-          <param-value>text/x-server-parsed-html(;.*)?</param-value>
+          <param-value>text/com.java.Inheritance.x-server-parsed-html(;.*)?</param-value>
         </init-param>
         <init-param>
           <param-name>debug</param-name>
@@ -522,7 +522,7 @@
     </mime-mapping>
     <mime-mapping>
         <extension>3ds</extension>
-        <mime-type>image/x-3ds</mime-type>
+        <mime-type>image/com.java.Inheritance.x-3ds</mime-type>
     </mime-mapping>
     <mime-mapping>
         <extension>3g2</extension>
@@ -534,31 +534,31 @@
     </mime-mapping>
     <mime-mapping>
         <extension>7z</extension>
-        <mime-type>application/x-7z-compressed</mime-type>
+        <mime-type>application/com.java.Inheritance.x-7z-compressed</mime-type>
     </mime-mapping>
     <mime-mapping>
         <extension>aab</extension>
-        <mime-type>application/x-authorware-bin</mime-type>
+        <mime-type>application/com.java.Inheritance.x-authorware-bin</mime-type>
     </mime-mapping>
     <mime-mapping>
         <extension>aac</extension>
-        <mime-type>audio/x-aac</mime-type>
+        <mime-type>audio/com.java.Inheritance.x-aac</mime-type>
     </mime-mapping>
     <mime-mapping>
         <extension>aam</extension>
-        <mime-type>application/x-authorware-map</mime-type>
+        <mime-type>application/com.java.Inheritance.x-authorware-map</mime-type>
     </mime-mapping>
     <mime-mapping>
         <extension>aas</extension>
-        <mime-type>application/x-authorware-seg</mime-type>
+        <mime-type>application/com.java.Inheritance.x-authorware-seg</mime-type>
     </mime-mapping>
     <mime-mapping>
         <extension>abs</extension>
-        <mime-type>audio/x-mpeg</mime-type>
+        <mime-type>audio/com.java.Inheritance.x-mpeg</mime-type>
     </mime-mapping>
     <mime-mapping>
         <extension>abw</extension>
-        <mime-type>application/x-abiword</mime-type>
+        <mime-type>application/com.java.Inheritance.x-abiword</mime-type>
     </mime-mapping>
     <mime-mapping>
         <extension>ac</extension>
@@ -570,7 +570,7 @@
     </mime-mapping>
     <mime-mapping>
         <extension>ace</extension>
-        <mime-type>application/x-ace-compressed</mime-type>
+        <mime-type>application/com.java.Inheritance.x-ace-compressed</mime-type>
     </mime-mapping>
     <mime-mapping>
         <extension>acu</extension>
@@ -590,7 +590,7 @@
     </mime-mapping>
     <mime-mapping>
         <extension>afm</extension>
-        <mime-type>application/x-font-type1</mime-type>
+        <mime-type>application/com.java.Inheritance.x-font-type1</mime-type>
     </mime-mapping>
     <mime-mapping>
         <extension>afp</extension>
@@ -606,19 +606,19 @@
     </mime-mapping>
     <mime-mapping>
         <extension>aif</extension>
-        <mime-type>audio/x-aiff</mime-type>
+        <mime-type>audio/com.java.Inheritance.x-aiff</mime-type>
     </mime-mapping>
     <mime-mapping>
         <extension>aifc</extension>
-        <mime-type>audio/x-aiff</mime-type>
+        <mime-type>audio/com.java.Inheritance.x-aiff</mime-type>
     </mime-mapping>
     <mime-mapping>
         <extension>aiff</extension>
-        <mime-type>audio/x-aiff</mime-type>
+        <mime-type>audio/com.java.Inheritance.x-aiff</mime-type>
     </mime-mapping>
     <mime-mapping>
         <extension>aim</extension>
-        <mime-type>application/x-aim</mime-type>
+        <mime-type>application/com.java.Inheritance.x-aim</mime-type>
     </mime-mapping>
     <mime-mapping>
         <extension>air</extension>
@@ -646,7 +646,7 @@
     </mime-mapping>
     <mime-mapping>
         <extension>application</extension>
-        <mime-type>application/x-ms-application</mime-type>
+        <mime-type>application/com.java.Inheritance.x-ms-application</mime-type>
     </mime-mapping>
     <mime-mapping>
         <extension>apr</extension>
@@ -654,11 +654,11 @@
     </mime-mapping>
     <mime-mapping>
         <extension>arc</extension>
-        <mime-type>application/x-freearc</mime-type>
+        <mime-type>application/com.java.Inheritance.x-freearc</mime-type>
     </mime-mapping>
     <mime-mapping>
         <extension>art</extension>
-        <mime-type>image/x-jg</mime-type>
+        <mime-type>image/com.java.Inheritance.x-jg</mime-type>
     </mime-mapping>
     <mime-mapping>
         <extension>asc</extension>
@@ -666,11 +666,11 @@
     </mime-mapping>
     <mime-mapping>
         <extension>asf</extension>
-        <mime-type>video/x-ms-asf</mime-type>
+        <mime-type>video/com.java.Inheritance.x-ms-asf</mime-type>
     </mime-mapping>
     <mime-mapping>
         <extension>asm</extension>
-        <mime-type>text/x-asm</mime-type>
+        <mime-type>text/com.java.Inheritance.x-asm</mime-type>
     </mime-mapping>
     <mime-mapping>
         <extension>aso</extension>
@@ -678,7 +678,7 @@
     </mime-mapping>
     <mime-mapping>
         <extension>asx</extension>
-        <mime-type>video/x-ms-asf</mime-type>
+        <mime-type>video/com.java.Inheritance.x-ms-asf</mime-type>
     </mime-mapping>
     <mime-mapping>
         <extension>atc</extension>
@@ -706,11 +706,11 @@
     </mime-mapping>
     <mime-mapping>
         <extension>avi</extension>
-        <mime-type>video/x-msvideo</mime-type>
+        <mime-type>video/com.java.Inheritance.x-msvideo</mime-type>
     </mime-mapping>
     <mime-mapping>
         <extension>avx</extension>
-        <mime-type>video/x-rad-screenplay</mime-type>
+        <mime-type>video/com.java.Inheritance.x-rad-screenplay</mime-type>
     </mime-mapping>
     <mime-mapping>
         <extension>aw</extension>
@@ -738,15 +738,15 @@
     </mime-mapping>
     <mime-mapping>
         <extension>bat</extension>
-        <mime-type>application/x-msdownload</mime-type>
+        <mime-type>application/com.java.Inheritance.x-msdownload</mime-type>
     </mime-mapping>
     <mime-mapping>
         <extension>bcpio</extension>
-        <mime-type>application/x-bcpio</mime-type>
+        <mime-type>application/com.java.Inheritance.x-bcpio</mime-type>
     </mime-mapping>
     <mime-mapping>
         <extension>bdf</extension>
-        <mime-type>application/x-font-bdf</mime-type>
+        <mime-type>application/com.java.Inheritance.x-font-bdf</mime-type>
     </mime-mapping>
     <mime-mapping>
         <extension>bdm</extension>
@@ -766,11 +766,11 @@
     </mime-mapping>
     <mime-mapping>
         <extension>blb</extension>
-        <mime-type>application/x-blorb</mime-type>
+        <mime-type>application/com.java.Inheritance.x-blorb</mime-type>
     </mime-mapping>
     <mime-mapping>
         <extension>blorb</extension>
-        <mime-type>application/x-blorb</mime-type>
+        <mime-type>application/com.java.Inheritance.x-blorb</mime-type>
     </mime-mapping>
     <mime-mapping>
         <extension>bmi</extension>
@@ -794,7 +794,7 @@
     </mime-mapping>
     <mime-mapping>
         <extension>boz</extension>
-        <mime-type>application/x-bzip2</mime-type>
+        <mime-type>application/com.java.Inheritance.x-bzip2</mime-type>
     </mime-mapping>
     <mime-mapping>
         <extension>bpk</extension>
@@ -806,15 +806,15 @@
     </mime-mapping>
     <mime-mapping>
         <extension>bz</extension>
-        <mime-type>application/x-bzip</mime-type>
+        <mime-type>application/com.java.Inheritance.x-bzip</mime-type>
     </mime-mapping>
     <mime-mapping>
         <extension>bz2</extension>
-        <mime-type>application/x-bzip2</mime-type>
+        <mime-type>application/com.java.Inheritance.x-bzip2</mime-type>
     </mime-mapping>
     <mime-mapping>
         <extension>c</extension>
-        <mime-type>text/x-c</mime-type>
+        <mime-type>text/com.java.Inheritance.x-c</mime-type>
     </mime-mapping>
     <mime-mapping>
         <extension>c11amc</extension>
@@ -850,7 +850,7 @@
     </mime-mapping>
     <mime-mapping>
         <extension>caf</extension>
-        <mime-type>audio/x-caf</mime-type>
+        <mime-type>audio/com.java.Inheritance.x-caf</mime-type>
     </mime-mapping>
     <mime-mapping>
         <extension>cap</extension>
@@ -866,31 +866,31 @@
     </mime-mapping>
     <mime-mapping>
         <extension>cb7</extension>
-        <mime-type>application/x-cbr</mime-type>
+        <mime-type>application/com.java.Inheritance.x-cbr</mime-type>
     </mime-mapping>
     <mime-mapping>
         <extension>cba</extension>
-        <mime-type>application/x-cbr</mime-type>
+        <mime-type>application/com.java.Inheritance.x-cbr</mime-type>
     </mime-mapping>
     <mime-mapping>
         <extension>cbr</extension>
-        <mime-type>application/x-cbr</mime-type>
+        <mime-type>application/com.java.Inheritance.x-cbr</mime-type>
     </mime-mapping>
     <mime-mapping>
         <extension>cbt</extension>
-        <mime-type>application/x-cbr</mime-type>
+        <mime-type>application/com.java.Inheritance.x-cbr</mime-type>
     </mime-mapping>
     <mime-mapping>
         <extension>cbz</extension>
-        <mime-type>application/x-cbr</mime-type>
+        <mime-type>application/com.java.Inheritance.x-cbr</mime-type>
     </mime-mapping>
     <mime-mapping>
         <extension>cc</extension>
-        <mime-type>text/x-c</mime-type>
+        <mime-type>text/com.java.Inheritance.x-c</mime-type>
     </mime-mapping>
     <mime-mapping>
         <extension>cct</extension>
-        <mime-type>application/x-director</mime-type>
+        <mime-type>application/com.java.Inheritance.x-director</mime-type>
     </mime-mapping>
     <mime-mapping>
         <extension>ccxml</extension>
@@ -902,7 +902,7 @@
     </mime-mapping>
     <mime-mapping>
         <extension>cdf</extension>
-        <mime-type>application/x-cdf</mime-type>
+        <mime-type>application/com.java.Inheritance.x-cdf</mime-type>
     </mime-mapping>
     <mime-mapping>
         <extension>cdkey</extension>
@@ -930,7 +930,7 @@
     </mime-mapping>
     <mime-mapping>
         <extension>cdx</extension>
-        <mime-type>chemical/x-cdx</mime-type>
+        <mime-type>chemical/com.java.Inheritance.x-cdx</mime-type>
     </mime-mapping>
     <mime-mapping>
         <extension>cdxml</extension>
@@ -946,7 +946,7 @@
     </mime-mapping>
     <mime-mapping>
         <extension>cfs</extension>
-        <mime-type>application/x-cfs-compressed</mime-type>
+        <mime-type>application/com.java.Inheritance.x-cfs-compressed</mime-type>
     </mime-mapping>
     <mime-mapping>
         <extension>cgm</extension>
@@ -954,7 +954,7 @@
     </mime-mapping>
     <mime-mapping>
         <extension>chat</extension>
-        <mime-type>application/x-chat</mime-type>
+        <mime-type>application/com.java.Inheritance.x-chat</mime-type>
     </mime-mapping>
     <mime-mapping>
         <extension>chm</extension>
@@ -966,7 +966,7 @@
     </mime-mapping>
     <mime-mapping>
         <extension>cif</extension>
-        <mime-type>chemical/x-cif</mime-type>
+        <mime-type>chemical/com.java.Inheritance.x-cif</mime-type>
     </mime-mapping>
     <mime-mapping>
         <extension>cii</extension>
@@ -1006,7 +1006,7 @@
     </mime-mapping>
     <mime-mapping>
         <extension>clp</extension>
-        <mime-type>application/x-msclip</mime-type>
+        <mime-type>application/com.java.Inheritance.x-msclip</mime-type>
     </mime-mapping>
     <mime-mapping>
         <extension>cmc</extension>
@@ -1014,11 +1014,11 @@
     </mime-mapping>
     <mime-mapping>
         <extension>cmdf</extension>
-        <mime-type>chemical/x-cmdf</mime-type>
+        <mime-type>chemical/com.java.Inheritance.x-cmdf</mime-type>
     </mime-mapping>
     <mime-mapping>
         <extension>cml</extension>
-        <mime-type>chemical/x-cml</mime-type>
+        <mime-type>chemical/com.java.Inheritance.x-cml</mime-type>
     </mime-mapping>
     <mime-mapping>
         <extension>cmp</extension>
@@ -1026,7 +1026,7 @@
     </mime-mapping>
     <mime-mapping>
         <extension>cmx</extension>
-        <mime-type>image/x-cmx</mime-type>
+        <mime-type>image/com.java.Inheritance.x-cmx</mime-type>
     </mime-mapping>
     <mime-mapping>
         <extension>cod</extension>
@@ -1034,7 +1034,7 @@
     </mime-mapping>
     <mime-mapping>
         <extension>com</extension>
-        <mime-type>application/x-msdownload</mime-type>
+        <mime-type>application/com.java.Inheritance.x-msdownload</mime-type>
     </mime-mapping>
     <mime-mapping>
         <extension>conf</extension>
@@ -1042,11 +1042,11 @@
     </mime-mapping>
     <mime-mapping>
         <extension>cpio</extension>
-        <mime-type>application/x-cpio</mime-type>
+        <mime-type>application/com.java.Inheritance.x-cpio</mime-type>
     </mime-mapping>
     <mime-mapping>
         <extension>cpp</extension>
-        <mime-type>text/x-c</mime-type>
+        <mime-type>text/com.java.Inheritance.x-c</mime-type>
     </mime-mapping>
     <mime-mapping>
         <extension>cpt</extension>
@@ -1054,7 +1054,7 @@
     </mime-mapping>
     <mime-mapping>
         <extension>crd</extension>
-        <mime-type>application/x-mscardfile</mime-type>
+        <mime-type>application/com.java.Inheritance.x-mscardfile</mime-type>
     </mime-mapping>
     <mime-mapping>
         <extension>crl</extension>
@@ -1062,7 +1062,7 @@
     </mime-mapping>
     <mime-mapping>
         <extension>crt</extension>
-        <mime-type>application/x-x509-ca-cert</mime-type>
+        <mime-type>application/com.java.Inheritance.x-x509-ca-cert</mime-type>
     </mime-mapping>
     <mime-mapping>
         <extension>cryptonote</extension>
@@ -1070,11 +1070,11 @@
     </mime-mapping>
     <mime-mapping>
         <extension>csh</extension>
-        <mime-type>application/x-csh</mime-type>
+        <mime-type>application/com.java.Inheritance.x-csh</mime-type>
     </mime-mapping>
     <mime-mapping>
         <extension>csml</extension>
-        <mime-type>chemical/x-csml</mime-type>
+        <mime-type>chemical/com.java.Inheritance.x-csml</mime-type>
     </mime-mapping>
     <mime-mapping>
         <extension>csp</extension>
@@ -1086,7 +1086,7 @@
     </mime-mapping>
     <mime-mapping>
         <extension>cst</extension>
-        <mime-type>application/x-director</mime-type>
+        <mime-type>application/com.java.Inheritance.x-director</mime-type>
     </mime-mapping>
     <mime-mapping>
         <extension>csv</extension>
@@ -1106,11 +1106,11 @@
     </mime-mapping>
     <mime-mapping>
         <extension>cxt</extension>
-        <mime-type>application/x-director</mime-type>
+        <mime-type>application/com.java.Inheritance.x-director</mime-type>
     </mime-mapping>
     <mime-mapping>
         <extension>cxx</extension>
-        <mime-type>text/x-c</mime-type>
+        <mime-type>text/com.java.Inheritance.x-c</mime-type>
     </mime-mapping>
     <mime-mapping>
         <extension>dae</extension>
@@ -1138,7 +1138,7 @@
     </mime-mapping>
     <mime-mapping>
         <extension>dcr</extension>
-        <mime-type>application/x-director</mime-type>
+        <mime-type>application/com.java.Inheritance.x-director</mime-type>
     </mime-mapping>
     <mime-mapping>
         <extension>dcurl</extension>
@@ -1154,7 +1154,7 @@
     </mime-mapping>
     <mime-mapping>
         <extension>deb</extension>
-        <mime-type>application/x-debian-package</mime-type>
+        <mime-type>application/com.java.Inheritance.x-debian-package</mime-type>
     </mime-mapping>
     <mime-mapping>
         <extension>def</extension>
@@ -1166,7 +1166,7 @@
     </mime-mapping>
     <mime-mapping>
         <extension>der</extension>
-        <mime-type>application/x-x509-ca-cert</mime-type>
+        <mime-type>application/com.java.Inheritance.x-x509-ca-cert</mime-type>
     </mime-mapping>
     <mime-mapping>
         <extension>dfac</extension>
@@ -1174,7 +1174,7 @@
     </mime-mapping>
     <mime-mapping>
         <extension>dgc</extension>
-        <mime-type>application/x-dgc-compressed</mime-type>
+        <mime-type>application/com.java.Inheritance.x-dgc-compressed</mime-type>
     </mime-mapping>
     <mime-mapping>
         <extension>dib</extension>
@@ -1182,11 +1182,11 @@
     </mime-mapping>
     <mime-mapping>
         <extension>dic</extension>
-        <mime-type>text/x-c</mime-type>
+        <mime-type>text/com.java.Inheritance.x-c</mime-type>
     </mime-mapping>
     <mime-mapping>
         <extension>dir</extension>
-        <mime-type>application/x-director</mime-type>
+        <mime-type>application/com.java.Inheritance.x-director</mime-type>
     </mime-mapping>
     <mime-mapping>
         <extension>dis</extension>
@@ -1210,11 +1210,11 @@
     </mime-mapping>
     <mime-mapping>
         <extension>dll</extension>
-        <mime-type>application/x-msdownload</mime-type>
+        <mime-type>application/com.java.Inheritance.x-msdownload</mime-type>
     </mime-mapping>
     <mime-mapping>
         <extension>dmg</extension>
-        <mime-type>application/x-apple-diskimage</mime-type>
+        <mime-type>application/com.java.Inheritance.x-apple-diskimage</mime-type>
     </mime-mapping>
     <mime-mapping>
         <extension>dmp</extension>
@@ -1274,7 +1274,7 @@
     </mime-mapping>
     <mime-mapping>
         <extension>dtb</extension>
-        <mime-type>application/x-dtbook+xml</mime-type>
+        <mime-type>application/com.java.Inheritance.x-dtbook+xml</mime-type>
     </mime-mapping>
     <mime-mapping>
         <extension>dtd</extension>
@@ -1294,7 +1294,7 @@
     </mime-mapping>
     <mime-mapping>
         <extension>dv</extension>
-        <mime-type>video/x-dv</mime-type>
+        <mime-type>video/com.java.Inheritance.x-dv</mime-type>
     </mime-mapping>
     <mime-mapping>
         <extension>dvb</extension>
@@ -1302,7 +1302,7 @@
     </mime-mapping>
     <mime-mapping>
         <extension>dvi</extension>
-        <mime-type>application/x-dvi</mime-type>
+        <mime-type>application/com.java.Inheritance.x-dvi</mime-type>
     </mime-mapping>
     <mime-mapping>
         <extension>dwf</extension>
@@ -1322,7 +1322,7 @@
     </mime-mapping>
     <mime-mapping>
         <extension>dxr</extension>
-        <mime-type>application/x-director</mime-type>
+        <mime-type>application/com.java.Inheritance.x-director</mime-type>
     </mime-mapping>
     <mime-mapping>
         <extension>ecelp4800</extension>
@@ -1362,7 +1362,7 @@
     </mime-mapping>
     <mime-mapping>
         <extension>emf</extension>
-        <mime-type>application/x-msmetafile</mime-type>
+        <mime-type>application/com.java.Inheritance.x-msmetafile</mime-type>
     </mime-mapping>
     <mime-mapping>
         <extension>eml</extension>
@@ -1374,7 +1374,7 @@
     </mime-mapping>
     <mime-mapping>
         <extension>emz</extension>
-        <mime-type>application/x-msmetafile</mime-type>
+        <mime-type>application/com.java.Inheritance.x-msmetafile</mime-type>
     </mime-mapping>
     <mime-mapping>
         <extension>eol</extension>
@@ -1410,15 +1410,15 @@
     </mime-mapping>
     <mime-mapping>
         <extension>etx</extension>
-        <mime-type>text/x-setext</mime-type>
+        <mime-type>text/com.java.Inheritance.x-setext</mime-type>
     </mime-mapping>
     <mime-mapping>
         <extension>eva</extension>
-        <mime-type>application/x-eva</mime-type>
+        <mime-type>application/com.java.Inheritance.x-eva</mime-type>
     </mime-mapping>
     <mime-mapping>
         <extension>evy</extension>
-        <mime-type>application/x-envoy</mime-type>
+        <mime-type>application/com.java.Inheritance.x-envoy</mime-type>
     </mime-mapping>
     <mime-mapping>
         <extension>exe</extension>
@@ -1446,19 +1446,19 @@
     </mime-mapping>
     <mime-mapping>
         <extension>f</extension>
-        <mime-type>text/x-fortran</mime-type>
+        <mime-type>text/com.java.Inheritance.x-fortran</mime-type>
     </mime-mapping>
     <mime-mapping>
         <extension>f4v</extension>
-        <mime-type>video/x-f4v</mime-type>
+        <mime-type>video/com.java.Inheritance.x-f4v</mime-type>
     </mime-mapping>
     <mime-mapping>
         <extension>f77</extension>
-        <mime-type>text/x-fortran</mime-type>
+        <mime-type>text/com.java.Inheritance.x-fortran</mime-type>
     </mime-mapping>
     <mime-mapping>
         <extension>f90</extension>
-        <mime-type>text/x-fortran</mime-type>
+        <mime-type>text/com.java.Inheritance.x-fortran</mime-type>
     </mime-mapping>
     <mime-mapping>
         <extension>fbs</extension>
@@ -1486,31 +1486,31 @@
     </mime-mapping>
     <mime-mapping>
         <extension>fgd</extension>
-        <mime-type>application/x-director</mime-type>
+        <mime-type>application/com.java.Inheritance.x-director</mime-type>
     </mime-mapping>
     <mime-mapping>
         <extension>fh</extension>
-        <mime-type>image/x-freehand</mime-type>
+        <mime-type>image/com.java.Inheritance.x-freehand</mime-type>
     </mime-mapping>
     <mime-mapping>
         <extension>fh4</extension>
-        <mime-type>image/x-freehand</mime-type>
+        <mime-type>image/com.java.Inheritance.x-freehand</mime-type>
     </mime-mapping>
     <mime-mapping>
         <extension>fh5</extension>
-        <mime-type>image/x-freehand</mime-type>
+        <mime-type>image/com.java.Inheritance.x-freehand</mime-type>
     </mime-mapping>
     <mime-mapping>
         <extension>fh7</extension>
-        <mime-type>image/x-freehand</mime-type>
+        <mime-type>image/com.java.Inheritance.x-freehand</mime-type>
     </mime-mapping>
     <mime-mapping>
         <extension>fhc</extension>
-        <mime-type>image/x-freehand</mime-type>
+        <mime-type>image/com.java.Inheritance.x-freehand</mime-type>
     </mime-mapping>
     <mime-mapping>
         <extension>fig</extension>
-        <mime-type>application/x-xfig</mime-type>
+        <mime-type>application/com.java.Inheritance.x-xfig</mime-type>
     </mime-mapping>
     <mime-mapping>
         <extension>flac</extension>
@@ -1518,7 +1518,7 @@
     </mime-mapping>
     <mime-mapping>
         <extension>fli</extension>
-        <mime-type>video/x-fli</mime-type>
+        <mime-type>video/com.java.Inheritance.x-fli</mime-type>
     </mime-mapping>
     <mime-mapping>
         <extension>flo</extension>
@@ -1526,7 +1526,7 @@
     </mime-mapping>
     <mime-mapping>
         <extension>flv</extension>
-        <mime-type>video/x-flv</mime-type>
+        <mime-type>video/com.java.Inheritance.x-flv</mime-type>
     </mime-mapping>
     <mime-mapping>
         <extension>flw</extension>
@@ -1550,7 +1550,7 @@
     </mime-mapping>
     <mime-mapping>
         <extension>for</extension>
-        <mime-type>text/x-fortran</mime-type>
+        <mime-type>text/com.java.Inheritance.x-fortran</mime-type>
     </mime-mapping>
     <mime-mapping>
         <extension>fpx</extension>
@@ -1610,7 +1610,7 @@
     </mime-mapping>
     <mime-mapping>
         <extension>gam</extension>
-        <mime-type>application/x-tads</mime-type>
+        <mime-type>application/com.java.Inheritance.x-tads</mime-type>
     </mime-mapping>
     <mime-mapping>
         <extension>gbr</extension>
@@ -1618,7 +1618,7 @@
     </mime-mapping>
     <mime-mapping>
         <extension>gca</extension>
-        <mime-type>application/x-gca-compressed</mime-type>
+        <mime-type>application/com.java.Inheritance.x-gca-compressed</mime-type>
     </mime-mapping>
     <mime-mapping>
         <extension>gdl</extension>
@@ -1662,7 +1662,7 @@
     </mime-mapping>
     <mime-mapping>
         <extension>gnumeric</extension>
-        <mime-type>application/x-gnumeric</mime-type>
+        <mime-type>application/com.java.Inheritance.x-gnumeric</mime-type>
     </mime-mapping>
     <mime-mapping>
         <extension>gph</extension>
@@ -1686,7 +1686,7 @@
     </mime-mapping>
     <mime-mapping>
         <extension>gramps</extension>
-        <mime-type>application/x-gramps-xml</mime-type>
+        <mime-type>application/com.java.Inheritance.x-gramps-xml</mime-type>
     </mime-mapping>
     <mime-mapping>
         <extension>gre</extension>
@@ -1702,11 +1702,11 @@
     </mime-mapping>
     <mime-mapping>
         <extension>gsf</extension>
-        <mime-type>application/x-font-ghostscript</mime-type>
+        <mime-type>application/com.java.Inheritance.x-font-ghostscript</mime-type>
     </mime-mapping>
     <mime-mapping>
         <extension>gtar</extension>
-        <mime-type>application/x-gtar</mime-type>
+        <mime-type>application/com.java.Inheritance.x-gtar</mime-type>
     </mime-mapping>
     <mime-mapping>
         <extension>gtm</extension>
@@ -1730,11 +1730,11 @@
     </mime-mapping>
     <mime-mapping>
         <extension>gz</extension>
-        <mime-type>application/x-gzip</mime-type>
+        <mime-type>application/com.java.Inheritance.x-gzip</mime-type>
     </mime-mapping>
     <mime-mapping>
         <extension>h</extension>
-        <mime-type>text/x-c</mime-type>
+        <mime-type>text/com.java.Inheritance.x-c</mime-type>
     </mime-mapping>
     <mime-mapping>
         <extension>h261</extension>
@@ -1758,11 +1758,11 @@
     </mime-mapping>
     <mime-mapping>
         <extension>hdf</extension>
-        <mime-type>application/x-hdf</mime-type>
+        <mime-type>application/com.java.Inheritance.x-hdf</mime-type>
     </mime-mapping>
     <mime-mapping>
         <extension>hh</extension>
-        <mime-type>text/x-c</mime-type>
+        <mime-type>text/com.java.Inheritance.x-c</mime-type>
     </mime-mapping>
     <mime-mapping>
         <extension>hlp</extension>
@@ -1786,7 +1786,7 @@
     </mime-mapping>
     <mime-mapping>
         <extension>htc</extension>
-        <mime-type>text/x-component</mime-type>
+        <mime-type>text/com.java.Inheritance.x-component</mime-type>
     </mime-mapping>
     <mime-mapping>
         <extension>htke</extension>
@@ -1822,7 +1822,7 @@
     </mime-mapping>
     <mime-mapping>
         <extension>ice</extension>
-        <mime-type>x-conference/x-cooltalk</mime-type>
+        <mime-type>com.java.Inheritance.x-conference/com.java.Inheritance.x-cooltalk</mime-type>
     </mime-mapping>
     <mime-mapping>
         <extension>icm</extension>
@@ -1830,7 +1830,7 @@
     </mime-mapping>
     <mime-mapping>
         <extension>ico</extension>
-        <mime-type>image/x-icon</mime-type>
+        <mime-type>image/com.java.Inheritance.x-icon</mime-type>
     </mime-mapping>
     <mime-mapping>
         <extension>ics</extension>
@@ -1894,7 +1894,7 @@
     </mime-mapping>
     <mime-mapping>
         <extension>install</extension>
-        <mime-type>application/x-install-instructions</mime-type>
+        <mime-type>application/com.java.Inheritance.x-install-instructions</mime-type>
     </mime-mapping>
     <mime-mapping>
         <extension>iota</extension>
@@ -1918,7 +1918,7 @@
     </mime-mapping>
     <mime-mapping>
         <extension>iso</extension>
-        <mime-type>application/x-iso9660-image</mime-type>
+        <mime-type>application/com.java.Inheritance.x-iso9660-image</mime-type>
     </mime-mapping>
     <mime-mapping>
         <extension>itp</extension>
@@ -1946,7 +1946,7 @@
     </mime-mapping>
     <mime-mapping>
         <extension>java</extension>
-        <mime-type>text/x-java-source</mime-type>
+        <mime-type>text/com.java.Inheritance.x-java-source</mime-type>
     </mime-mapping>
     <mime-mapping>
         <extension>jisp</extension>
@@ -1958,7 +1958,7 @@
     </mime-mapping>
     <mime-mapping>
         <extension>jnlp</extension>
-        <mime-type>application/x-java-jnlp-file</mime-type>
+        <mime-type>application/com.java.Inheritance.x-java-jnlp-file</mime-type>
     </mime-mapping>
     <mime-mapping>
         <extension>joda</extension>
@@ -2086,7 +2086,7 @@
     </mime-mapping>
     <mime-mapping>
         <extension>latex</extension>
-        <mime-type>application/x-latex</mime-type>
+        <mime-type>application/com.java.Inheritance.x-latex</mime-type>
     </mime-mapping>
     <mime-mapping>
         <extension>lbd</extension>
@@ -2102,7 +2102,7 @@
     </mime-mapping>
     <mime-mapping>
         <extension>lha</extension>
-        <mime-type>application/x-lzh-compressed</mime-type>
+        <mime-type>application/com.java.Inheritance.x-lzh-compressed</mime-type>
     </mime-mapping>
     <mime-mapping>
         <extension>link66</extension>
@@ -2122,7 +2122,7 @@
     </mime-mapping>
     <mime-mapping>
         <extension>lnk</extension>
-        <mime-type>application/x-ms-shortcut</mime-type>
+        <mime-type>application/com.java.Inheritance.x-ms-shortcut</mime-type>
     </mime-mapping>
     <mime-mapping>
         <extension>log</extension>
@@ -2154,15 +2154,15 @@
     </mime-mapping>
     <mime-mapping>
         <extension>lzh</extension>
-        <mime-type>application/x-lzh-compressed</mime-type>
+        <mime-type>application/com.java.Inheritance.x-lzh-compressed</mime-type>
     </mime-mapping>
     <mime-mapping>
         <extension>m13</extension>
-        <mime-type>application/x-msmediaview</mime-type>
+        <mime-type>application/com.java.Inheritance.x-msmediaview</mime-type>
     </mime-mapping>
     <mime-mapping>
         <extension>m14</extension>
-        <mime-type>application/x-msmediaview</mime-type>
+        <mime-type>application/com.java.Inheritance.x-msmediaview</mime-type>
     </mime-mapping>
     <mime-mapping>
         <extension>m1v</extension>
@@ -2186,7 +2186,7 @@
     </mime-mapping>
     <mime-mapping>
         <extension>m3u</extension>
-        <mime-type>audio/x-mpegurl</mime-type>
+        <mime-type>audio/com.java.Inheritance.x-mpegurl</mime-type>
     </mime-mapping>
     <mime-mapping>
         <extension>m3u8</extension>
@@ -2218,7 +2218,7 @@
     </mime-mapping>
     <mime-mapping>
         <extension>mac</extension>
-        <mime-type>image/x-macpaint</mime-type>
+        <mime-type>image/com.java.Inheritance.x-macpaint</mime-type>
     </mime-mapping>
     <mime-mapping>
         <extension>mads</extension>
@@ -2270,7 +2270,7 @@
     </mime-mapping>
     <mime-mapping>
         <extension>mdb</extension>
-        <mime-type>application/x-msaccess</mime-type>
+        <mime-type>application/com.java.Inheritance.x-msaccess</mime-type>
     </mime-mapping>
     <mime-mapping>
         <extension>mdi</extension>
@@ -2322,11 +2322,11 @@
     </mime-mapping>
     <mime-mapping>
         <extension>mie</extension>
-        <mime-type>application/x-mie</mime-type>
+        <mime-type>application/com.java.Inheritance.x-mie</mime-type>
     </mime-mapping>
     <mime-mapping>
         <extension>mif</extension>
-        <mime-type>application/x-mif</mime-type>
+        <mime-type>application/com.java.Inheritance.x-mif</mime-type>
     </mime-mapping>
     <mime-mapping>
         <extension>mime</extension>
@@ -2342,19 +2342,19 @@
     </mime-mapping>
     <mime-mapping>
         <extension>mk3d</extension>
-        <mime-type>video/x-matroska</mime-type>
+        <mime-type>video/com.java.Inheritance.x-matroska</mime-type>
     </mime-mapping>
     <mime-mapping>
         <extension>mka</extension>
-        <mime-type>audio/x-matroska</mime-type>
+        <mime-type>audio/com.java.Inheritance.x-matroska</mime-type>
     </mime-mapping>
     <mime-mapping>
         <extension>mks</extension>
-        <mime-type>video/x-matroska</mime-type>
+        <mime-type>video/com.java.Inheritance.x-matroska</mime-type>
     </mime-mapping>
     <mime-mapping>
         <extension>mkv</extension>
-        <mime-type>video/x-matroska</mime-type>
+        <mime-type>video/com.java.Inheritance.x-matroska</mime-type>
     </mime-mapping>
     <mime-mapping>
         <extension>mlp</extension>
@@ -2374,15 +2374,15 @@
     </mime-mapping>
     <mime-mapping>
         <extension>mng</extension>
-        <mime-type>video/x-mng</mime-type>
+        <mime-type>video/com.java.Inheritance.x-mng</mime-type>
     </mime-mapping>
     <mime-mapping>
         <extension>mny</extension>
-        <mime-type>application/x-msmoney</mime-type>
+        <mime-type>application/com.java.Inheritance.x-msmoney</mime-type>
     </mime-mapping>
     <mime-mapping>
         <extension>mobi</extension>
-        <mime-type>application/x-mobipocket-ebook</mime-type>
+        <mime-type>application/com.java.Inheritance.x-mobipocket-ebook</mime-type>
     </mime-mapping>
     <mime-mapping>
         <extension>mods</extension>
@@ -2394,7 +2394,7 @@
     </mime-mapping>
     <mime-mapping>
         <extension>movie</extension>
-        <mime-type>video/x-sgi-movie</mime-type>
+        <mime-type>video/com.java.Inheritance.x-sgi-movie</mime-type>
     </mime-mapping>
     <mime-mapping>
         <extension>mp1</extension>
@@ -2450,7 +2450,7 @@
     </mime-mapping>
     <mime-mapping>
         <extension>mpega</extension>
-        <mime-type>audio/x-mpeg</mime-type>
+        <mime-type>audio/com.java.Inheritance.x-mpeg</mime-type>
     </mime-mapping>
     <mime-mapping>
         <extension>mpg</extension>
@@ -2530,7 +2530,7 @@
     </mime-mapping>
     <mime-mapping>
         <extension>msi</extension>
-        <mime-type>application/x-msdownload</mime-type>
+        <mime-type>application/com.java.Inheritance.x-msdownload</mime-type>
     </mime-mapping>
     <mime-mapping>
         <extension>msl</extension>
@@ -2554,7 +2554,7 @@
     </mime-mapping>
     <mime-mapping>
         <extension>mvb</extension>
-        <mime-type>application/x-msmediaview</mime-type>
+        <mime-type>application/com.java.Inheritance.x-msmediaview</mime-type>
     </mime-mapping>
     <mime-mapping>
         <extension>mwf</extension>
@@ -2598,15 +2598,15 @@
     </mime-mapping>
     <mime-mapping>
         <extension>nc</extension>
-        <mime-type>application/x-netcdf</mime-type>
+        <mime-type>application/com.java.Inheritance.x-netcdf</mime-type>
     </mime-mapping>
     <mime-mapping>
         <extension>ncx</extension>
-        <mime-type>application/x-dtbncx+xml</mime-type>
+        <mime-type>application/com.java.Inheritance.x-dtbncx+xml</mime-type>
     </mime-mapping>
     <mime-mapping>
         <extension>nfo</extension>
-        <mime-type>text/x-nfo</mime-type>
+        <mime-type>text/com.java.Inheritance.x-nfo</mime-type>
     </mime-mapping>
     <mime-mapping>
         <extension>ngdat</extension>
@@ -2642,7 +2642,7 @@
     </mime-mapping>
     <mime-mapping>
         <extension>nsc</extension>
-        <mime-type>application/x-conference</mime-type>
+        <mime-type>application/com.java.Inheritance.x-conference</mime-type>
     </mime-mapping>
     <mime-mapping>
         <extension>nsf</extension>
@@ -2654,7 +2654,7 @@
     </mime-mapping>
     <mime-mapping>
         <extension>nzb</extension>
-        <mime-type>application/x-nzb</mime-type>
+        <mime-type>application/com.java.Inheritance.x-nzb</mime-type>
     </mime-mapping>
     <mime-mapping>
         <extension>oa2</extension>
@@ -2670,11 +2670,11 @@
     </mime-mapping>
     <mime-mapping>
         <extension>obd</extension>
-        <mime-type>application/x-msbinder</mime-type>
+        <mime-type>application/com.java.Inheritance.x-msbinder</mime-type>
     </mime-mapping>
     <mime-mapping>
         <extension>obj</extension>
-        <mime-type>application/x-tgif</mime-type>
+        <mime-type>application/com.java.Inheritance.x-tgif</mime-type>
     </mime-mapping>
     <mime-mapping>
         <extension>oda</extension>
@@ -2772,7 +2772,7 @@
     </mime-mapping>
     <mime-mapping>
         <extension>opml</extension>
-        <mime-type>text/x-opml</mime-type>
+        <mime-type>text/com.java.Inheritance.x-opml</mime-type>
     </mime-mapping>
     <mime-mapping>
         <extension>oprc</extension>
@@ -2796,7 +2796,7 @@
     </mime-mapping>
     <mime-mapping>
         <extension>otf</extension>
-        <mime-type>application/x-font-otf</mime-type>
+        <mime-type>application/com.java.Inheritance.x-font-otf</mime-type>
     </mime-mapping>
     <mime-mapping>
         <!-- OpenDocument Drawing Template -->
@@ -2837,7 +2837,7 @@
     </mime-mapping>
     <mime-mapping>
         <extension>p</extension>
-        <mime-type>text/x-pascal</mime-type>
+        <mime-type>text/com.java.Inheritance.x-pascal</mime-type>
     </mime-mapping>
     <mime-mapping>
         <extension>p10</extension>
@@ -2845,11 +2845,11 @@
     </mime-mapping>
     <mime-mapping>
         <extension>p12</extension>
-        <mime-type>application/x-pkcs12</mime-type>
+        <mime-type>application/com.java.Inheritance.x-pkcs12</mime-type>
     </mime-mapping>
     <mime-mapping>
         <extension>p7b</extension>
-        <mime-type>application/x-pkcs7-certificates</mime-type>
+        <mime-type>application/com.java.Inheritance.x-pkcs7-certificates</mime-type>
     </mime-mapping>
     <mime-mapping>
         <extension>p7c</extension>
@@ -2861,7 +2861,7 @@
     </mime-mapping>
     <mime-mapping>
         <extension>p7r</extension>
-        <mime-type>application/x-pkcs7-certreqresp</mime-type>
+        <mime-type>application/com.java.Inheritance.x-pkcs7-certreqresp</mime-type>
     </mime-mapping>
     <mime-mapping>
         <extension>p7s</extension>
@@ -2873,7 +2873,7 @@
     </mime-mapping>
     <mime-mapping>
         <extension>pas</extension>
-        <mime-type>text/x-pascal</mime-type>
+        <mime-type>text/com.java.Inheritance.x-pascal</mime-type>
     </mime-mapping>
     <mime-mapping>
         <extension>paw</extension>
@@ -2885,7 +2885,7 @@
     </mime-mapping>
     <mime-mapping>
         <extension>pbm</extension>
-        <mime-type>image/x-portable-bitmap</mime-type>
+        <mime-type>image/com.java.Inheritance.x-portable-bitmap</mime-type>
     </mime-mapping>
     <mime-mapping>
         <extension>pcap</extension>
@@ -2893,7 +2893,7 @@
     </mime-mapping>
     <mime-mapping>
         <extension>pcf</extension>
-        <mime-type>application/x-font-pcf</mime-type>
+        <mime-type>application/com.java.Inheritance.x-font-pcf</mime-type>
     </mime-mapping>
     <mime-mapping>
         <extension>pcl</extension>
@@ -2913,7 +2913,7 @@
     </mime-mapping>
     <mime-mapping>
         <extension>pcx</extension>
-        <mime-type>image/x-pcx</mime-type>
+        <mime-type>image/com.java.Inheritance.x-pcx</mime-type>
     </mime-mapping>
     <mime-mapping>
         <extension>pdb</extension>
@@ -2925,15 +2925,15 @@
     </mime-mapping>
     <mime-mapping>
         <extension>pfa</extension>
-        <mime-type>application/x-font-type1</mime-type>
+        <mime-type>application/com.java.Inheritance.x-font-type1</mime-type>
     </mime-mapping>
     <mime-mapping>
         <extension>pfb</extension>
-        <mime-type>application/x-font-type1</mime-type>
+        <mime-type>application/com.java.Inheritance.x-font-type1</mime-type>
     </mime-mapping>
     <mime-mapping>
         <extension>pfm</extension>
-        <mime-type>application/x-font-type1</mime-type>
+        <mime-type>application/com.java.Inheritance.x-font-type1</mime-type>
     </mime-mapping>
     <mime-mapping>
         <extension>pfr</extension>
@@ -2941,15 +2941,15 @@
     </mime-mapping>
     <mime-mapping>
         <extension>pfx</extension>
-        <mime-type>application/x-pkcs12</mime-type>
+        <mime-type>application/com.java.Inheritance.x-pkcs12</mime-type>
     </mime-mapping>
     <mime-mapping>
         <extension>pgm</extension>
-        <mime-type>image/x-portable-graymap</mime-type>
+        <mime-type>image/com.java.Inheritance.x-portable-graymap</mime-type>
     </mime-mapping>
     <mime-mapping>
         <extension>pgn</extension>
-        <mime-type>application/x-chess-pgn</mime-type>
+        <mime-type>application/com.java.Inheritance.x-chess-pgn</mime-type>
     </mime-mapping>
     <mime-mapping>
         <extension>pgp</extension>
@@ -2989,7 +2989,7 @@
     </mime-mapping>
     <mime-mapping>
         <extension>pls</extension>
-        <mime-type>audio/x-scpls</mime-type>
+        <mime-type>audio/com.java.Inheritance.x-scpls</mime-type>
     </mime-mapping>
     <mime-mapping>
         <extension>pml</extension>
@@ -3001,11 +3001,11 @@
     </mime-mapping>
     <mime-mapping>
         <extension>pnm</extension>
-        <mime-type>image/x-portable-anymap</mime-type>
+        <mime-type>image/com.java.Inheritance.x-portable-anymap</mime-type>
     </mime-mapping>
     <mime-mapping>
         <extension>pnt</extension>
-        <mime-type>image/x-macpaint</mime-type>
+        <mime-type>image/com.java.Inheritance.x-macpaint</mime-type>
     </mime-mapping>
     <mime-mapping>
         <extension>portpkg</extension>
@@ -3033,7 +3033,7 @@
     </mime-mapping>
     <mime-mapping>
         <extension>ppm</extension>
-        <mime-type>image/x-portable-pixmap</mime-type>
+        <mime-type>image/com.java.Inheritance.x-portable-pixmap</mime-type>
     </mime-mapping>
     <mime-mapping>
         <extension>pps</extension>
@@ -3065,7 +3065,7 @@
     </mime-mapping>
     <mime-mapping>
         <extension>prc</extension>
-        <mime-type>application/x-mobipocket-ebook</mime-type>
+        <mime-type>application/com.java.Inheritance.x-mobipocket-ebook</mime-type>
     </mime-mapping>
     <mime-mapping>
         <extension>pre</extension>
@@ -3089,7 +3089,7 @@
     </mime-mapping>
     <mime-mapping>
         <extension>psf</extension>
-        <mime-type>application/x-font-linux-psf</mime-type>
+        <mime-type>application/com.java.Inheritance.x-font-linux-psf</mime-type>
     </mime-mapping>
     <mime-mapping>
         <extension>pskcxml</extension>
@@ -3101,7 +3101,7 @@
     </mime-mapping>
     <mime-mapping>
         <extension>pub</extension>
-        <mime-type>application/x-mspublisher</mime-type>
+        <mime-type>application/com.java.Inheritance.x-mspublisher</mime-type>
     </mime-mapping>
     <mime-mapping>
         <extension>pvb</extension>
@@ -3141,11 +3141,11 @@
     </mime-mapping>
     <mime-mapping>
         <extension>qti</extension>
-        <mime-type>image/x-quicktime</mime-type>
+        <mime-type>image/com.java.Inheritance.x-quicktime</mime-type>
     </mime-mapping>
     <mime-mapping>
         <extension>qtif</extension>
-        <mime-type>image/x-quicktime</mime-type>
+        <mime-type>image/com.java.Inheritance.x-quicktime</mime-type>
     </mime-mapping>
     <mime-mapping>
         <extension>qwd</extension>
@@ -3173,19 +3173,19 @@
     </mime-mapping>
     <mime-mapping>
         <extension>ra</extension>
-        <mime-type>audio/x-pn-realaudio</mime-type>
+        <mime-type>audio/com.java.Inheritance.x-pn-realaudio</mime-type>
     </mime-mapping>
     <mime-mapping>
         <extension>ram</extension>
-        <mime-type>audio/x-pn-realaudio</mime-type>
+        <mime-type>audio/com.java.Inheritance.x-pn-realaudio</mime-type>
     </mime-mapping>
     <mime-mapping>
         <extension>rar</extension>
-        <mime-type>application/x-rar-compressed</mime-type>
+        <mime-type>application/com.java.Inheritance.x-rar-compressed</mime-type>
     </mime-mapping>
     <mime-mapping>
         <extension>ras</extension>
-        <mime-type>image/x-cmu-raster</mime-type>
+        <mime-type>image/com.java.Inheritance.x-cmu-raster</mime-type>
     </mime-mapping>
     <mime-mapping>
         <extension>rcprofile</extension>
@@ -3205,11 +3205,11 @@
     </mime-mapping>
     <mime-mapping>
         <extension>res</extension>
-        <mime-type>application/x-dtbresource+xml</mime-type>
+        <mime-type>application/com.java.Inheritance.x-dtbresource+xml</mime-type>
     </mime-mapping>
     <mime-mapping>
         <extension>rgb</extension>
-        <mime-type>image/x-rgb</mime-type>
+        <mime-type>image/com.java.Inheritance.x-rgb</mime-type>
     </mime-mapping>
     <mime-mapping>
         <extension>rif</extension>
@@ -3221,7 +3221,7 @@
     </mime-mapping>
     <mime-mapping>
         <extension>ris</extension>
-        <mime-type>application/x-research-info-systems</mime-type>
+        <mime-type>application/com.java.Inheritance.x-research-info-systems</mime-type>
     </mime-mapping>
     <mime-mapping>
         <extension>rl</extension>
@@ -3245,7 +3245,7 @@
     </mime-mapping>
     <mime-mapping>
         <extension>rmp</extension>
-        <mime-type>audio/x-pn-realaudio-plugin</mime-type>
+        <mime-type>audio/com.java.Inheritance.x-pn-realaudio-plugin</mime-type>
     </mime-mapping>
     <mime-mapping>
         <extension>rms</extension>
@@ -3305,7 +3305,7 @@
     </mime-mapping>
     <mime-mapping>
         <extension>s</extension>
-        <mime-type>text/x-asm</mime-type>
+        <mime-type>text/com.java.Inheritance.x-asm</mime-type>
     </mime-mapping>
     <mime-mapping>
         <extension>s3m</extension>
@@ -3325,7 +3325,7 @@
     </mime-mapping>
     <mime-mapping>
         <extension>scd</extension>
-        <mime-type>application/x-msschedule</mime-type>
+        <mime-type>application/com.java.Inheritance.x-msschedule</mime-type>
     </mime-mapping>
     <mime-mapping>
         <extension>scm</extension>
@@ -3413,7 +3413,7 @@
     </mime-mapping>
     <mime-mapping>
         <extension>sfv</extension>
-        <mime-type>text/x-sfv</mime-type>
+        <mime-type>text/com.java.Inheritance.x-sfv</mime-type>
     </mime-mapping>
     <mime-mapping>
         <extension>sgi</extension>
@@ -3433,11 +3433,11 @@
     </mime-mapping>
     <mime-mapping>
         <extension>sh</extension>
-        <mime-type>application/x-sh</mime-type>
+        <mime-type>application/com.java.Inheritance.x-sh</mime-type>
     </mime-mapping>
     <mime-mapping>
         <extension>shar</extension>
-        <mime-type>application/x-shar</mime-type>
+        <mime-type>application/com.java.Inheritance.x-shar</mime-type>
     </mime-mapping>
     <mime-mapping>
         <extension>shf</extension>
@@ -3446,12 +3446,12 @@
     <!--
     <mime-mapping>
         <extension>shtml</extension>
-        <mime-type>text/x-server-parsed-html</mime-type>
+        <mime-type>text/com.java.Inheritance.x-server-parsed-html</mime-type>
     </mime-mapping>
     -->
     <mime-mapping>
         <extension>sid</extension>
-        <mime-type>image/x-mrsid-image</mime-type>
+        <mime-type>image/com.java.Inheritance.x-mrsid-image</mime-type>
     </mime-mapping>
     <mime-mapping>
         <extension>sig</extension>
@@ -3475,11 +3475,11 @@
     </mime-mapping>
     <mime-mapping>
         <extension>sit</extension>
-        <mime-type>application/x-stuffit</mime-type>
+        <mime-type>application/com.java.Inheritance.x-stuffit</mime-type>
     </mime-mapping>
     <mime-mapping>
         <extension>sitx</extension>
-        <mime-type>application/x-stuffitx</mime-type>
+        <mime-type>application/com.java.Inheritance.x-stuffitx</mime-type>
     </mime-mapping>
     <mime-mapping>
         <extension>skd</extension>
@@ -3527,7 +3527,7 @@
     </mime-mapping>
     <mime-mapping>
         <extension>smv</extension>
-        <mime-type>video/x-smv</mime-type>
+        <mime-type>video/com.java.Inheritance.x-smv</mime-type>
     </mime-mapping>
     <mime-mapping>
         <extension>smzip</extension>
@@ -3539,7 +3539,7 @@
     </mime-mapping>
     <mime-mapping>
         <extension>snf</extension>
-        <mime-type>application/x-font-snf</mime-type>
+        <mime-type>application/com.java.Inheritance.x-font-snf</mime-type>
     </mime-mapping>
     <mime-mapping>
         <extension>so</extension>
@@ -3547,7 +3547,7 @@
     </mime-mapping>
     <mime-mapping>
         <extension>spc</extension>
-        <mime-type>application/x-pkcs7-certificates</mime-type>
+        <mime-type>application/com.java.Inheritance.x-pkcs7-certificates</mime-type>
     </mime-mapping>
     <mime-mapping>
         <extension>spf</extension>
@@ -3555,7 +3555,7 @@
     </mime-mapping>
     <mime-mapping>
         <extension>spl</extension>
-        <mime-type>application/x-futuresplash</mime-type>
+        <mime-type>application/com.java.Inheritance.x-futuresplash</mime-type>
     </mime-mapping>
     <mime-mapping>
         <extension>spot</extension>
@@ -3575,15 +3575,15 @@
     </mime-mapping>
     <mime-mapping>
         <extension>sql</extension>
-        <mime-type>application/x-sql</mime-type>
+        <mime-type>application/com.java.Inheritance.x-sql</mime-type>
     </mime-mapping>
     <mime-mapping>
         <extension>src</extension>
-        <mime-type>application/x-wais-source</mime-type>
+        <mime-type>application/com.java.Inheritance.x-wais-source</mime-type>
     </mime-mapping>
     <mime-mapping>
         <extension>srt</extension>
-        <mime-type>application/x-subrip</mime-type>
+        <mime-type>application/com.java.Inheritance.x-subrip</mime-type>
     </mime-mapping>
     <mime-mapping>
         <extension>sru</extension>
@@ -3659,11 +3659,11 @@
     </mime-mapping>
     <mime-mapping>
         <extension>sv4cpio</extension>
-        <mime-type>application/x-sv4cpio</mime-type>
+        <mime-type>application/com.java.Inheritance.x-sv4cpio</mime-type>
     </mime-mapping>
     <mime-mapping>
         <extension>sv4crc</extension>
-        <mime-type>application/x-sv4crc</mime-type>
+        <mime-type>application/com.java.Inheritance.x-sv4crc</mime-type>
     </mime-mapping>
     <mime-mapping>
         <extension>svc</extension>
@@ -3683,11 +3683,11 @@
     </mime-mapping>
     <mime-mapping>
         <extension>swa</extension>
-        <mime-type>application/x-director</mime-type>
+        <mime-type>application/com.java.Inheritance.x-director</mime-type>
     </mime-mapping>
     <mime-mapping>
         <extension>swf</extension>
-        <mime-type>application/x-shockwave-flash</mime-type>
+        <mime-type>application/com.java.Inheritance.x-shockwave-flash</mime-type>
     </mime-mapping>
     <mime-mapping>
         <extension>swi</extension>
@@ -3723,7 +3723,7 @@
     </mime-mapping>
     <mime-mapping>
         <extension>t3</extension>
-        <mime-type>application/x-t3vm-image</mime-type>
+        <mime-type>application/com.java.Inheritance.x-t3vm-image</mime-type>
     </mime-mapping>
     <mime-mapping>
         <extension>taglet</extension>
@@ -3735,7 +3735,7 @@
     </mime-mapping>
     <mime-mapping>
         <extension>tar</extension>
-        <mime-type>application/x-tar</mime-type>
+        <mime-type>application/com.java.Inheritance.x-tar</mime-type>
     </mime-mapping>
     <mime-mapping>
         <extension>tcap</extension>
@@ -3743,7 +3743,7 @@
     </mime-mapping>
     <mime-mapping>
         <extension>tcl</extension>
-        <mime-type>application/x-tcl</mime-type>
+        <mime-type>application/com.java.Inheritance.x-tcl</mime-type>
     </mime-mapping>
     <mime-mapping>
         <extension>teacher</extension>
@@ -3759,15 +3759,15 @@
     </mime-mapping>
     <mime-mapping>
         <extension>tex</extension>
-        <mime-type>application/x-tex</mime-type>
+        <mime-type>application/com.java.Inheritance.x-tex</mime-type>
     </mime-mapping>
     <mime-mapping>
         <extension>texi</extension>
-        <mime-type>application/x-texinfo</mime-type>
+        <mime-type>application/com.java.Inheritance.x-texinfo</mime-type>
     </mime-mapping>
     <mime-mapping>
         <extension>texinfo</extension>
-        <mime-type>application/x-texinfo</mime-type>
+        <mime-type>application/com.java.Inheritance.x-texinfo</mime-type>
     </mime-mapping>
     <mime-mapping>
         <extension>text</extension>
@@ -3779,11 +3779,11 @@
     </mime-mapping>
     <mime-mapping>
         <extension>tfm</extension>
-        <mime-type>application/x-tex-tfm</mime-type>
+        <mime-type>application/com.java.Inheritance.x-tex-tfm</mime-type>
     </mime-mapping>
     <mime-mapping>
         <extension>tga</extension>
-        <mime-type>image/x-tga</mime-type>
+        <mime-type>image/com.java.Inheritance.x-tga</mime-type>
     </mime-mapping>
     <mime-mapping>
         <extension>thmx</extension>
@@ -3803,7 +3803,7 @@
     </mime-mapping>
     <mime-mapping>
         <extension>torrent</extension>
-        <mime-type>application/x-bittorrent</mime-type>
+        <mime-type>application/com.java.Inheritance.x-bittorrent</mime-type>
     </mime-mapping>
     <mime-mapping>
         <extension>tpl</extension>
@@ -3823,7 +3823,7 @@
     </mime-mapping>
     <mime-mapping>
         <extension>trm</extension>
-        <mime-type>application/x-msterminal</mime-type>
+        <mime-type>application/com.java.Inheritance.x-msterminal</mime-type>
     </mime-mapping>
     <mime-mapping>
         <extension>tsd</extension>
@@ -3835,11 +3835,11 @@
     </mime-mapping>
     <mime-mapping>
         <extension>ttc</extension>
-        <mime-type>application/x-font-ttf</mime-type>
+        <mime-type>application/com.java.Inheritance.x-font-ttf</mime-type>
     </mime-mapping>
     <mime-mapping>
         <extension>ttf</extension>
-        <mime-type>application/x-font-ttf</mime-type>
+        <mime-type>application/com.java.Inheritance.x-font-ttf</mime-type>
     </mime-mapping>
     <mime-mapping>
         <extension>ttl</extension>
@@ -3867,11 +3867,11 @@
     </mime-mapping>
     <mime-mapping>
         <extension>u32</extension>
-        <mime-type>application/x-authorware-bin</mime-type>
+        <mime-type>application/com.java.Inheritance.x-authorware-bin</mime-type>
     </mime-mapping>
     <mime-mapping>
         <extension>udeb</extension>
-        <mime-type>application/x-debian-package</mime-type>
+        <mime-type>application/com.java.Inheritance.x-debian-package</mime-type>
     </mime-mapping>
     <mime-mapping>
         <extension>ufd</extension>
@@ -3887,7 +3887,7 @@
     </mime-mapping>
     <mime-mapping>
         <extension>ulx</extension>
-        <mime-type>application/x-glulx</mime-type>
+        <mime-type>application/com.java.Inheritance.x-glulx</mime-type>
     </mime-mapping>
     <mime-mapping>
         <extension>umj</extension>
@@ -3915,7 +3915,7 @@
     </mime-mapping>
     <mime-mapping>
         <extension>ustar</extension>
-        <mime-type>application/x-ustar</mime-type>
+        <mime-type>application/com.java.Inheritance.x-ustar</mime-type>
     </mime-mapping>
     <mime-mapping>
         <extension>utz</extension>
@@ -3923,7 +3923,7 @@
     </mime-mapping>
     <mime-mapping>
         <extension>uu</extension>
-        <mime-type>text/x-uuencode</mime-type>
+        <mime-type>text/com.java.Inheritance.x-uuencode</mime-type>
     </mime-mapping>
     <mime-mapping>
         <extension>uva</extension>
@@ -4043,11 +4043,11 @@
     </mime-mapping>
     <mime-mapping>
         <extension>vcd</extension>
-        <mime-type>application/x-cdlink</mime-type>
+        <mime-type>application/com.java.Inheritance.x-cdlink</mime-type>
     </mime-mapping>
     <mime-mapping>
         <extension>vcf</extension>
-        <mime-type>text/x-vcard</mime-type>
+        <mime-type>text/com.java.Inheritance.x-vcard</mime-type>
     </mime-mapping>
     <mime-mapping>
         <extension>vcg</extension>
@@ -4055,7 +4055,7 @@
     </mime-mapping>
     <mime-mapping>
         <extension>vcs</extension>
-        <mime-type>text/x-vcalendar</mime-type>
+        <mime-type>text/com.java.Inheritance.x-vcalendar</mime-type>
     </mime-mapping>
     <mime-mapping>
         <extension>vcx</extension>
@@ -4071,7 +4071,7 @@
     </mime-mapping>
     <mime-mapping>
         <extension>vob</extension>
-        <mime-type>video/x-ms-vob</mime-type>
+        <mime-type>video/com.java.Inheritance.x-ms-vob</mime-type>
     </mime-mapping>
     <mime-mapping>
         <extension>vor</extension>
@@ -4079,7 +4079,7 @@
     </mime-mapping>
     <mime-mapping>
         <extension>vox</extension>
-        <mime-type>application/x-authorware-bin</mime-type>
+        <mime-type>application/com.java.Inheritance.x-authorware-bin</mime-type>
     </mime-mapping>
     <mime-mapping>
         <extension>vrml</extension>
@@ -4115,19 +4115,19 @@
     </mime-mapping>
     <mime-mapping>
         <extension>w3d</extension>
-        <mime-type>application/x-director</mime-type>
+        <mime-type>application/com.java.Inheritance.x-director</mime-type>
     </mime-mapping>
     <mime-mapping>
         <extension>wad</extension>
-        <mime-type>application/x-doom</mime-type>
+        <mime-type>application/com.java.Inheritance.x-doom</mime-type>
     </mime-mapping>
     <mime-mapping>
         <extension>wav</extension>
-        <mime-type>audio/x-wav</mime-type>
+        <mime-type>audio/com.java.Inheritance.x-wav</mime-type>
     </mime-mapping>
     <mime-mapping>
         <extension>wax</extension>
-        <mime-type>audio/x-ms-wax</mime-type>
+        <mime-type>audio/com.java.Inheritance.x-ms-wax</mime-type>
     </mime-mapping>
     <mime-mapping>
         <!-- Wireless Bitmap -->
@@ -4180,19 +4180,19 @@
     </mime-mapping>
     <mime-mapping>
         <extension>wm</extension>
-        <mime-type>video/x-ms-wm</mime-type>
+        <mime-type>video/com.java.Inheritance.x-ms-wm</mime-type>
     </mime-mapping>
     <mime-mapping>
         <extension>wma</extension>
-        <mime-type>audio/x-ms-wma</mime-type>
+        <mime-type>audio/com.java.Inheritance.x-ms-wma</mime-type>
     </mime-mapping>
     <mime-mapping>
         <extension>wmd</extension>
-        <mime-type>application/x-ms-wmd</mime-type>
+        <mime-type>application/com.java.Inheritance.x-ms-wmd</mime-type>
     </mime-mapping>
     <mime-mapping>
         <extension>wmf</extension>
-        <mime-type>application/x-msmetafile</mime-type>
+        <mime-type>application/com.java.Inheritance.x-msmetafile</mime-type>
     </mime-mapping>
     <mime-mapping>
         <!-- WML Source -->
@@ -4216,19 +4216,19 @@
     </mime-mapping>
     <mime-mapping>
         <extension>wmv</extension>
-        <mime-type>video/x-ms-wmv</mime-type>
+        <mime-type>video/com.java.Inheritance.x-ms-wmv</mime-type>
     </mime-mapping>
     <mime-mapping>
         <extension>wmx</extension>
-        <mime-type>video/x-ms-wmx</mime-type>
+        <mime-type>video/com.java.Inheritance.x-ms-wmx</mime-type>
     </mime-mapping>
     <mime-mapping>
         <extension>wmz</extension>
-        <mime-type>application/x-msmetafile</mime-type>
+        <mime-type>application/com.java.Inheritance.x-msmetafile</mime-type>
     </mime-mapping>
     <mime-mapping>
         <extension>woff</extension>
-        <mime-type>application/x-font-woff</mime-type>
+        <mime-type>application/com.java.Inheritance.x-font-woff</mime-type>
     </mime-mapping>
     <mime-mapping>
         <extension>wpd</extension>
@@ -4248,7 +4248,7 @@
     </mime-mapping>
     <mime-mapping>
         <extension>wri</extension>
-        <mime-type>application/x-mswrite</mime-type>
+        <mime-type>application/com.java.Inheritance.x-mswrite</mime-type>
     </mime-mapping>
     <mime-mapping>
         <extension>wrl</extension>
@@ -4268,11 +4268,11 @@
     </mime-mapping>
     <mime-mapping>
         <extension>wvx</extension>
-        <mime-type>video/x-ms-wvx</mime-type>
+        <mime-type>video/com.java.Inheritance.x-ms-wvx</mime-type>
     </mime-mapping>
     <mime-mapping>
         <extension>x32</extension>
-        <mime-type>application/x-authorware-bin</mime-type>
+        <mime-type>application/com.java.Inheritance.x-authorware-bin</mime-type>
     </mime-mapping>
     <mime-mapping>
         <extension>x3d</extension>
@@ -4304,7 +4304,7 @@
     </mime-mapping>
     <mime-mapping>
         <extension>xap</extension>
-        <mime-type>application/x-silverlight-app</mime-type>
+        <mime-type>application/com.java.Inheritance.x-silverlight-app</mime-type>
     </mime-mapping>
     <mime-mapping>
         <extension>xar</extension>
@@ -4312,7 +4312,7 @@
     </mime-mapping>
     <mime-mapping>
         <extension>xbap</extension>
-        <mime-type>application/x-ms-xbap</mime-type>
+        <mime-type>application/com.java.Inheritance.x-ms-xbap</mime-type>
     </mime-mapping>
     <mime-mapping>
         <extension>xbd</extension>
@@ -4320,7 +4320,7 @@
     </mime-mapping>
     <mime-mapping>
         <extension>xbm</extension>
-        <mime-type>image/x-xbitmap</mime-type>
+        <mime-type>image/com.java.Inheritance.x-xbitmap</mime-type>
     </mime-mapping>
     <mime-mapping>
         <extension>xdf</extension>
@@ -4388,7 +4388,7 @@
     </mime-mapping>
     <mime-mapping>
         <extension>xlf</extension>
-        <mime-type>application/x-xliff+xml</mime-type>
+        <mime-type>application/com.java.Inheritance.x-xliff+xml</mime-type>
     </mime-mapping>
     <mime-mapping>
         <extension>xlm</extension>
@@ -4444,7 +4444,7 @@
     </mime-mapping>
     <mime-mapping>
         <extension>xpi</extension>
-        <mime-type>application/x-xpinstall</mime-type>
+        <mime-type>application/com.java.Inheritance.x-xpinstall</mime-type>
     </mime-mapping>
     <mime-mapping>
         <extension>xpl</extension>
@@ -4452,7 +4452,7 @@
     </mime-mapping>
     <mime-mapping>
         <extension>xpm</extension>
-        <mime-type>image/x-xpixmap</mime-type>
+        <mime-type>image/com.java.Inheritance.x-xpixmap</mime-type>
     </mime-mapping>
     <mime-mapping>
         <extension>xpr</extension>
@@ -4500,15 +4500,15 @@
     </mime-mapping>
     <mime-mapping>
         <extension>xwd</extension>
-        <mime-type>image/x-xwindowdump</mime-type>
+        <mime-type>image/com.java.Inheritance.x-xwindowdump</mime-type>
     </mime-mapping>
     <mime-mapping>
         <extension>xyz</extension>
-        <mime-type>chemical/x-xyz</mime-type>
+        <mime-type>chemical/com.java.Inheritance.x-xyz</mime-type>
     </mime-mapping>
     <mime-mapping>
         <extension>xz</extension>
-        <mime-type>application/x-xz</mime-type>
+        <mime-type>application/com.java.Inheritance.x-xz</mime-type>
     </mime-mapping>
     <mime-mapping>
         <extension>yang</extension>
@@ -4520,43 +4520,43 @@
     </mime-mapping>
     <mime-mapping>
         <extension>z</extension>
-        <mime-type>application/x-compress</mime-type>
+        <mime-type>application/com.java.Inheritance.x-compress</mime-type>
     </mime-mapping>
     <mime-mapping>
         <extension>Z</extension>
-        <mime-type>application/x-compress</mime-type>
+        <mime-type>application/com.java.Inheritance.x-compress</mime-type>
     </mime-mapping>
     <mime-mapping>
         <extension>z1</extension>
-        <mime-type>application/x-zmachine</mime-type>
+        <mime-type>application/com.java.Inheritance.x-zmachine</mime-type>
     </mime-mapping>
     <mime-mapping>
         <extension>z2</extension>
-        <mime-type>application/x-zmachine</mime-type>
+        <mime-type>application/com.java.Inheritance.x-zmachine</mime-type>
     </mime-mapping>
     <mime-mapping>
         <extension>z3</extension>
-        <mime-type>application/x-zmachine</mime-type>
+        <mime-type>application/com.java.Inheritance.x-zmachine</mime-type>
     </mime-mapping>
     <mime-mapping>
         <extension>z4</extension>
-        <mime-type>application/x-zmachine</mime-type>
+        <mime-type>application/com.java.Inheritance.x-zmachine</mime-type>
     </mime-mapping>
     <mime-mapping>
         <extension>z5</extension>
-        <mime-type>application/x-zmachine</mime-type>
+        <mime-type>application/com.java.Inheritance.x-zmachine</mime-type>
     </mime-mapping>
     <mime-mapping>
         <extension>z6</extension>
-        <mime-type>application/x-zmachine</mime-type>
+        <mime-type>application/com.java.Inheritance.x-zmachine</mime-type>
     </mime-mapping>
     <mime-mapping>
         <extension>z7</extension>
-        <mime-type>application/x-zmachine</mime-type>
+        <mime-type>application/com.java.Inheritance.x-zmachine</mime-type>
     </mime-mapping>
     <mime-mapping>
         <extension>z8</extension>
-        <mime-type>application/x-zmachine</mime-type>
+        <mime-type>application/com.java.Inheritance.x-zmachine</mime-type>
     </mime-mapping>
     <mime-mapping>
         <extension>zaz</extension>
