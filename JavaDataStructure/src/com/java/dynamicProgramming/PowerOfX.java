@@ -26,6 +26,6 @@ public class PowerOfX {
 //        int y = -3;
         int y = -4;
 
-        System.out.println("Power:  " + power(x,y));
+        System.out.println("Power:  "                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           + power(x,y));
     }
 }

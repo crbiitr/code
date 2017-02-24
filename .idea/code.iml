@@ -12,7 +12,7 @@
       <sourceFolder url="file://$MODULE_DIR$/designPattern/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/hackerearth/src" isTestSource="false" />
     </content>
-    <orderEntry type="jdk" jdkName="1.7" jdkType="JavaSDK" />
+    <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="module-library">
       <library>

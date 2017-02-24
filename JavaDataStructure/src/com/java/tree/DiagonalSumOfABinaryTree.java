@@ -9,10 +9,10 @@ class DiagonalSumOfABinaryTree {
 
 	public static void main(String[] args) {
 		
-		TreeNode root = new TreeNode(1);
-        root.left = new TreeNode(2);
-        root.right = new TreeNode(3);
-        root.left.left = new TreeNode(9);
+		TreeNode root = new TreeNode(1);                                //                     1
+        root.left = new TreeNode(2);                                    //               2           3
+        root.right = new TreeNode(3);                                   //        9           6 4         5
+        root.left.left = new TreeNode(9);                               //            10 11   12    7
         root.left.right = new TreeNode(6);
         root.right.left = new TreeNode(4);
         root.right.right = new TreeNode(5);
@@ -23,18 +23,37 @@ class DiagonalSumOfABinaryTree {
 
         System.out.println("Level Order Traversal");
         levelOrderTreaversal(root);
+
         System.out.println("\n\nPrinting Diagonal Sum using Iterative Method");
         printDiagonalSumOfABinaryTree(root);
+
         HashMap<Integer,Integer> map = new HashMap<Integer, Integer>();
         System.out.println("\n\nPrinting Diagonal Sum :: ");
         printDiagonalSumOfABinaryTree_2(root,0,map); // It's also a good logic.
         printMap(map);
         map.clear();
+
         System.out.println("\n\nPrinting Vertical Sum :: ");
         printVerticalSumOfABinaryTree(root, 0, map); // It's also a good logic.
         printMap(map);
+
         System.out.println("\n\nPrinting LeftView Of a Tree");
         printLeftViewOfABinaryTree(root,1);
+
+        System.out.println("Level Order Traversal");
+        levelOrderTreaversal(root);
+
+        map.clear();
+        System.out.println("\n\nPrinting Top View :: ");
+        topView(root, 0, map);
+        printMap_2(map);
+
+
+        map.clear();
+        System.out.println("\n\nPrinting Bottom View :: ");
+        bottomView(root, 0, map);
+        printMap_2(map);
+
     }
 	
 	/**
@@ -135,12 +154,41 @@ class DiagonalSumOfABinaryTree {
         printLeftViewOfABinaryTree(root.right,level+1);
     }
 
+    public  static void topView(TreeNode root, int currDiag, HashMap<Integer,Integer> map) {
+        if(root==null)
+            return;
+
+        if (map.get(currDiag) == null) {
+            map.put(currDiag,root.data);
+        }
+
+        topView(root.left, currDiag-1, map);
+        topView(root.right, currDiag+1, map);
+    }
+
+    public  static void bottomView(TreeNode root, int currDiag, HashMap<Integer,Integer> map) {
+        if(root==null)
+            return;
+
+        map.put(currDiag,root.data);
+
+        bottomView(root.left, currDiag-1, map);
+        bottomView(root.right, currDiag+1, map);
+    }
 
     public static void printMap(HashMap<Integer,Integer> map) {
         Iterator e = map.entrySet().iterator();
         while (e.hasNext()) {
             Map.Entry pair = (Map.Entry)e.next();
             System.out.println(pair.getKey() + " Sum::  " + pair.getValue());
+        }
+    }
+
+    public static void printMap_2(HashMap<Integer,Integer> map) {
+        Iterator e = map.entrySet().iterator();
+        while (e.hasNext()) {
+            Map.Entry pair = (Map.Entry)e.next();
+            System.out.println(pair.getKey() + " :: " + pair.getValue());
         }
     }
 
