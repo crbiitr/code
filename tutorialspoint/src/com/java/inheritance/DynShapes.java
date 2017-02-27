@@ -1,4 +1,4 @@
-package com.java.inheritence;
+package com.java.inheritance;
 
 class TwoDShape {
 	

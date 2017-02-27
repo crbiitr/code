@@ -28,11 +28,13 @@ public class PassingReference
 		X.c='A';
 		Letter Y= new Letter();
 		Y.c='B';
-		//System.out.println("X.c : "+X.c);
-		//f(X);
-		//System.out.println("X.c : "+X.c);
+
 		System.out.println("Before   " +X.c+ "   "+Y.c);
 		swap(X,Y);
 		System.out.println("After    " +X.c+ "   "+Y.c);
+
+		System.out.println("X.c : "+X.c);
+		f(X);
+		System.out.println("X.c : "+X.c);
 	}
 }

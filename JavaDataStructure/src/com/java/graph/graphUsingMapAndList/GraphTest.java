@@ -15,6 +15,8 @@ public class GraphTest {
         System.out.println();
 
         testDFS(airlineGraph);
+
+        testBFS(airlineGraph);
     }
 
     public static void testEdges(IGraph<String> g) {
@@ -40,6 +42,11 @@ public class GraphTest {
 
         System.out.println("Path between SFO and LAX? " + g.hasPath("SFO", "LAX"));
         System.out.println("Edge between SFO and LAX: " + g.getDFSPath("SFO", "LAX"));
+    }
+
+    public static void testBFS(IGraph<String> g) {
+        System.out.println("BFS Traversal:");
+        g.BFSTraversal("LAX");
     }
 
     public static void buildGraph(IGraph<String> g) {

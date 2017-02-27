@@ -18,5 +18,7 @@ public interface IGraph<V> {
 
     public List<V> getDFSPath(V v1, V v2);
 
+    public void BFSTraversal(V v);
+
     public String toString();
 }

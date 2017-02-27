@@ -5,126 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="32cbb12c-421d-4832-8015-54fd62c25638" name="Default" comment="">
-      <change type="MOVED" beforePath="$PROJECT_DIR$/JavaDataStructure/src/com/java/graph/Graph.java" afterPath="$PROJECT_DIR$/JavaDataStructure/src/com/java/graph/graphUsingHashmap/Graph.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/JavaDataStructure/src/com/java/graph/GraphADT.java" afterPath="$PROJECT_DIR$/JavaDataStructure/src/com/java/graph/graphUsingAdjacencyMatrix/GraphADT.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/JavaDataStructure/src/com/java/graph/GraphDemo.java" afterPath="$PROJECT_DIR$/JavaDataStructure/src/com/java/graph/graphUsingAdjacencyMatrix/GraphDemo.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/JavaDataStructure/src/com/java/graph/TopologicalSortDemo.java" afterPath="$PROJECT_DIR$/JavaDataStructure/src/com/java/graph/graphUsingAdjacencyMatrix/TopologicalSortDemo.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output/BB$MyScanner.class" afterPath="$PROJECT_DIR$/output/BB$MyScanner.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output/BB.class" afterPath="$PROJECT_DIR$/output/BB.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output/Bath.class" afterPath="$PROJECT_DIR$/output/Bath.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output/CodeChefInputStyple2.class" afterPath="$PROJECT_DIR$/output/CodeChefInputStyple2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output/ConflictingAppointments$1.class" afterPath="$PROJECT_DIR$/output/ConflictingAppointments$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output/ConflictingAppointments$Interval.class" afterPath="$PROJECT_DIR$/output/ConflictingAppointments$Interval.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output/ConflictingAppointments.class" afterPath="$PROJECT_DIR$/output/ConflictingAppointments.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output/EnumTest$1.class" afterPath="$PROJECT_DIR$/output/EnumTest$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output/EnumTest$Day.class" afterPath="$PROJECT_DIR$/output/EnumTest$Day.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output/EnumTest.class" afterPath="$PROJECT_DIR$/output/EnumTest.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output/Hint.class" afterPath="$PROJECT_DIR$/output/Hint.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output/NumberInfo.class" afterPath="$PROJECT_DIR$/output/NumberInfo.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output/PalindromDemo.class" afterPath="$PROJECT_DIR$/output/PalindromDemo.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output/Reader_1.class" afterPath="$PROJECT_DIR$/output/Reader_1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output/TSORT.class" afterPath="$PROJECT_DIR$/output/TSORT.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output/Test9.class" afterPath="$PROJECT_DIR$/output/Test9.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output/Writer_1.class" afterPath="$PROJECT_DIR$/output/Writer_1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output/com/java/Enum/EnumUses$1.class" afterPath="$PROJECT_DIR$/output/com/java/Enum/EnumUses$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output/com/java/Enum/EnumUses.class" afterPath="$PROJECT_DIR$/output/com/java/Enum/EnumUses.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output/com/java/Enum/EnumUses2.class" afterPath="$PROJECT_DIR$/output/com/java/Enum/EnumUses2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output/com/java/Enum/Transport.class" afterPath="$PROJECT_DIR$/output/com/java/Enum/Transport.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output/com/java/Enum/Transportation.class" afterPath="$PROJECT_DIR$/output/com/java/Enum/Transportation.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output/com/java/Interface/SeriesDemo2.class" afterPath="$PROJECT_DIR$/output/com/java/Interface/SeriesDemo2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output/com/java/Interface/ThrowsDemo.class" afterPath="$PROJECT_DIR$/output/com/java/Interface/ThrowsDemo.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output/com/java/collections/ComparableMain.class" afterPath="$PROJECT_DIR$/output/com/java/collections/ComparableMain.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output/com/java/collections/ComparatorMain$1.class" afterPath="$PROJECT_DIR$/output/com/java/collections/ComparatorMain$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output/com/java/collections/ComparatorMain.class" afterPath="$PROJECT_DIR$/output/com/java/collections/ComparatorMain.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output/com/java/collections/Country.class" afterPath="$PROJECT_DIR$/output/com/java/collections/Country.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output/com/java/collections/CountrySortByIdComparator.class" afterPath="$PROJECT_DIR$/output/com/java/collections/CountrySortByIdComparator.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output/com/java/customMap/CustomMap.class" afterPath="$PROJECT_DIR$/output/com/java/customMap/CustomMap.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output/com/java/dynamicProgramming/CountPossibleDecodings.class" afterPath="$PROJECT_DIR$/output/com/java/dynamicProgramming/CountPossibleDecodings.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output/com/java/dynamicProgramming/CutTheRope.class" afterPath="$PROJECT_DIR$/output/com/java/dynamicProgramming/CutTheRope.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output/com/java/dynamicProgramming/LongestPelidromSubsequence.class" afterPath="$PROJECT_DIR$/output/com/java/dynamicProgramming/LongestPelidromSubsequence.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output/com/java/dynamicProgramming/MinCostPathInMatrix.class" afterPath="$PROJECT_DIR$/output/com/java/dynamicProgramming/MinCostPathInMatrix.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output/com/java/exceptionHandling/ExceptionPropagation1.class" afterPath="$PROJECT_DIR$/output/com/java/exceptionHandling/ExceptionPropagation1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output/com/java/exceptionHandling/ExceptionPropagation2.class" afterPath="$PROJECT_DIR$/output/com/java/exceptionHandling/ExceptionPropagation2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output/com/java/exceptionHandling/FinallyKeywordExeDemo.class" afterPath="$PROJECT_DIR$/output/com/java/exceptionHandling/FinallyKeywordExeDemo.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output/com/java/exceptionHandling/TimeTestingDemo.class" afterPath="$PROJECT_DIR$/output/com/java/exceptionHandling/TimeTestingDemo.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output/com/java/exceptionHandling/UseFinally.class" afterPath="$PROJECT_DIR$/output/com/java/exceptionHandling/UseFinally.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output/com/java/generics/MyClass.class" afterPath="$PROJECT_DIR$/output/com/java/generics/MyClass.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output/com/java/graph/Graph.class" afterPath="$PROJECT_DIR$/output/com/java/graph/Graph.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output/com/java/graph/GraphADT.class" afterPath="$PROJECT_DIR$/output/com/java/graph/GraphADT.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output/com/java/io/BasicFileOutput.class" afterPath="$PROJECT_DIR$/output/com/java/io/BasicFileOutput.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output/com/java/io/ComparingTwoFiles.class" afterPath="$PROJECT_DIR$/output/com/java/io/ComparingTwoFiles.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output/com/java/io/DirList.class" afterPath="$PROJECT_DIR$/output/com/java/io/DirList.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output/com/java/io/DirList2$1.class" afterPath="$PROJECT_DIR$/output/com/java/io/DirList2$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output/com/java/io/DirList2.class" afterPath="$PROJECT_DIR$/output/com/java/io/DirList2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output/com/java/io/DirList3$1.class" afterPath="$PROJECT_DIR$/output/com/java/io/DirList3$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output/com/java/io/DirList3.class" afterPath="$PROJECT_DIR$/output/com/java/io/DirList3.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output/com/java/io/FileOutputShortcut.class" afterPath="$PROJECT_DIR$/output/com/java/io/FileOutputShortcut.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output/com/java/io/FileWriterDemo.class" afterPath="$PROJECT_DIR$/output/com/java/io/FileWriterDemo.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output/com/java/io/FormattedMemoryInput.class" afterPath="$PROJECT_DIR$/output/com/java/io/FormattedMemoryInput.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output/com/java/io/MemoryInput.class" afterPath="$PROJECT_DIR$/output/com/java/io/MemoryInput.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output/com/java/io/RandomAccessDemo.class" afterPath="$PROJECT_DIR$/output/com/java/io/RandomAccessDemo.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output/com/java/io/ReadWriteBinaryDataUsingDataIOStream.class" afterPath="$PROJECT_DIR$/output/com/java/io/ReadWriteBinaryDataUsingDataIOStream.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output/com/java/io/ShowFileByByteStream.class" afterPath="$PROJECT_DIR$/output/com/java/io/ShowFileByByteStream.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output/com/java/io/WriteToFileByOutputStream.class" afterPath="$PROJECT_DIR$/output/com/java/io/WriteToFileByOutputStream.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output/com/java/practice/heap/BinaryHeap.class" afterPath="$PROJECT_DIR$/output/com/java/practice/heap/BinaryHeap.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output/com/java/practice/heap/HeapTest.class" afterPath="$PROJECT_DIR$/output/com/java/practice/heap/HeapTest.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output/com/java/priorityQueue/BinaryHeap.class" afterPath="$PROJECT_DIR$/output/com/java/priorityQueue/BinaryHeap.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output/com/java/priorityQueue/BinaryHeapTest.class" afterPath="$PROJECT_DIR$/output/com/java/priorityQueue/BinaryHeapTest.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output/com/java/recursion/a.class" afterPath="$PROJECT_DIR$/output/com/java/recursion/a.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output/com/java/reflection/ReflectionTest.class" afterPath="$PROJECT_DIR$/output/com/java/reflection/ReflectionTest.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output/com/java/searching/Arranginga1a2a3b1b2b3.class" afterPath="$PROJECT_DIR$/output/com/java/searching/Arranginga1a2a3b1b2b3.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output/com/java/searching/Arranginga1a2a3b1b2b3_Kurumanchi.class" afterPath="$PROJECT_DIR$/output/com/java/searching/Arranginga1a2a3b1b2b3_Kurumanchi.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output/com/java/searching/FirstRepeatedElement$1.class" afterPath="$PROJECT_DIR$/output/com/java/searching/FirstRepeatedElement$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output/com/java/searching/FirstRepeatedElement.class" afterPath="$PROJECT_DIR$/output/com/java/searching/FirstRepeatedElement.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output/com/java/searching/MaxDiffOfTwoPartsOfArray.class" afterPath="$PROJECT_DIR$/output/com/java/searching/MaxDiffOfTwoPartsOfArray.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output/com/java/searching/MaxOccuringElement.class" afterPath="$PROJECT_DIR$/output/com/java/searching/MaxOccuringElement.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output/com/java/searching/SeparateEvenAndOdd.class" afterPath="$PROJECT_DIR$/output/com/java/searching/SeparateEvenAndOdd.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output/com/java/searching/Solution.class" afterPath="$PROJECT_DIR$/output/com/java/searching/Solution.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output/com/java/searching/SpaceConcatinationInString.class" afterPath="$PROJECT_DIR$/output/com/java/searching/SpaceConcatinationInString.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output/com/java/searching/SumClosestToZero.class" afterPath="$PROJECT_DIR$/output/com/java/searching/SumClosestToZero.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output/com/java/sorting/MergeSortTest.class" afterPath="$PROJECT_DIR$/output/com/java/sorting/MergeSortTest.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output/com/java/sorting/MergeTwoSortedArrays.class" afterPath="$PROJECT_DIR$/output/com/java/sorting/MergeTwoSortedArrays.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output/com/java/sorting/QuickSortTest.class" afterPath="$PROJECT_DIR$/output/com/java/sorting/QuickSortTest.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output/com/java/streepatternmatching/LongestPalindromicSubstring.class" afterPath="$PROJECT_DIR$/output/com/java/streepatternmatching/LongestPalindromicSubstring.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output/com/java/streepatternmatching/RobinKarp.class" afterPath="$PROJECT_DIR$/output/com/java/streepatternmatching/RobinKarp.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output/com/java/streepatternmatching/StringPermutations.class" afterPath="$PROJECT_DIR$/output/com/java/streepatternmatching/StringPermutations.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output/com/java/streepatternmatching/WildCardCharacters.class" afterPath="$PROJECT_DIR$/output/com/java/streepatternmatching/WildCardCharacters.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output/com/java/testing/Consumer.class" afterPath="$PROJECT_DIR$/output/com/java/testing/Consumer.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output/com/java/testing/Problem2.class" afterPath="$PROJECT_DIR$/output/com/java/testing/Problem2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output/com/java/testing/Producer.class" afterPath="$PROJECT_DIR$/output/com/java/testing/Producer.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output/com/java/testing/Solution$1.class" afterPath="$PROJECT_DIR$/output/com/java/testing/Solution$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output/com/java/testing/Solution$Interval.class" afterPath="$PROJECT_DIR$/output/com/java/testing/Solution$Interval.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output/com/java/testing/Solution.class" afterPath="$PROJECT_DIR$/output/com/java/testing/Solution.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output/com/java/threads/CallableDemo.class" afterPath="$PROJECT_DIR$/output/com/java/threads/CallableDemo.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output/com/java/threads/Callme.class" afterPath="$PROJECT_DIR$/output/com/java/threads/Callme.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output/com/java/threads/PriorityDemo.class" afterPath="$PROJECT_DIR$/output/com/java/threads/PriorityDemo.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output/com/java/threads/ThreadDemo.class" afterPath="$PROJECT_DIR$/output/com/java/threads/ThreadDemo.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output/com/java/threads/UseMain.class" afterPath="$PROJECT_DIR$/output/com/java/threads/UseMain.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output/com/java/threads/deadlockPrograms/DeadlockDemo1$1.class" afterPath="$PROJECT_DIR$/output/com/java/threads/deadlockPrograms/DeadlockDemo1$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output/com/java/threads/deadlockPrograms/DeadlockDemo1$2.class" afterPath="$PROJECT_DIR$/output/com/java/threads/deadlockPrograms/DeadlockDemo1$2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output/com/java/threads/deadlockPrograms/DeadlockDemo1.class" afterPath="$PROJECT_DIR$/output/com/java/threads/deadlockPrograms/DeadlockDemo1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output/com/java/threads/synchronization/SyncMethodFailCaseDemo$1.class" afterPath="$PROJECT_DIR$/output/com/java/threads/synchronization/SyncMethodFailCaseDemo$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output/com/java/threads/synchronization/SyncMethodFailCaseDemo$2.class" afterPath="$PROJECT_DIR$/output/com/java/threads/synchronization/SyncMethodFailCaseDemo$2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output/com/java/threads/synchronization/SyncMethodFailCaseDemo$3.class" afterPath="$PROJECT_DIR$/output/com/java/threads/synchronization/SyncMethodFailCaseDemo$3.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output/com/java/threads/synchronization/SyncMethodFailCaseDemo$4.class" afterPath="$PROJECT_DIR$/output/com/java/threads/synchronization/SyncMethodFailCaseDemo$4.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output/com/java/threads/synchronization/SyncMethodFailCaseDemo.class" afterPath="$PROJECT_DIR$/output/com/java/threads/synchronization/SyncMethodFailCaseDemo.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output/com/java/threads/synchronization/SynchronizedMethodDemo$1.class" afterPath="$PROJECT_DIR$/output/com/java/threads/synchronization/SynchronizedMethodDemo$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output/com/java/threads/synchronization/SynchronizedMethodDemo$2.class" afterPath="$PROJECT_DIR$/output/com/java/threads/synchronization/SynchronizedMethodDemo$2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output/com/java/threads/synchronization/SynchronizedMethodDemo.class" afterPath="$PROJECT_DIR$/output/com/java/threads/synchronization/SynchronizedMethodDemo.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output/com/java/threads/synchronization/Table.class" afterPath="$PROJECT_DIR$/output/com/java/threads/synchronization/Table.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output/com/java/threads/synchronization/Table2.class" afterPath="$PROJECT_DIR$/output/com/java/threads/synchronization/Table2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output/com/java/tree/BST.class" afterPath="$PROJECT_DIR$/output/com/java/tree/BST.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output/com/java/tree/BinaryTree.class" afterPath="$PROJECT_DIR$/output/com/java/tree/BinaryTree.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output/com/java/tree/DiagonalSumOfABinaryTree.class" afterPath="$PROJECT_DIR$/output/com/java/tree/DiagonalSumOfABinaryTree.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output/com/java/tree/TreeNode.class" afterPath="$PROJECT_DIR$/output/com/java/tree/TreeNode.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output/com/java/variableTypes/ClassOrStaticVariables.class" afterPath="$PROJECT_DIR$/output/com/java/variableTypes/ClassOrStaticVariables.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output/main/java/com/BehavioralPatterns/ChainOfResponsibility/CORDemo1/CoRDemo.class" afterPath="$PROJECT_DIR$/output/main/java/com/BehavioralPatterns/ChainOfResponsibility/CORDemo1/CoRDemo.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output/main/java/com/creationalPatterns/prototypePattern/demo1/Employee.class" afterPath="$PROJECT_DIR$/output/main/java/com/creationalPatterns/prototypePattern/demo1/Employee.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/code.iml" afterPath="$PROJECT_DIR$/.idea/code.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/tutorialspoint/src/com/java/inheritence/DynDispDemo.java" afterPath="$PROJECT_DIR$/tutorialspoint/src/com/java/inheritance/DynDispDemo.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/tutorialspoint/src/com/java/inheritence/DynShapes.java" afterPath="$PROJECT_DIR$/tutorialspoint/src/com/java/inheritance/DynShapes.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/tutorialspoint/src/com/java/inheritence/Shape.java" afterPath="$PROJECT_DIR$/tutorialspoint/src/com/java/inheritance/Shape.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/JavaDataStructure/src/com/java/dynamicProgramming/PowerOfX.java" afterPath="$PROJECT_DIR$/JavaDataStructure/src/com/java/dynamicProgramming/PowerOfX.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/JavaDataStructure/src/com/java/tree/DiagonalSumOfABinaryTree.java" afterPath="$PROJECT_DIR$/JavaDataStructure/src/com/java/tree/DiagonalSumOfABinaryTree.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/JavaDataStructure/src/com/java/graph/graphUsingMapAndList/Graph.java" afterPath="$PROJECT_DIR$/JavaDataStructure/src/com/java/graph/graphUsingMapAndList/Graph.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/JavaDataStructure/src/com/java/graph/graphUsingMapAndList/GraphTest.java" afterPath="$PROJECT_DIR$/JavaDataStructure/src/com/java/graph/graphUsingMapAndList/GraphTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/JavaDataStructure/src/com/java/graph/graphUsingMapAndList/IGraph.java" afterPath="$PROJECT_DIR$/JavaDataStructure/src/com/java/graph/graphUsingMapAndList/IGraph.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ThinkInJava/src/PassingReference.java" afterPath="$PROJECT_DIR$/ThinkInJava/src/PassingReference.java" />
     </list>
     <ignored path="code.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -148,34 +36,14 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Graph.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/JavaDataStructure/src/com/java/graph/graphUsingHashmap/Graph.java">
+      <file leaf-file-name="GraphTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/JavaDataStructure/src/com/java/graph/graphUsingMapAndList/GraphTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="198">
-              <caret line="11" column="14" lean-forward="false" selection-start-line="11" selection-start-column="14" selection-end-line="11" selection-end-column="14" />
+            <state relative-caret-position="436">
+              <caret line="47" column="42" lean-forward="false" selection-start-line="47" selection-start-column="42" selection-end-line="47" selection-end-column="42" />
               <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="e#286#294#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Graph.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/JavaDataStructure/src/com/java/graph/graphUsingMapAndList/Graph.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1187">
-              <caret line="5" column="81" lean-forward="false" selection-start-line="5" selection-start-column="81" selection-end-line="5" selection-end-column="81" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Edge.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/JavaDataStructure/src/com/java/graph/graphUsingMapAndList/Edge.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="22" column="1" lean-forward="false" selection-start-line="22" selection-start-column="1" selection-end-line="22" selection-end-column="1" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -183,8 +51,8 @@
       <file leaf-file-name="IGraph.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/JavaDataStructure/src/com/java/graph/graphUsingMapAndList/IGraph.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="126">
-              <caret line="7" column="17" lean-forward="false" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+            <state relative-caret-position="360">
+              <caret line="20" column="28" lean-forward="false" selection-start-line="20" selection-start-column="28" selection-end-line="20" selection-end-column="28" />
               <folding />
             </state>
           </provider>
@@ -200,24 +68,34 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="GraphTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/JavaDataStructure/src/com/java/graph/graphUsingMapAndList/GraphTest.java">
+      <file leaf-file-name="Graph.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/JavaDataStructure/src/com/java/graph/graphUsingMapAndList/Graph.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="144">
-              <caret line="8" column="44" lean-forward="true" selection-start-line="8" selection-start-column="44" selection-end-line="8" selection-end-column="44" />
-              <folding>
-                <element signature="e#286#294#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="378">
+              <caret line="103" column="28" lean-forward="false" selection-start-line="103" selection-start-column="28" selection-end-line="103" selection-end-column="28" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="GraphADT.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/JavaDataStructure/src/com/java/graph/graphUsingAdjacencyMatrix/GraphADT.java">
+      <file leaf-file-name="Edge.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/JavaDataStructure/src/com/java/graph/graphUsingMapAndList/Edge.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="216">
-              <caret line="14" column="0" lean-forward="true" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+            <state relative-caret-position="360">
+              <caret line="22" column="1" lean-forward="false" selection-start-line="22" selection-start-column="1" selection-end-line="22" selection-end-column="1" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="GraphDemo.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/JavaDataStructure/src/com/java/graph/graphUsingAdjacencyMatrix/GraphDemo.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="640">
+              <caret line="40" column="53" lean-forward="false" selection-start-line="40" selection-start-column="0" selection-end-line="41" selection-end-column="0" />
+              <folding>
+                <element signature="e#1081#1090#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -243,13 +121,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/tutorialspoint/src/com/java/StaticKeywordUses/StaticUseCase4.java" />
-        <option value="$PROJECT_DIR$/tutorialspoint/src/com/java/StaticKeywordUses/StaticUseCase8.java" />
-        <option value="$PROJECT_DIR$/JavaDataStructure/src/com/java/streepatternmatching/stringQuestions/CountDistinct.java" />
-        <option value="$PROJECT_DIR$/designPattern/src/main/java/com/BehavioralPatterns/ChainOfResponsibility/CORDemo1/AbstractLogger.java" />
-        <option value="$PROJECT_DIR$/designPattern/src/main/java/com/BehavioralPatterns/ChainOfResponsibility/CORDemo1/ErrorLogger.java" />
-        <option value="$PROJECT_DIR$/designPattern/src/main/java/com/BehavioralPatterns/ChainOfResponsibility/CORDemo1/FileLogger.java" />
-        <option value="$PROJECT_DIR$/designPattern/src/main/java/com/BehavioralPatterns/ChainOfResponsibility/CORDemo1/ConsolLogger.java" />
         <option value="$PROJECT_DIR$/designPattern/src/main/java/com/BehavioralPatterns/ChainOfResponsibility/CORDemo1/ConsoleLogger.java" />
         <option value="$PROJECT_DIR$/designPattern/src/main/java/com/BehavioralPatterns/ChainOfResponsibility/CORDemo1/CoRDemo.java" />
         <option value="$PROJECT_DIR$/JavaDataStructure/src/com/java/dynamicProgramming/SubsetSum.java" />
@@ -287,13 +158,20 @@
         <option value="$PROJECT_DIR$/JavaDataStructure/src/com/java/tree/BSTDemo.java" />
         <option value="$PROJECT_DIR$/JavaDataStructure/src/com/java/tree/DiagonalSumOfABinaryTree.java" />
         <option value="$PROJECT_DIR$/JavaDataStructure/src/com/java/graph/graphUsingHashmap/Graph.java" />
-        <option value="$PROJECT_DIR$/JavaDataStructure/src/com/java/graph/graphUsingMapAndList/IGraph.java" />
         <option value="$PROJECT_DIR$/JavaDataStructure/src/com/java/graph/graphUsingMapAndList/Edge.java" />
         <option value="$PROJECT_DIR$/JavaDataStructure/src/com/java/graph/graphUsingMapAndList/VertexInfo.java" />
-        <option value="$PROJECT_DIR$/JavaDataStructure/src/com/java/graph/graphUsingMapAndList/GraphTest.java" />
-        <option value="$PROJECT_DIR$/JavaDataStructure/src/com/java/graph/graphUsingMapAndList/Graph.java" />
         <option value="$PROJECT_DIR$/JavaDataStructure/src/com/java/graph/graphUsingAdjacencyMatrix/TopologicalSortDemo.java" />
         <option value="$PROJECT_DIR$/JavaDataStructure/src/com/java/graph/graphUsingAdjacencyMatrix/GraphADT.java" />
+        <option value="$PROJECT_DIR$/tutorialspoint/src/com/java/inheritence/InheritenceTest1.java" />
+        <option value="$PROJECT_DIR$/ThinkInJava/src/PassingReference.java" />
+        <option value="$PROJECT_DIR$/tutorialspoint/src/com/java/inheritence/InheritenceTest2.java" />
+        <option value="$PROJECT_DIR$/tutorialspoint/src/com/java/inheritence/InheritanceTest2.java" />
+        <option value="$PROJECT_DIR$/tutorialspoint/src/com/java/function/CallByValue.java" />
+        <option value="$PROJECT_DIR$/tutorialspoint/src/com/java/inheritence/InheritanceTest1.java" />
+        <option value="$PROJECT_DIR$/tutorialspoint/src/com/java/inheritance/InheritanceTest1.java" />
+        <option value="$PROJECT_DIR$/JavaDataStructure/src/com/java/graph/graphUsingMapAndList/IGraph.java" />
+        <option value="$PROJECT_DIR$/JavaDataStructure/src/com/java/graph/graphUsingMapAndList/GraphTest.java" />
+        <option value="$PROJECT_DIR$/JavaDataStructure/src/com/java/graph/graphUsingMapAndList/Graph.java" />
       </list>
     </option>
   </component>
@@ -321,6 +199,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
@@ -452,7 +332,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="graphUsingHashmap" />
+              <option name="myItemId" value="graphUsingAdjacencyMatrix" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -485,11 +365,13 @@
               <option name="myItemId" value="graphUsingAdjacencyMatrix" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="GraphADT.java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
+            </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -519,99 +401,7 @@
       <recent name="com.java" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Graph">
-    <configuration default="false" name="ImmutableClassDemoUsingShallowCopy" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="com.java.immutableClassConcept.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="com.java.immutableClassConcept.ImmutableClassDemoUsingShallowCopy" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="code" />
-      <envs />
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
-      <method />
-    </configuration>
-    <configuration default="false" name="PrototypePatternTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="main.java.com.creationalPatterns.prototypePattern.demo1.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="main.java.com.creationalPatterns.prototypePattern.demo1.PrototypePatternTest" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="code" />
-      <envs />
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
-      <method />
-    </configuration>
-    <configuration default="false" name="PowerOfX" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="com.java.dynamicProgramming.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="com.java.dynamicProgramming.PowerOfX" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="code" />
-      <envs />
-      <RunnerSettings RunnerId="Debug">
-        <option name="DEBUG_PORT" value="" />
-        <option name="TRANSPORT" value="0" />
-        <option name="LOCAL" value="true" />
-      </RunnerSettings>
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Debug" />
-      <ConfigurationWrapper RunnerId="Run" />
-      <method />
-    </configuration>
-    <configuration default="false" name="DiagonalSumOfABinaryTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="com.java.tree.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="com.java.tree.DiagonalSumOfABinaryTree" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="code" />
-      <envs />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Application.GraphTest">
     <configuration default="false" name="Graph" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -620,6 +410,81 @@
         </pattern>
       </extension>
       <option name="MAIN_CLASS_NAME" value="com.java.graph.graphUsingHashmap.Graph" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="code" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="InheritenceTest1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.java.inheritance.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="com.java.inheritence.InheritenceTest1" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="code" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="PassingReference" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" value="PassingReference" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="code" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="CallByValue" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.java.function.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="com.java.function.CallByValue" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="code" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="GraphTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.java.graph.graphUsingMapAndList.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="com.java.graph.graphUsingMapAndList.GraphTest" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -901,19 +766,19 @@
       <item index="0" class="java.lang.String" itemvalue="Application.Test9" />
       <item index="1" class="java.lang.String" itemvalue="Application.SequentialPrintingByMultipleThread" />
       <item index="2" class="java.lang.String" itemvalue="Application.Unnamed" />
-      <item index="3" class="java.lang.String" itemvalue="Application.ImmutableClassDemoUsingShallowCopy" />
-      <item index="4" class="java.lang.String" itemvalue="Application.PrototypePatternTest" />
-      <item index="5" class="java.lang.String" itemvalue="Application.PowerOfX" />
-      <item index="6" class="java.lang.String" itemvalue="Application.DiagonalSumOfABinaryTree" />
-      <item index="7" class="java.lang.String" itemvalue="Application.Graph" />
+      <item index="3" class="java.lang.String" itemvalue="Application.Graph" />
+      <item index="4" class="java.lang.String" itemvalue="Application.InheritenceTest1" />
+      <item index="5" class="java.lang.String" itemvalue="Application.PassingReference" />
+      <item index="6" class="java.lang.String" itemvalue="Application.CallByValue" />
+      <item index="7" class="java.lang.String" itemvalue="Application.GraphTest" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.Graph" />
-        <item index="1" class="java.lang.String" itemvalue="Application.DiagonalSumOfABinaryTree" />
-        <item index="2" class="java.lang.String" itemvalue="Application.PowerOfX" />
-        <item index="3" class="java.lang.String" itemvalue="Application.PrototypePatternTest" />
-        <item index="4" class="java.lang.String" itemvalue="Application.ImmutableClassDemoUsingShallowCopy" />
+        <item index="0" class="java.lang.String" itemvalue="Application.GraphTest" />
+        <item index="1" class="java.lang.String" itemvalue="Application.CallByValue" />
+        <item index="2" class="java.lang.String" itemvalue="Application.PassingReference" />
+        <item index="3" class="java.lang.String" itemvalue="Application.InheritenceTest1" />
+        <item index="4" class="java.lang.String" itemvalue="Application.Graph" />
       </list>
     </recent_temporary>
     <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android Application">
@@ -986,14 +851,13 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.6217949" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.14300627" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.29749477" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.38421598" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16985254" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" x="533" y="84" width="299" height="628" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32776618" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17695248" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" x="533" y="84" width="299" height="628" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24973376" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -1007,6 +871,7 @@
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3281412" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.399361" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32776618" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1113,69 +978,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/tutorialspoint/src/com/java/threads/RaceDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tutorialspoint/src/com/java/threads/synchronization/SynchronizedMethodDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="37" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tutorialspoint/src/com/java/threads/synchronization/SyncMethodFailCaseDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="39" column="11" lean-forward="false" selection-start-line="39" selection-start-column="11" selection-end-line="39" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tutorialspoint/src/com/java/threads/synchronization/StaticSynchronizationDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="6" column="12" lean-forward="false" selection-start-line="6" selection-start-column="12" selection-end-line="6" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tutorialspoint/src/com/java/threads/ThreadCom.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tutorialspoint/src/com/java/threads/ThreadClassDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="3" column="13" lean-forward="false" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tutorialspoint/src/com/java/threads/Synch.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tutorialspoint/src/com/java/threads/Sync.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tutorialspoint/src/com/java/threads/SuspendAndStopThread.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/tutorialspoint/src/com/java/threads/SequentialPrintingByMultipleThread.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1370,7 +1172,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="5976">
           <caret line="355" column="16" lean-forward="false" selection-start-line="355" selection-start-column="16" selection-end-line="355" selection-end-column="16" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1386,7 +1187,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
           <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1394,7 +1194,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="252">
           <caret line="14" column="14" lean-forward="false" selection-start-line="14" selection-start-column="14" selection-end-line="14" selection-end-column="14" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1402,7 +1201,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="900">
           <caret line="52" column="13" lean-forward="false" selection-start-line="52" selection-start-column="13" selection-end-line="52" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1410,15 +1208,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="296">
           <caret line="95" column="6" lean-forward="false" selection-start-line="95" selection-start-column="6" selection-end-line="95" selection-end-column="6" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/JavaDataStructure/src/com/java/graph/graphUsingAdjacencyMatrix/GraphDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="6" column="13" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1426,14 +1215,106 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="162">
           <caret line="9" column="13" lean-forward="false" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JavaDataStructure/src/com/java/graph/graphUsingHashmap/Graph.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="11" column="14" lean-forward="false" selection-start-line="11" selection-start-column="14" selection-end-line="11" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tutorialspoint/src/com/java/inheritance/DynShapes.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1296">
+          <caret line="88" column="18" lean-forward="false" selection-start-line="88" selection-start-column="18" selection-end-line="88" selection-end-column="18" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/JavaDataStructure/src/com/java/graph/graphUsingMapAndList/Graph.java">
+    <entry file="file://$PROJECT_DIR$/tutorialspoint/src/com/java/inheritance/Shape.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1187">
-          <caret line="5" column="81" lean-forward="false" selection-start-line="5" selection-start-column="81" selection-end-line="5" selection-end-column="81" />
+        <state relative-caret-position="36">
+          <caret line="2" column="10" lean-forward="false" selection-start-line="2" selection-start-column="10" selection-end-line="2" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tutorialspoint/src/com/java/inheritance/DynDispDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="18" column="8" lean-forward="false" selection-start-line="18" selection-start-column="8" selection-end-line="18" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ThinkInJava/src/FinalizeFunction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="18">
+          <caret line="1" column="13" lean-forward="false" selection-start-line="1" selection-start-column="13" selection-end-line="1" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ThinkInJava/src/ObjectArray.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ThinkInJava/src/PassingReference.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="26" column="32" lean-forward="false" selection-start-line="26" selection-start-column="32" selection-end-line="26" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tutorialspoint/src/com/java/function/CallByValue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="27" column="56" lean-forward="false" selection-start-line="27" selection-start-column="56" selection-end-line="27" selection-end-column="56" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tutorialspoint/src/com/java/inheritance/InheritanceTest2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="414">
+          <caret line="23" column="45" lean-forward="false" selection-start-line="23" selection-start-column="45" selection-end-line="23" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tutorialspoint/src/com/java/inheritance/InheritanceTest1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="723">
+          <caret line="63" column="0" lean-forward="true" selection-start-line="63" selection-start-column="0" selection-end-line="63" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JavaDataStructure/src/com/java/graph/graphUsingAdjacencyMatrix/GraphDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="640">
+          <caret line="40" column="53" lean-forward="false" selection-start-line="40" selection-start-column="0" selection-end-line="41" selection-end-column="0" />
+          <folding>
+            <element signature="e#1081#1090#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JavaDataStructure/src/com/java/graph/graphUsingMapAndList/VertexInfo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="22" column="1" lean-forward="false" selection-start-line="22" selection-start-column="1" selection-end-line="22" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JavaDataStructure/src/com/java/graph/graphUsingAdjacencyMatrix/GraphADT.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1854">
+          <caret line="191" column="17" lean-forward="false" selection-start-line="191" selection-start-column="17" selection-end-line="191" selection-end-column="17" />
           <folding />
         </state>
       </provider>
@@ -1448,44 +1329,26 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/JavaDataStructure/src/com/java/graph/graphUsingMapAndList/IGraph.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="7" column="17" lean-forward="false" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/JavaDataStructure/src/com/java/graph/graphUsingMapAndList/VertexInfo.java">
-      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="360">
-          <caret line="22" column="1" lean-forward="false" selection-start-line="22" selection-start-column="1" selection-end-line="22" selection-end-column="1" />
+          <caret line="20" column="28" lean-forward="false" selection-start-line="20" selection-start-column="28" selection-end-line="20" selection-end-column="28" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/JavaDataStructure/src/com/java/graph/graphUsingMapAndList/GraphTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="8" column="44" lean-forward="true" selection-start-line="8" selection-start-column="44" selection-end-line="8" selection-end-column="44" />
+        <state relative-caret-position="436">
+          <caret line="47" column="42" lean-forward="false" selection-start-line="47" selection-start-column="42" selection-end-line="47" selection-end-column="42" />
           <folding>
             <element signature="e#286#294#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/JavaDataStructure/src/com/java/graph/graphUsingHashmap/Graph.java">
+    <entry file="file://$PROJECT_DIR$/JavaDataStructure/src/com/java/graph/graphUsingMapAndList/Graph.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="11" column="14" lean-forward="false" selection-start-line="11" selection-start-column="14" selection-end-line="11" selection-end-column="14" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/JavaDataStructure/src/com/java/graph/graphUsingAdjacencyMatrix/GraphADT.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="14" column="0" lean-forward="true" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+        <state relative-caret-position="378">
+          <caret line="103" column="28" lean-forward="false" selection-start-line="103" selection-start-column="28" selection-end-line="103" selection-end-column="28" />
           <folding />
         </state>
       </provider>

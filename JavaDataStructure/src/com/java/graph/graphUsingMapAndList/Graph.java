@@ -94,6 +94,26 @@ public class Graph<V> implements IGraph<V> {
         return path;
     }
 
+    public void BFSTraversal(V v) {
+        clearVertexInfo();
+        if (v==null) return;
+        Queue<V> queue = new LinkedList<V>();
+        queue.add(v);
+        while (!queue.isEmpty()) {
+            V temp = queue.poll();
+            System.out.print(temp + "  ");
+            VertexInfo<V> vInfo = vertexInfo.get(temp);
+            vInfo.visited = true;
+
+            List<Edge<V>> edges = this.adjacencyList.get(temp);
+            for (Edge<V> e : edges) {
+                VertexInfo<V> vInfo2 = vertexInfo.get(e.to);
+                if (!vInfo2.visited) {
+                    queue.offer(e.to); // queue.offer() is same as queue.add(), Both add the element at the tail.
+                }
+            }
+        }
+    }
     public String toString() {
         Set<V> keys = adjacencyList.keySet();
         String str = "";
