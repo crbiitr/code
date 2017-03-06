@@ -16,10 +16,15 @@ public class GraphTest {
 
         testDFS(airlineGraph);
 
+        testDFSTraversal(airlineGraph);
+
         testBFS(airlineGraph);
+
+        testTopological(airlineGraph);
     }
 
     public static void testEdges(IGraph<String> g) {
+        System.out.println("\n\n");
         System.out.println("Edge between JFK and SFO? " + g.hasEdge("JFK", "SFO"));
         System.out.println("Edge between JFK and SFO: " + g.getEdge("JFK", "SFO"));
 
@@ -34,6 +39,7 @@ public class GraphTest {
     }
 
     public static void testDFS(IGraph<String> g) {
+        System.out.println("\n\n");
         System.out.println("Path between BOS and LAX? " + g.hasPath("BOS", "LAX"));
         System.out.println("Edge between BOS and LAX: " + g.getDFSPath("BOS", "LAX"));
 
@@ -44,9 +50,19 @@ public class GraphTest {
         System.out.println("Edge between SFO and LAX: " + g.getDFSPath("SFO", "LAX"));
     }
 
+    public static void testDFSTraversal(IGraph<String> g) {
+        System.out.println("\n\nDFS Traversal:");
+        g.DFSTraversal("LAX");
+    }
+
     public static void testBFS(IGraph<String> g) {
-        System.out.println("BFS Traversal:");
+        System.out.println("\n\nBFS Traversal:");
         g.BFSTraversal("LAX");
+    }
+
+    public static void testTopological(IGraph<String> g) {
+        System.out.println("\n\nTopological test:");
+        g.topologicalSort("LAX");
     }
 
     public static void buildGraph(IGraph<String> g) {
@@ -63,9 +79,9 @@ public class GraphTest {
         g.addEdge("DFW", "ORD", 600);
         g.addEdge("DFW", "SFO", 1100);
         g.addEdge("DFW", "JFK", 950);
-        g.addEdge("ORD", "DFW", 600);
-        g.addEdge("MIA", "DFW", 1200);
-        g.addEdge("MIA", "LAX", 2800);
+        // g.addEdge("ORD", "DFW", 600); // Remove comment if you want cycle in the graph
+        // g.addEdge("MIA", "DFW", 1200); // Remove comment if you want cycle in the graph
+        // g.addEdge("MIA", "LAX", 2800); // Remove comment if you want cycle in the graph
         g.addEdge("JFK", "MIA", 1300);
         g.addEdge("JFK", "SFO", 3600);
         g.addEdge("JFK", "BOS", 300);

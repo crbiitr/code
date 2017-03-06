@@ -2,6 +2,7 @@ package com.java.customMap;
 
 /**
  * Created by user on 12/2/16.
+ * Please go through it: https://github.com/ishaan007/Data-Structures/blob/master/HashMaps/Map.java
  */
 
 class CustomMap<K, V> implements GenericMap<K, V> {

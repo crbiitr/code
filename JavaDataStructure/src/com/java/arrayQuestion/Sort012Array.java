@@ -1,7 +1,7 @@
 package com.java.arrayQuestion;
 import java.util.Arrays;
 
-public class FindingAllSubsetsOfAGivenSet {
+public class Sort012Array {
     private static final int RED = 0;
     private static final int GREEN = 1;
     private static final int BLACK = 2;

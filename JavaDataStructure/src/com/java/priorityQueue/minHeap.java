@@ -2,6 +2,8 @@ package com.java.priorityQueue;
 
 /**
  * Created by user on 11/28/16.
+ * It is a Minimum binary heap implementation.
+
  */
 public class minHeap {
     public int size;

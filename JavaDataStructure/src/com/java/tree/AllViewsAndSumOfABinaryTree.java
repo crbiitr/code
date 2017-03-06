@@ -4,7 +4,7 @@ import java.util.*;
 import java.lang.*;
 import java.io.*;
 
-class DiagonalSumOfABinaryTree {
+class AllViewsAndSumOfABinaryTree {
     public static int maxLevel = 0;
 
 	public static void main(String[] args) {
@@ -24,6 +24,7 @@ class DiagonalSumOfABinaryTree {
         System.out.println("Level Order Traversal");
         levelOrderTreaversal(root);
 
+        // All kind of SUM of a Binary Tree
         System.out.println("\n\nPrinting Diagonal Sum using Iterative Method");
         printDiagonalSumOfABinaryTree(root);
 
@@ -37,6 +38,9 @@ class DiagonalSumOfABinaryTree {
         printVerticalSumOfABinaryTree(root, 0, map); // It's also a good logic.
         printMap(map);
 
+
+
+        // All Kind of VIEW of a Binary Tree
         System.out.println("\n\nPrinting LeftView Of a Tree");
         printLeftViewOfABinaryTree(root,1);
 
@@ -53,6 +57,8 @@ class DiagonalSumOfABinaryTree {
         System.out.println("\n\nPrinting Bottom View :: ");
         bottomView(root, 0, map);
         printMap_2(map);
+
+
 
     }
 	

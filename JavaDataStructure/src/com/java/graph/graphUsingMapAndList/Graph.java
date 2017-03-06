@@ -1,5 +1,7 @@
 package com.java.graph.graphUsingMapAndList;
 
+import com.sun.org.apache.xalan.internal.xsltc.compiler.util.StringStack;
+
 import java.util.*;
 /**
  * Created by chetan on 24/2/17.
@@ -89,19 +91,46 @@ public class Graph<V> implements IGraph<V> {
                 }
             }
         }
-
         path.remove(v1);
         return path;
+    }
+
+    public void DFSTraversal(V v) {
+        clearVertexInfo();
+        if (v == null) return;
+        // Uncomment if you want to print from vertex v.
+        // DFSUtils(v);
+        for (V v1 : vertexInfo.keySet()) {
+            if (!vertexInfo.get(v1).visited) {
+                DFSUtils(v1);
+            }
+        }
+    }
+
+    private void DFSUtils(V v) {
+        VertexInfo<V> vInfo = vertexInfo.get(v);
+        System.out.print(v + "  ");
+        vInfo.visited = true;
+
+        List<Edge<V>> edges = this.adjacencyList.get(v);
+        for (Edge<V> e : edges) {
+            VertexInfo<V> vInfo2 = vertexInfo.get(e.to);
+            if (!vInfo2.visited) {
+                DFSUtils(e.to);
+            }
+        }
     }
 
     public void BFSTraversal(V v) {
         clearVertexInfo();
         if (v==null) return;
+
         Queue<V> queue = new LinkedList<V>();
         queue.add(v);
         while (!queue.isEmpty()) {
             V temp = queue.poll();
             System.out.print(temp + "  ");
+
             VertexInfo<V> vInfo = vertexInfo.get(temp);
             vInfo.visited = true;
 
@@ -114,6 +143,39 @@ public class Graph<V> implements IGraph<V> {
             }
         }
     }
+
+    public void topologicalSort(V v) {
+        clearVertexInfo();
+        if (v == null) return;
+
+        Stack<V> stack = new Stack<V>();
+        // Uncomment if you want to print from vertex v.
+        // topologicalUtils(v,stack);
+        for (V v1 : vertexInfo.keySet()) {
+            if (!vertexInfo.get(v1).visited) {
+                topologicalUtils(v1,stack);
+            }
+        }
+
+        while (!stack.isEmpty()) {
+            System.out.print(stack.pop()+ "  ");
+        }
+    }
+
+    public void topologicalUtils(V v, Stack<V> stack) {
+        VertexInfo<V> vInfo = vertexInfo.get(v);
+        vInfo.visited = true;
+
+        List<Edge<V>> edges = this.adjacencyList.get(v);
+        for (Edge<V> e : edges) {
+            VertexInfo<V> vInfo2 = vertexInfo.get(e.to);
+            if (!vInfo2.visited) {
+                topologicalUtils(e.to,stack);
+            }
+        }
+        stack.push(v);
+    }
+
     public String toString() {
         Set<V> keys = adjacencyList.keySet();
         String str = "";
