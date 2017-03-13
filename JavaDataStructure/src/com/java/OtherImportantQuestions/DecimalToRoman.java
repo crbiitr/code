@@ -22,13 +22,13 @@ public class DecimalToRoman {
         map.put("V", 5);
         map.put("IV", 4);
         map.put("I", 1);
-        String res = "";
+        StringBuilder res = new StringBuilder();
         for(Map.Entry<String, Integer> entry : map.entrySet()){
             int matches = Int/entry.getValue();
-            res += repeat(entry.getKey(), matches);
+            res.append(repeat(entry.getKey(), matches));
             Int = Int % entry.getValue();
         }
-        return res;
+        return res.toString();
     }
     public static String repeat(String s, int n) {
         if(s == null) {
@@ -51,12 +51,13 @@ public class DecimalToRoman {
     }
     public static void main(String[] args) {
 
-        int numbers[] = {75,80,99,100,50};
+        int numbers[] = {75,80,99,100,50,1986};
         int n = numbers.length;
         String[] str = new String[n];
         str = romanizer(numbers);
+        System.out.println("Numbers       Roman");
         for (int i = 0; i < n; i++) {
-            System.out.println(str[i]);
+            System.out.println(numbers[i] + "      =>    " +str[i]);
         }
     }
 }
