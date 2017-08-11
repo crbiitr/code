@@ -27,6 +27,7 @@ public class SquareRootBabyLonianMethod {
     public static void main(String args[])
     {
         double x = 10;
+//        double x = 9;
         System.out.println(squareRoot(x));
     }
 }
