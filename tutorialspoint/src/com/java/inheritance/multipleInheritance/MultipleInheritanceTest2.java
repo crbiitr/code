@@ -1,5 +1,7 @@
 package com.java.inheritance.multipleInheritance;
 
+import com.sun.org.apache.bcel.internal.generic.INSTANCEOF;
+
 /**
  * Created by chetan on 13/3/17.
  */
@@ -37,6 +39,8 @@ public class MultipleInheritanceTest2 {
 
         ClassC c= new ClassC();
         c.methodA();
+
+        System.out.println();
     }
 }
 
