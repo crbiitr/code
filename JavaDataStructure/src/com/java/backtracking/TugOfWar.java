@@ -22,7 +22,7 @@ public class TugOfWar {
 
     public static void solve(int[] a) {
         List<Integer> minList = new ArrayList<>();
-        solve(0, new ArrayList<>(), a, Integer.MAX_VALUE, minList);
+        //solve(0, new ArrayList<>(), a, Integer.MAX_VALUE, minList);
         printSol(minList, a);
     }
 
