@@ -11,6 +11,7 @@ class Node<T> {
 		next = null;
 	}
 
+	public Node(){}
 	public T getData() {
 		return data;
 	}

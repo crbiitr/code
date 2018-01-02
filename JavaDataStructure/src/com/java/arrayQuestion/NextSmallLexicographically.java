@@ -1,12 +1,29 @@
-import java.math.BigInteger;
-import java.text.DecimalFormat;
-import java.util.LinkedHashMap;
-import java.util.*;
+package com.java.arrayQuestion;
+
+import java.util.Arrays;
+import java.util.Scanner;
 
 /**
- * Created by chetan on 7/3/17.
+ * Created by chetan on 2/1/18.
  */
-public class Solution {
+/*
+INPUT:
+
+5
+ab
+bb
+hefg
+dhck
+dkhc
+
+OUPUT:
+ba
+no answer
+hegf
+dhkc
+hcdk
+*/
+public class NextSmallLexicographically {
 
     public static void findNextSmallLexicographically(String str) {
         int len = str.length();
@@ -65,5 +82,4 @@ public class Solution {
             findNextSmallLexicographically (in.next());
         }
     }
-
 }

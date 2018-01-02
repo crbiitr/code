@@ -31,12 +31,14 @@ public class CreateSLLByTwoSortedSLL {
 
 		System.out.println("Second Linked List :: ");
 		l2.display();
-		
-/*		createSLLUsingTwoSortedSLL(l3, l1.getFirst(), l2.getFirst());
+/*
+		createSLLUsingTwoSortedSLL(l3, l1.getFirst(), l2.getFirst());
 		System.out.println("Third Linked List :: ");
 		l3.display();
-*/
-		l3.setFirst(createSLLUsingTwoSortedSLLByRecursion(l1.getFirst(), l2.getFirst()));
+		*/
+		//Using recursion
+		Node<Integer> newNode = new Node<Integer>();
+		l3.setFirst(createSLLUsingTwoSortedSLLByRecursion(l1.getFirst(), l2.getFirst(),newNode));
 		System.out.println("Third Linked List :: ");
 		l3.display();
 	}
@@ -70,18 +72,18 @@ public class CreateSLLByTwoSortedSLL {
 		}
 	}
 	
-	static <T extends Integer> Node<T> createSLLUsingTwoSortedSLLByRecursion(Node<T> l1, Node<T> l2) {
+	static <T extends Integer> Node<T> createSLLUsingTwoSortedSLLByRecursion(Node<T> l1, Node<T> l2, Node<T> newNode) {
 		
-		Node<T> result = null;
+		Node<T> result = newNode;
 		if(l1 == null) return l2;
 		if(l2 == null) return l1;
 		
 		if(l1.getData() >= l2.getData()) {
-			result.setData(l1.getData());
-			result.setNext(createSLLUsingTwoSortedSLLByRecursion(l1, l2.getNext()));
+			result = l2;
+			result.setNext(createSLLUsingTwoSortedSLLByRecursion(l1, l2.getNext(),result));
 		} else {
-			result.setData(l2.getData());
-			result.setNext(createSLLUsingTwoSortedSLLByRecursion(l1.getNext(), l2));
+			result = l1;
+			result.setNext(createSLLUsingTwoSortedSLLByRecursion(l1.getNext(), l2, result));
 		}
 		return result;
 	}
