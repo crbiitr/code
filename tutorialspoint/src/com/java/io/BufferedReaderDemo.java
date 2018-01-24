@@ -14,7 +14,8 @@ public class BufferedReaderDemo {
 		char c;
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 		System.out.println("Enter the charecter and put . in the last  to Quit");
-		
+
+
 		do {
 			c = (char)br.read();
 			System.out.println(c);

@@ -9,16 +9,50 @@ public class LongestCommonSubsequence {
 		
 		int LCS[][] = new int[x.length+1][y.length+1];
 		String[] LCS_String = new String[x.length];
-		long startTime = System.currentTimeMillis();
+		long startTime = System.nanoTime();
+		//Bottom to Top approach
 		int lengthOfCommonSubsequence = LCSLength(x,x.length,y,y.length,LCS);
-		long endTime = System.currentTimeMillis();
+		long endTime = System.nanoTime();
 		
 		System.out.println("Length of common subsequence is : " + lengthOfCommonSubsequence);
-		System.out.println("Total time taken for calculating this length is : " + (endTime-startTime) + " ms.");
+		System.out.println("Total time taken for calculating this length is : " + (endTime-startTime) + " nanoSeconds.");
 		int index = GetLCSString(LCS, x, x.length, y, y.length, LCS_String);
 		PrintArray(LCS_String, index);
 		System.out.println("\nLCS Matrix is :: ");
 		Print2DMatrix(LCS, x.length+1, y.length+1);
+
+
+		// Top to bottom approach
+		startTime = System.nanoTime();
+		System.out.println(findCommonSubSequence("ABCDEF","FBDAMN")); // Output 2
+		endTime = System.nanoTime();
+		System.out.println("Total time taken for calculating this length is : " + (endTime-startTime) + " nanoSeconds.");
+
+	}
+
+	public static int findCommonSubSequence(String a, String b) {
+		int aLen = a.length();
+		int bLen = b.length();
+
+		int[][] T = new int[aLen+1][bLen+1];
+
+		for (int i = 0; i <=aLen ; i++) {
+			T[i][0] = 0;
+		}
+		for (int i = 0; i <=bLen ; i++) {
+			T[0][i] = 0;
+		}
+
+		for (int i = 1; i <=aLen; i++) {
+			for (int j = 1; j <=bLen; j++) {
+				if (a.charAt(i-1)==b.charAt(j-1)) {
+					T[i][j] = 1+ T[i-1][j-1];
+				} else {
+					T[i][j] = Math.max(T[i-1][j],T[i][j-1]);
+				}
+			}
+		}
+		return T[aLen][bLen];
 	}
 	
 	static int LCSLength(String x[], int m, String y[], int n, int LCS[][]) {

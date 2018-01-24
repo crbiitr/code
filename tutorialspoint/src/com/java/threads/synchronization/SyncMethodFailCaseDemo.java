@@ -9,17 +9,16 @@ package com.java.threads.synchronization;
 
 
 class Table2{
-
-/*    synchronized void printTable(int n){//synchronized method
+/*
+    synchronized void printTable(int n){//synchronized method
         for(int i=1;i<=5;i++){
             System.out.println(n*i);
             try{
                 Thread.sleep(400);
             }catch(Exception e){System.out.println(e);}
         }
-
     }
-*/
+    */
     /*
     // This method will not fail bcz of static keyword in method.
     // Now it will work for class level.
@@ -42,7 +41,7 @@ class Table2{
             for (int i = 1; i <= 5; i++) {
                 System.out.println(n * i);
                 try {
-                    Thread.sleep(400);
+                    Thread.sleep(4000);
                 } catch (Exception e) {
                     System.out.println(e);
                 }
