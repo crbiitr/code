@@ -1,5 +1,8 @@
 package com.java.function;
 
+import java.util.LinkedList;
+import java.util.List;
+
 /**
  * Created by chetan on 26/2/17.
  */
@@ -13,6 +16,18 @@ class Operation {
 
     void change(Operation op) {
         op.data = op.data + 100;
+    }
+    void changeReference(List list) {
+        System.out.println("Old hashCode of list: " + list.hashCode());
+        printList(list);
+        list = new LinkedList();
+        list.add(2);
+        System.out.println("New hashCode of list: " + list.hashCode());
+        printList(list);
+    }
+
+    void printList(List l) {
+        l.toString();
     }
 
 }
@@ -30,5 +45,16 @@ public class CallByValue {
         System.out.println("before change "+op1.data);
         op1.change(op1);//passing object
         System.out.println("after change "+op1.data);
+
+        List<Integer>  list = new LinkedList();
+        list.add(1);
+        System.out.println("Main method Old hashCode of list: " + list.hashCode());
+        op.printList(list);
+        op.changeReference(list);
+        System.out.println("Main method New hashCode of list: " + list.hashCode());
+        op.printList(list);
+
     }
+
 }
+

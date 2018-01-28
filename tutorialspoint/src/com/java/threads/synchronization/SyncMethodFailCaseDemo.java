@@ -22,7 +22,7 @@ class Table2{
     /*
     // This method will not fail bcz of static keyword in method.
     // Now it will work for class level.
-        synchronized static void printTable(int n){//synchronized method
+       synchronized static void printTable(int n){//synchronized method
         for(int i=1;i<=5;i++){
             System.out.println(n*i);
             try{

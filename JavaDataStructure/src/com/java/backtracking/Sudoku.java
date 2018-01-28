@@ -19,7 +19,10 @@ public class Sudoku {
                 {0, 0, 0, 0, 0, 0, 0, 7, 4},
                 {0, 0, 5, 2, 0, 6, 3, 0, 0}};
         SudokuSolution sudoku = new SudokuSolution();
+        long startTime = System.currentTimeMillis();
         sudoku.solveSudoku(grid);
+        long endTime = System.currentTimeMillis();
+        System.out.println("Time taken: " + (endTime-startTime));
     }
 }
 
