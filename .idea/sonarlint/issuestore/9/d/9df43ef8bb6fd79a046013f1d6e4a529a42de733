@@ -1,0 +1,50 @@
+
+R
+squid:S106"9Replace this use of System.out or System.err by a logger.(Ş»ğ±øÿÿÿÿ
+Msquid:S1197"8Move the array designator from the variable to the type.(„²
+4squid:S1659"Declare "i" on a separate line.(Ğ·É¢
+Vsquid:S1126"AReplace this if-then-else statement by a single return statement.(ş­¼Ç
+M
+squid:S106"9Replace this use of System.out or System.err by a logger.(şÿŠ
+M
+squid:S106"9Replace this use of System.out or System.err by a logger.(ÛôËé
+R
+squid:S106"9Replace this use of System.out or System.err by a logger.(šÔÍãúÿÿÿÿ
+M
+squid:S106"9Replace this use of System.out or System.err by a logger.(¿Í“
+R
+squid:S106"9Replace this use of System.out or System.err by a logger.(Ì±şÎüÿÿÿÿ
+6squid:S1659"!Declare "max" on a separate line.(ñÑÜÛ
+gsquid:S00117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(„²
+7squid:S1659""Declare "temp" on a separate line.(ñÑÜÛ
+Rsquid:S1197"8Move the array designator from the variable to the type.(¸Ö¥áøÿÿÿÿ
+R
+squid:S106"9Replace this use of System.out or System.err by a logger.(ŞÍªÇûÿÿÿÿ
+7squid:S1659""Declare "temp" on a separate line.(Ğ·É¢
+gsquid:S00117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÿæÛà
+fsquid:S00117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(àŞËx
+R
+squid:S106"9Replace this use of System.out or System.err by a logger.(İÿ¾×ûÿÿÿÿ
+R
+squid:S106"9Replace this use of System.out or System.err by a logger.(¦Öç²ûÿÿÿÿ
+;squid:S1481"&Remove this unused "i" local variable.(Ğ·É¢
+jsquid:S00116"TRename this field "heap_type" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(±âÃ•
+Vsquid:S1126"AReplace this if-then-else statement by a single return statement.(îÍ¬‚
+Vsquid:S1854"<Remove this useless assignment to local variable "oldArray".(õÅÿ›øÿÿÿÿ
+R
+squid:S106"9Replace this use of System.out or System.err by a logger.(ñİüÿÿÿÿÿ
+R
+squid:S106"9Replace this use of System.out or System.err by a logger.(ªÓ¼áşÿÿÿÿ
+9squid:S1659"$Declare "rChild" on a separate line.(ñÑÜÛ
+>squid:S1481")Remove this unused "temp" local variable.(ñÑÜÛ
+dsquid:S00100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÿæÛà
+Rsquid:S1197"8Move the array designator from the variable to the type.(Ù·øëûÿÿÿÿ
+Lsquid:S1197"8Move the array designator from the variable to the type.(àŞËx
+L
+squid:S106"9Replace this use of System.out or System.err by a logger.(¾õ…^
+isquid:S00100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(èĞÀ¢ıÿÿÿÿ
+M
+squid:S106"9Replace this use of System.out or System.err by a logger.(ı¤Êù
+R
+squid:S106"9Replace this use of System.out or System.err by a logger.(å€¾°úÿÿÿÿ
+isquid:S00100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ù·øëûÿÿÿÿ

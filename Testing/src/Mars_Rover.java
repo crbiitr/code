@@ -72,11 +72,11 @@ class Rover{
     }
 
     Position moveRover(int x, int y, char facing){
-        if (facing == 'N' && y<endy) {="" y++;="" }else="" if(facing="=" 's'="" &&="" y="">0 ){
+       /* if (facing == 'N' && y<endy) {="" y++;="" }else="" if(facing="=" 's'="" &&="" y="">0 ){
             y--;
         } else if(facing == 'E' && x<endx){ x++;="" }="" else="" if(facing="=" 'w'="" &&="" x="">0){
             x--;
-        }
+        }*/
         return new Position(x, y, facing);
     }
 

@@ -1,0 +1,34 @@
+
+Rsquid:S1197"8Move the array designator from the variable to the type.(•‹‚Éúÿÿÿÿ
+Rsquid:S1197"8Move the array designator from the variable to the type.(ÔÍŠ¦ýÿÿÿÿ
+Msquid:S1197"8Move the array designator from the variable to the type.(´ÿ‹…
+Rsquid:S1197"8Move the array designator from the variable to the type.(Ì¼±Ëýÿÿÿÿ
+Msquid:S1197"8Move the array designator from the variable to the type.(†üÏú
+Msquid:S1197"8Move the array designator from the variable to the type.(µâ½ó
+Dsquid:S1066"/Merge this if statement with the enclosing one.(€‘±¡
+nsquid:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(•»®¼
+M
+squid:S106"9Replace this use of System.out or System.err by a logger.(îí‚š
+R
+squid:S106"9Replace this use of System.out or System.err by a logger.(åß‹Éÿÿÿÿÿ
+L
+squid:S106"9Replace this use of System.out or System.err by a logger.(ÿŒ×f
+R
+squid:S106"9Replace this use of System.out or System.err by a logger.(åæ¥Žûÿÿÿÿ
+R
+squid:S106"9Replace this use of System.out or System.err by a logger.(ªÓ¼áþÿÿÿÿ
+R
+squid:S106"9Replace this use of System.out or System.err by a logger.(®ÚÚÒüÿÿÿÿ
+R
+squid:S106"9Replace this use of System.out or System.err by a logger.(ªÓ¼áþÿÿÿÿ
+R
+squid:S106"9Replace this use of System.out or System.err by a logger.(ªÓ¼áþÿÿÿÿ
+>squid:S1125")Remove the literal "false" boolean value.(À ¹£
+asquid:HiddenFieldCheck"<Rename "indegree" which hides the field declared at line 35.(Ì¼±Ëýÿÿÿÿ
+‚"squid:ClassVariableVisibilityCheck"QMake label a static final constant or non-public and provide accessors if needed.(•šÎóýÿÿÿÿ
+"squid:ClassVariableVisibilityCheck"SMake visited a static final constant or non-public and provide accessors if needed.(˜ÇÌ™
+lsquid:S00117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ù½ŒÜúÿÿÿÿ
+gsquid:S00117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(²‘™¨
+gsquid:S00117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(•»®¼
+psquid:S00120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ñ´ß§
+jsquid:S1149"PReplace the synchronized class "Stack" by an unsynchronized one such as "Deque".(ù½ŒÜúÿÿÿÿ

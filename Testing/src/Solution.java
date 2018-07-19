@@ -109,7 +109,7 @@ public class Solution {
     /*static long maxPoints(int[] elements) {
 
     }*/
-
+/*
     public static final Integer N = 1;
     public static final Integer E = 2;
     public static final Integer S = 3;
@@ -179,5 +179,5 @@ public class Solution {
         rover.setPosition(3, 3, E);
         rover.process("MMRMMRMRRM");
         rover.printPosition(); // prints 5 1 E
-    }
+    }*/
 }

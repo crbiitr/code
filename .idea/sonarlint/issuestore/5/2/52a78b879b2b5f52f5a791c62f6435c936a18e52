@@ -1,0 +1,8 @@
+
+Csquid:S1068")Remove this unused "count" private field.(Êâþ¶úÿÿÿÿ
+usquid:S00120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(àùÚìúÿÿÿÿ
+Rsquid:S1197"8Move the array designator from the variable to the type.(”ÇÆýÿÿÿÿÿ
+jsquid:S00116"TRename this field "heap_type" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(±âÃ•
+Csquid:S1068")Remove this unused "array" private field.(”ÇÆýÿÿÿÿÿ
+Fsquid:S1068",Remove this unused "capacity" private field.(Ò—àçþÿÿÿÿ
+Bsquid:S1068"-Remove this unused "heap_type" private field.(±âÃ•

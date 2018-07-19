@@ -1,0 +1,13 @@
+
+Msquid:S1197"8Move the array designator from the variable to the type.(‰ÔÇ‚
+nsquid:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(Ø¥¤×
+nsquid:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(•»®¼
+`squid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(ÌÛïÿ
+M
+squid:S106"9Replace this use of System.out or System.err by a logger.(ÕÆ÷
+R
+squid:S106"9Replace this use of System.out or System.err by a logger.(æÑ²§úÿÿÿÿ
+gsquid:S00117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ø¥¤×
+gsquid:S00117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(•»®¼
+psquid:S00120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ñ´ß§
+esquid:S1149"PReplace the synchronized class "Stack" by an unsynchronized one such as "Deque".(Ø¥¤×

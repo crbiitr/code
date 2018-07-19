@@ -1,0 +1,85 @@
+
+Vsquid:S1126"AReplace this if-then-else statement by a single return statement.(ÆÁ—Ë
+M
+squid:S106"9Replace this use of System.out or System.err by a logger.(şÿŠ
+lsquid:S3776"RRefactor this method to reduce its Cognitive Complexity from 27 to the 15 allowed.(¡şÏÖøÿÿÿÿ
+;squid:S1481"&Remove this unused "a" local variable.(Ğõâ­
+M
+squid:S106"9Replace this use of System.out or System.err by a logger.(Ò‚ÖÒ
+M
+squid:S106"9Replace this use of System.out or System.err by a logger.(Ò‚ÖÒ
+R
+squid:S106"9Replace this use of System.out or System.err by a logger.(ŸĞßíúÿÿÿÿ
+R
+squid:S106"9Replace this use of System.out or System.err by a logger.(ÌÅÈ¿úÿÿÿÿ
+M
+squid:S106"9Replace this use of System.out or System.err by a logger.(Ø³ë
+M
+squid:S106"9Replace this use of System.out or System.err by a logger.(şÿŠ
+M
+squid:S106"9Replace this use of System.out or System.err by a logger.(şÿŠ
+M
+squid:S106"9Replace this use of System.out or System.err by a logger.(Ò‚ÖÒ
+R
+squid:S106"9Replace this use of System.out or System.err by a logger.(ÁãÉ¿úÿÿÿÿ
+M
+squid:S106"9Replace this use of System.out or System.err by a logger.(şÿŠ
+R
+squid:S106"9Replace this use of System.out or System.err by a logger.(è…Ã™şÿÿÿÿ
+M
+squid:S106"9Replace this use of System.out or System.err by a logger.(Ò‚ÖÒ
+R
+squid:S106"9Replace this use of System.out or System.err by a logger.(ŞÒ—üÿÿÿÿ
+Rsquid:S1197"8Move the array designator from the variable to the type.(«Ôêåıÿÿÿÿ
+esquid:S1192"PDefine a constant instead of duplicating this literal "Deleted No::  " 13 times.(Ò‚ÖÒ
+M
+squid:S106"9Replace this use of System.out or System.err by a logger.(şÿŠ
+hsquid:S00101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(¹Áˆ¿ıÿÿÿÿ
+M
+squid:S106"9Replace this use of System.out or System.err by a logger.(Ò‚ÖÒ
+M
+squid:S106"9Replace this use of System.out or System.err by a logger.(şÿŠ
+[squid:S1126"AReplace this if-then-else statement by a single return statement.(½¡Õ®ùÿÿÿÿ
+R
+squid:S106"9Replace this use of System.out or System.err by a logger.(ßí—€ùÿÿÿÿ
+`squid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(Òÿâ
+M
+squid:S106"9Replace this use of System.out or System.err by a logger.(Ò‚ÖÒ
+M
+squid:S106"9Replace this use of System.out or System.err by a logger.(şÿŠ
+M
+squid:S106"9Replace this use of System.out or System.err by a logger.(Ò‚ÖÒ
+M
+squid:S106"9Replace this use of System.out or System.err by a logger.(şÿŠ
+usquid:S00120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(àùÚìúÿÿÿÿ
+M
+squid:S106"9Replace this use of System.out or System.err by a logger.(Ò‚ÖÒ
+M
+squid:S106"9Replace this use of System.out or System.err by a logger.(şÿŠ
+esquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(¯­ƒÅøÿÿÿÿ
+M
+squid:S106"9Replace this use of System.out or System.err by a logger.(Ò‚ÖÒ
+Jsquid:S1854"5Remove this useless assignment to local variable "a".(Ğõâ­
+M
+squid:S106"9Replace this use of System.out or System.err by a logger.(Ò‚ÖÒ
+M
+squid:S106"9Replace this use of System.out or System.err by a logger.(Ò‚ÖÒ
+Rsquid:S1197"8Move the array designator from the variable to the type.(¡şÏÖøÿÿÿÿ
+M
+squid:S106"9Replace this use of System.out or System.err by a logger.(şÿŠ
+dsquid:S1192"ODefine a constant instead of duplicating this literal "Heap is Empty" 13 times.(şÿŠ
+M
+squid:S106"9Replace this use of System.out or System.err by a logger.(şÿŠ
+€"squid:ClassVariableVisibilityCheck"TMake position a static final constant or non-public and provide accessors if needed.(‚¾™ä
+M
+squid:S106"9Replace this use of System.out or System.err by a logger.(şÿŠ
+R
+squid:S106"9Replace this use of System.out or System.err by a logger.(à¯±µÿÿÿÿÿ
+z"squid:ClassVariableVisibilityCheck"NMake mH a static final constant or non-public and provide accessors if needed.(ÅçÂ
+M
+squid:S106"9Replace this use of System.out or System.err by a logger.(Ò‚ÖÒ
+M
+squid:S106"9Replace this use of System.out or System.err by a logger.(şÿŠ
+"squid:ClassVariableVisibilityCheck"PMake size a static final constant or non-public and provide accessors if needed.(õ˜óøÿÿÿÿ
+M
+squid:S106"9Replace this use of System.out or System.err by a logger.(Ò‚ÖÒ
