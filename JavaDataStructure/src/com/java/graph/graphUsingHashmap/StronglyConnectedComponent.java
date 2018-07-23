@@ -25,7 +25,7 @@ import java.util.*;
 
 public class StronglyConnectedComponent {
     Deque<Integer> stack = new ArrayDeque<>();
-    
+
     //For printing all the SCC's print the result list.
     List<Set<Integer>> result = new ArrayList<>();
     public static void main(String[] args) {
@@ -83,6 +83,4 @@ public class StronglyConnectedComponent {
             dfsUtilsForReverseGraph(adjacent,graph,set);
         }
     }
-
-
 }
