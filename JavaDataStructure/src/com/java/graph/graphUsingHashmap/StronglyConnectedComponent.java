@@ -3,21 +3,21 @@ package com.java.graph.graphUsingHashmap;
 import java.util.*;
 
 /**
- * Date 10/01/2014
+ * Date 23/07/2018
  *
  * @author Chetan Raj
  * Given a directed graph, find all strongly connected components in this graph.
  * We are going to use Kosaraju's algorithm to find strongly connected component.
- *
+ * <p>
  * Algorithm
  * Create a order of vertices by finish time in decreasing order.
  * Reverse the graph
  * Do a DFS on reverse graph by finish time of vertex and created strongly connected
  * components.
- *
+ * <p>
  * Runtime complexity - O(V + E)
  * Space complexity - O(V)
- *
+ * <p>
  * References
  * https://en.wikipedia.org/wiki/Strongly_connected_component
  * http://www.geeksforgeeks.org/strongly-connected-components/
@@ -28,6 +28,7 @@ public class StronglyConnectedComponent {
 
     //For printing all the SCC's print the result list.
     List<Set<Integer>> result = new ArrayList<>();
+
     public static void main(String[] args) {
         Graph<Integer> graph = new Graph<Integer>();
         graph.addDirectEdge(0, 2);
@@ -55,9 +56,9 @@ public class StronglyConnectedComponent {
 
     public void dfsUtils(Integer vertex, Graph<Integer> graph) {
         graph.visited.put(vertex, true);
-        for(Integer adjacent: graph.graph.get(vertex)) {
-            if(!graph.visited.get(adjacent))
-                dfsUtils(adjacent,graph);
+        for (Integer adjacent : graph.graph.get(vertex)) {
+            if (!graph.visited.get(adjacent))
+                dfsUtils(adjacent, graph);
         }
         stack.offerFirst(vertex);
     }
@@ -66,21 +67,21 @@ public class StronglyConnectedComponent {
         int count = 0;
         while (!stack.isEmpty()) {
             int vertex = stack.poll();
-            if(!graph.visited.get(vertex)) {
+            if (!graph.visited.get(vertex)) {
                 Set<Integer> set = new HashSet<>();
-                dfsUtilsForReverseGraph(vertex,graph,set);
+                dfsUtilsForReverseGraph(vertex, graph, set);
                 result.add(set);
             }
         }
         return result.size();
     }
 
-    public void dfsUtilsForReverseGraph(Integer vertex, Graph<Integer> graph,Set<Integer> set) {
+    public void dfsUtilsForReverseGraph(Integer vertex, Graph<Integer> graph, Set<Integer> set) {
         graph.visited.put(vertex, true);
         set.add(vertex);
-        for(Integer adjacent: graph.graph.get(vertex)) {
-            if(!graph.visited.get(adjacent))
-            dfsUtilsForReverseGraph(adjacent,graph,set);
+        for (Integer adjacent : graph.graph.get(vertex)) {
+            if (!graph.visited.get(adjacent))
+                dfsUtilsForReverseGraph(adjacent, graph, set);
         }
     }
 }
