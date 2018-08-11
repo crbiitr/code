@@ -24,5 +24,15 @@ public class PredicatesDemo1 {
         System.out.println("\nIs collection empty --->> " + predicate.test(list));
         list.clear();
         System.out.println("Is collection empty --->> " + predicate.test(list));
+
+        //Checking name is starting A or not
+        String []stringsArray = {"Anjali","Chetan","Anamika","Priti","Gori"};
+        Predicate<String> namePredicate = s -> s.startsWith("A");
+        System.out.println("\nName starts with A are: ");
+        for (String str:stringsArray) {
+            if (namePredicate.test(str)){
+                System.out.println(str);
+            }
+        }
     }
 }
