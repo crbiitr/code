@@ -181,3 +181,21 @@ public class Solution {
         rover.printPosition(); // prints 5 1 E
     }*/
 }
+
+
+class Customer {
+    private String natlId;
+    private String customerType;
+    private String dateOfBirthOrRegistration;
+    private String activationDateTime;
+    private String firstName;
+    private String lastName;
+    private String custId;
+    private String aadhaarId;
+    private String nomineeName;
+    private String nomineedateOfBirth;
+    private String nomineeRelationship;
+    private String guardianName;
+    private String guardianDateOfBirth;
+    private String guardianRelationship;
+}
