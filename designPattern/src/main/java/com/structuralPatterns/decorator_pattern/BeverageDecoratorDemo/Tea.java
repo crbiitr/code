@@ -1,12 +1,12 @@
-package main.java.com.structuralPatterns.decorator_pattern;
+package main.java.com.structuralPatterns.decorator_pattern.BeverageDecoratorDemo;
 
 /**
  * Created by user on 10/25/16.
  */
-class Coffee extends Beverage{
-    public Coffee(String name){
+class Tea extends Beverage{
+    public Tea(String name){
         super(name);
-        setPrice(15);
+        setPrice(10);
     }
     public void decorateBeverage(){
         System.out.println("Cost of: "+ name +" is:  "+ price);

@@ -1,4 +1,4 @@
-package main.java.com.structuralPatterns.decorator_pattern;
+package main.java.com.structuralPatterns.decorator_pattern.BeverageDecoratorDemo;
 
 /**
  * Created by user on 10/25/16.
