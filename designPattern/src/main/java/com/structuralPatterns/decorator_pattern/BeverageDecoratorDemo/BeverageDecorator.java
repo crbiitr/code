@@ -1,7 +1,7 @@
 package main.java.com.structuralPatterns.decorator_pattern.BeverageDecoratorDemo;
 
 /**
- * Created by user on 10/25/16.
+ * Created by Chetan Raj on 10/25/16.
  */
 abstract class BeverageDecorator extends Beverage {
     protected Beverage beverage;
