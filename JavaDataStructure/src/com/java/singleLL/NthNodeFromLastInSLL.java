@@ -1,7 +1,5 @@
 package com.java.singleLL;
 
-import com.java.singleLL.SLL;
-
 public class NthNodeFromLastInSLL {
 
 	public static void main(String [] args) {

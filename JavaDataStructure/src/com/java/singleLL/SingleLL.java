@@ -1,7 +1,5 @@
 package com.java.singleLL;
 
-import java.awt.HeadlessException;
-
 class Node<T> {
 	private T data;
 	private Node<T> next;
