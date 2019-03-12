@@ -20,12 +20,22 @@ public class RotateLLGroupWise {
 
 		ll.display();
 		RotateLLGroupWise rotateLLGroupWise = new RotateLLGroupWise();
-		rotateLLGroupWise.rotateLinkedListGroupWise(ll.getHead(), 3, 1);
+		ll.setHead(rotateLLGroupWise.rotateLinkedListGroupWise(ll.getHead(), 3, 1));
+		ll.display();
+
+		ll.setHead(rotateLLGroupWise.rotateLinkedListGroupWise(ll.getHead(), 3, 2));
 		ll.display();
 
 	}
 
-	public void rotateLinkedListGroupWise(Node head, int groupLength, int rotationCount) {
+	/**
+	 * This program is wrong please correct it
+	 * @param head
+	 * @param groupLength
+	 * @param rotationCount
+	 * @return
+	 */
+	public Node rotateLinkedListGroupWise(Node head, int groupLength, int rotationCount) {
 		Node curr = head, pre = null;
 		boolean isHeadSet = false;
 		Node preLast = null;
@@ -38,7 +48,6 @@ public class RotateLLGroupWise {
 				currentGroupLength--;
 			}
 			if (currentGroupLength == 0) {
-				preLast = pre;
 				pre.setNext(null);
 				Node headOfRotatedLinkedList = rotateLinkedListRotationCountWise(currHead, pre, rotationCount);
 
@@ -49,15 +58,23 @@ public class RotateLLGroupWise {
 					preLast.setNext(headOfRotatedLinkedList);
 				}
 				while (headOfRotatedLinkedList.getNext() != null) {
-
 					headOfRotatedLinkedList = headOfRotatedLinkedList.getNext();
 				}
+
+				preLast = headOfRotatedLinkedList;
 				headOfRotatedLinkedList.setNext(curr);
 			}
 		}
-
+		return head;
 	}
 
+	/**
+	 * This is working fine. This method just rotating the link list
+	 * @param head
+	 * @param last
+	 * @param rotationCount
+	 * @return
+	 */
 	public Node rotateLinkedListRotationCountWise(Node head, Node last, int rotationCount) {
 		while (rotationCount >= 1) {
 			Node pre = head;
