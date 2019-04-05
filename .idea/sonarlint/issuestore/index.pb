@@ -53,3 +53,5 @@ Dtutorialspoint/src/com/java/java8/stream/OtherStreamMethodsDemo.java,c/6/c60e3
 [JavaDataStructure/src/com/java/arrayQuestion/ArrangementRearrangement/RearrangeAnArray.java,f/a/fa77a12c97c21bf5d6cefba9e4c9c26b6c9e3d61
 {
 Ktutorialspoint/src/com/java/java8/stream/PrintArrayUsingDiffApproaches.java,8/2/82ccd057dc7b5e0b6a42f5aa451d327a6e0ed890
+®
+~JavaDataStructure/src/com/java/arrayQuestion/ArrangementRearrangement/MinimumSwapsRequiredBringElementsLessEqualKTogether.java,2/a/2a4cc3aacca48b50020f0a81c6aaff2a4010f9f3
