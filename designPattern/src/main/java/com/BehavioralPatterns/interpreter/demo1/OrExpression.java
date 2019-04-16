@@ -1,0 +1,23 @@
+package main.java.com.BehavioralPatterns.interpreter.demo1;
+
+/**
+ * @author Chetan Raj
+ * @implNote
+ * @since : 16/04/19
+ */
+
+// This is like Composite Node same as in Composite design pattern
+public class OrExpression implements Expression {
+    private Expression expression1 = null;
+    private Expression expression2 = null;
+
+    public OrExpression(Expression expression1, Expression expression2) {
+        this.expression1 = expression1;
+        this.expression2 = expression2;
+    }
+
+    @Override
+    public boolean interpret(String str) {
+        return expression1.interpret(str) || expression2.interpret(str);
+    }
+}
