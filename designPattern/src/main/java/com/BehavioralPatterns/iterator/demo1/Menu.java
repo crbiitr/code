@@ -6,7 +6,7 @@ import java.util.List;
 
 /**
  * @author Chetan Raj
- * @implNote
+ * @implNote This Menu is Concrete Aggregate(Container).
  * @since : 19/04/19
  */
 public class Menu {
@@ -24,6 +24,9 @@ public class Menu {
         return new MenuIterator();
     }
 
+    /**
+     * It is concrete iterator. Which inherits Java Iterator.
+     */
     public class MenuIterator implements Iterator<Item> {
         int currentIndex = 0;
 
