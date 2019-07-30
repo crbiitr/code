@@ -15,10 +15,10 @@ public class SpiralMatrixFromInside {
 				{17,16,15,14,13}
 		};
 
-		sprialFromInside(a);
+		spiralFromInside(a);
 	}
 
-	static void sprialFromInside(int a[][]) {
+	static void spiralFromInside(int a[][]) {
 
 		int rs = 0, cs = 0;
 		int re = a.length, ce = a[0].length;

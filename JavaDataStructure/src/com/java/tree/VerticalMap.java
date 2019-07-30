@@ -21,17 +21,17 @@ class GFG {
     //used for building up a vertical map
     public static class VerticalMap {
         public int min_index;
-        //the begining index of the map
+        //the beginning index of the map
         public Map<Integer,List<Integer>> m;
         public VerticalMap() {
             min_index=0;
-            m=new HashMap<Integer,List<Integer>>();
+            m=new HashMap<>();
         }
 
         public void addIntoMap(int index,int key) {
             List<Integer> list;
             if(!m.containsKey(index)) {
-                list=new ArrayList<Integer>();
+                list=new ArrayList<>();
             }
             else {
                 list=m.get(index);

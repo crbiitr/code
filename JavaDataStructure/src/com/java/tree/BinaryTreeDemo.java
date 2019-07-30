@@ -1,12 +1,9 @@
 package com.java.tree;
 
 import java.util.HashMap;
-import java.util.Iterator;
 import java.util.LinkedList;
 import java.util.Map;
-import java.util.Map.Entry;
 import java.util.Queue;
-import java.util.Set;
 import java.util.Stack;
 
 class Node{
@@ -96,7 +93,7 @@ class BinaryTree {
 		}
 	}
 
-	public void levelOrderTreaversal() {
+	public void levelOrderTraversal() {
 
 		Queue<Node> q = new LinkedList<Node>();
 		if(root == null) {
@@ -530,7 +527,7 @@ public class BinaryTreeDemo {
 		bt2.insertElement(18);
 		//		bt2.insertElement(19);
 
-		bt.levelOrderTreaversal();
+		bt.levelOrderTraversal();
 
 		System.out.println("\n\nPreOrder Traversal Using recursion ");
 		bt.PreOrderTraversalRecursion(bt.getRoot());

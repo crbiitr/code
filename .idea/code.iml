@@ -32,7 +32,7 @@
       </configuration>
     </facet>
   </component>
-  <component name="NewModuleRootManager" inherit-compiler-output="false">
+  <component name="NewModuleRootManager">
     <output url="file://$MODULE_DIR$/output" />
     <output-test url="file://$MODULE_DIR$/output" />
     <exclude-output />
@@ -43,6 +43,7 @@
       <sourceFolder url="file://$MODULE_DIR$/tutorialspoint/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/designPattern/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/hackerearth/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/hackeRank/src" isTestSource="false" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />

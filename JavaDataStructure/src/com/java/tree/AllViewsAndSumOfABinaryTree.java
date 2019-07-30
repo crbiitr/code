@@ -2,7 +2,6 @@ package com.java.tree;
 
 import java.util.*;
 import java.lang.*;
-import java.io.*;
 
 class AllViewsAndSumOfABinaryTree {
     public static int maxLevel = 0;
@@ -22,7 +21,10 @@ class AllViewsAndSumOfABinaryTree {
         root.left.left.right = new TreeNode(10);
 
         System.out.println("Level Order Traversal");
-        levelOrderTreaversal(root);
+        levelOrderTraversal(root);
+
+        System.out.println("\n\nSpiral Traversal");
+        PrintSpiralTree.printSpiral(root);
 
         // All kind of SUM of a Binary Tree
         System.out.println("\n\nPrinting Diagonal Sum using Iterative Method");
@@ -45,7 +47,7 @@ class AllViewsAndSumOfABinaryTree {
         printLeftViewOfABinaryTree(root,1);
 
         System.out.println("Level Order Traversal");
-        levelOrderTreaversal(root);
+        levelOrderTraversal(root);
 
         map.clear();
         System.out.println("\n\nPrinting Top View :: ");
@@ -198,7 +200,7 @@ class AllViewsAndSumOfABinaryTree {
         }
     }
 
-    public static void levelOrderTreaversal(TreeNode root) {
+    public static void levelOrderTraversal(TreeNode root) {
         Queue<TreeNode> q = new LinkedList<TreeNode>();
         if(root == null) {
             System.out.println("Tree is empty");
