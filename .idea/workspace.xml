@@ -6,12 +6,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="32cbb12c-421d-4832-8015-54fd62c25638" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/code.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/code.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaDataStructure/src/com/java/searching/SpiralMatrixFromInside.java" beforeDir="false" afterPath="$PROJECT_DIR$/JavaDataStructure/src/com/java/searching/SpiralMatrixFromInside.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaDataStructure/src/com/java/tree/AllViewsAndSumOfABinaryTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/JavaDataStructure/src/com/java/tree/AllViewsAndSumOfABinaryTree.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaDataStructure/src/com/java/tree/BinaryTreeDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/JavaDataStructure/src/com/java/tree/BinaryTreeDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaDataStructure/src/com/java/tree/VerticalMap.java" beforeDir="false" afterPath="$PROJECT_DIR$/JavaDataStructure/src/com/java/tree/VerticalMap.java" afterDir="false" />
     </list>
     <ignored path="code.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -37,24 +32,6 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/hackeRank/src/com/java/practice/Staircase.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="19" selection-start-line="19" selection-end-line="19" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/JavaDataStructure/src/com/java/tree/AllViewsAndSumOfABinaryTree.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="25" column="32" selection-start-line="25" selection-start-column="32" selection-end-line="25" selection-end-column="32" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/JavaDataStructure/src/com/java/tree/BinaryTreeDemo.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="60">
@@ -77,11 +54,91 @@
           </provider>
         </entry>
       </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/designPattern/src/main/java/com/BehavioralPatterns/state/demo1/StrategyDemo1.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="23">
+              <caret line="4" column="56" selection-start-line="4" selection-start-column="56" selection-end-line="4" selection-end-column="56" />
+              <folding>
+                <element signature="e#356#357#0" expanded="true" />
+                <element signature="e#378#379#0" expanded="true" />
+                <element signature="e#530#531#0" expanded="true" />
+                <element signature="e#582#583#0" expanded="true" />
+                <element signature="e#1100#1101#0" expanded="true" />
+                <element signature="e#1134#1135#0" expanded="true" />
+                <element signature="e#974#975#0" expanded="true" />
+                <element signature="e#994#995#0" expanded="true" />
+                <element signature="e#1066#1067#0" expanded="true" />
+                <element signature="e#1085#1086#0" expanded="true" />
+                <element signature="e#1144#1145#0" expanded="true" />
+                <element signature="e#1172#1173#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/designPattern/src/main/java/com/BehavioralPatterns/templateMethod/demo1/Lunch.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="234">
+              <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+              <folding>
+                <element signature="e#383#384#0" expanded="true" />
+                <element signature="e#419#420#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/designPattern/src/main/java/com/BehavioralPatterns/templateMethod/demo1/McDonaldMeal.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="300">
+              <caret line="20" column="36" selection-start-line="20" selection-start-column="36" selection-end-line="20" selection-end-column="36" />
+              <folding>
+                <element signature="e#211#212#0" expanded="true" />
+                <element signature="e#263#264#0" expanded="true" />
+                <element signature="e#309#310#0" expanded="true" />
+                <element signature="e#374#375#0" expanded="true" />
+                <element signature="e#431#432#0" expanded="true" />
+                <element signature="e#502#503#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/designPattern/src/main/java/com/BehavioralPatterns/templateMethod/demo1/KFCMeal.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="210">
+              <caret line="14" column="30" lean-forward="true" selection-start-line="14" selection-start-column="30" selection-end-line="14" selection-end-column="30" />
+              <folding>
+                <element signature="e#210#211#0" expanded="true" />
+                <element signature="e#246#247#0" expanded="true" />
+                <element signature="e#307#308#0" expanded="true" />
+                <element signature="e#335#336#0" expanded="true" />
+                <element signature="e#371#372#0" expanded="true" />
+                <element signature="e#535#536#0" expanded="true" />
+                <element signature="e#571#572#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/designPattern/src/main/java/com/BehavioralPatterns/templateMethod/demo1/TemplateMedhodTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="4" column="54" selection-start-line="4" selection-start-column="54" selection-end-line="4" selection-end-column="54" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/JavaDataStructure/src/com/java/tree/FindAllPreorderFromInorderTraversal.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+            <state relative-caret-position="105">
+              <caret line="7" column="50" lean-forward="true" selection-start-line="7" selection-start-column="50" selection-end-line="7" selection-end-column="50" />
             </state>
           </provider>
         </entry>
@@ -89,7 +146,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/JavaDataStructure/src/com/java/tree/PrintSpiralTree.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="576">
+            <state relative-caret-position="615">
               <caret line="41" column="9" selection-start-line="41" selection-start-column="9" selection-end-line="41" selection-end-column="9" />
             </state>
           </provider>
@@ -131,11 +188,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/JavaDataStructure/src/com/java/matrix/RotateMatrixElementsClockwise.java" />
-        <option value="$PROJECT_DIR$/JavaDataStructure/src/com/java/arrayQuestion/rotation/LexicographicallySmallestRotatedSequence.java" />
-        <option value="$PROJECT_DIR$/JavaDataStructure/src/com/java/arrayQuestion/ArrangementRearrangement/RearrangeAnArray.java" />
-        <option value="$PROJECT_DIR$/tutorialspoint/src/com/java/java8/stream/PrintArrayUsingDiffApproaches.java" />
-        <option value="$PROJECT_DIR$/JavaDataStructure/src/com/java/arrayQuestion/ArrangementRearrangement/MinimumSwapsRequiredBringElementsLessEqualKTogether.java" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/JavaDataStructure/src/com/java/stackds/reverseStackUsingRecursion.java" />
         <option value="$PROJECT_DIR$/JavaDataStructure/src/com/java/mustDoCodingQuestions/SubArraySum.java" />
@@ -182,6 +234,11 @@
         <option value="$PROJECT_DIR$/JavaDataStructure/src/com/java/tree/VerticalMap.java" />
         <option value="$PROJECT_DIR$/JavaDataStructure/src/com/java/tree/AllViewsAndSumOfABinaryTree.java" />
         <option value="$PROJECT_DIR$/JavaDataStructure/src/com/java/tree/PrintSpiralTree.java" />
+        <option value="$PROJECT_DIR$/designPattern/src/main/java/com/BehavioralPatterns/state/demo1/StrategyDemo1.java" />
+        <option value="$PROJECT_DIR$/designPattern/src/main/java/com/BehavioralPatterns/templateMethod/demo1/McDonaldMeal.java" />
+        <option value="$PROJECT_DIR$/designPattern/src/main/java/com/BehavioralPatterns/templateMethod/demo1/KFCMeal.java" />
+        <option value="$PROJECT_DIR$/designPattern/src/main/java/com/BehavioralPatterns/templateMethod/demo1/Lunch.java" />
+        <option value="$PROJECT_DIR$/designPattern/src/main/java/com/BehavioralPatterns/templateMethod/demo1/TemplateMedhodTest.java" />
       </list>
     </option>
   </component>
@@ -195,8 +252,9 @@
     <treeState />
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
-  <component name="ProjectFrameBounds">
-    <option name="y" value="23" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="8" />
+    <option name="y" value="80" />
     <option name="width" value="1440" />
     <option name="height" value="873" />
   </component>
@@ -601,6 +659,74 @@
             <path>
               <item name="code" type="b2602c69:ProjectViewProjectNode" />
               <item name="code" type="462c0819:PsiDirectoryNode" />
+              <item name="designPattern" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="code" type="b2602c69:ProjectViewProjectNode" />
+              <item name="code" type="462c0819:PsiDirectoryNode" />
+              <item name="designPattern" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="code" type="b2602c69:ProjectViewProjectNode" />
+              <item name="code" type="462c0819:PsiDirectoryNode" />
+              <item name="designPattern" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="code" type="b2602c69:ProjectViewProjectNode" />
+              <item name="code" type="462c0819:PsiDirectoryNode" />
+              <item name="designPattern" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="code" type="b2602c69:ProjectViewProjectNode" />
+              <item name="code" type="462c0819:PsiDirectoryNode" />
+              <item name="designPattern" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="code" type="b2602c69:ProjectViewProjectNode" />
+              <item name="code" type="462c0819:PsiDirectoryNode" />
+              <item name="designPattern" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="BehavioralPatterns" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="code" type="b2602c69:ProjectViewProjectNode" />
+              <item name="code" type="462c0819:PsiDirectoryNode" />
+              <item name="designPattern" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="BehavioralPatterns" type="462c0819:PsiDirectoryNode" />
+              <item name="templateMethod" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="code" type="b2602c69:ProjectViewProjectNode" />
+              <item name="code" type="462c0819:PsiDirectoryNode" />
+              <item name="designPattern" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="BehavioralPatterns" type="462c0819:PsiDirectoryNode" />
+              <item name="templateMethod" type="462c0819:PsiDirectoryNode" />
+              <item name="demo1" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="code" type="b2602c69:ProjectViewProjectNode" />
+              <item name="code" type="462c0819:PsiDirectoryNode" />
               <item name="hackeRank" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -759,7 +885,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.AllViewsAndSumOfABinaryTree">
+  <component name="RunManager" selected="Application.TemplateMedhodTest">
     <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="" />
@@ -963,20 +1089,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LeadersinArrayTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.java.arrayQuestion.gfgPractice.LeadersinArrayTest" />
-      <module name="code" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.java.arrayQuestion.gfgPractice.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="NullObjectDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="main.java.com.BehavioralPatterns.nullObject.demo1.NullObjectDemo" />
       <module name="code" />
@@ -984,20 +1096,6 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="main.java.com.BehavioralPatterns.nullObject.demo1.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ReverseArrayInGroups" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.java.arrayQuestion.gfgPractice.ReverseArrayInGroups" />
-      <module name="code" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.java.arrayQuestion.gfgPractice.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -1028,6 +1126,34 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.java.practice.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StrategyDemo1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="main.java.com.BehavioralPatterns.state.demo1.StrategyDemo1" />
+      <module name="code" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="main.java.com.BehavioralPatterns.state.demo1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TemplateMedhodTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="main.java.com.BehavioralPatterns.templateMethod.demo1.TemplateMedhodTest" />
+      <module name="code" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="main.java.com.BehavioralPatterns.templateMethod.demo1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -1127,19 +1253,19 @@
       <item itemvalue="Application.Test9" />
       <item itemvalue="Application.SequentialPrintingByMultipleThread" />
       <item itemvalue="Application.Unnamed" />
-      <item itemvalue="Application.LeadersinArrayTest" />
-      <item itemvalue="Application.ReverseArrayInGroups" />
       <item itemvalue="Application.NullObjectDemo" />
       <item itemvalue="Application.Staircase" />
       <item itemvalue="Application.AllViewsAndSumOfABinaryTree" />
+      <item itemvalue="Application.StrategyDemo1" />
+      <item itemvalue="Application.TemplateMedhodTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TemplateMedhodTest" />
+        <item itemvalue="Application.StrategyDemo1" />
         <item itemvalue="Application.AllViewsAndSumOfABinaryTree" />
         <item itemvalue="Application.Staircase" />
         <item itemvalue="Application.NullObjectDemo" />
-        <item itemvalue="Application.ReverseArrayInGroups" />
-        <item itemvalue="Application.LeadersinArrayTest" />
       </list>
     </recent_temporary>
   </component>
@@ -1245,10 +1371,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1440" height="873" extended-state="0" />
+    <frame x="8" y="23" width="1440" height="873" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" x="533" y="84" width="299" height="628" id="Project" order="0" sideWeight="0.8459959" visible="true" weight="0.21530758" />
+      <window_info x="533" y="84" width="299" height="628" id="Project" order="0" sideWeight="0.8459959" visible="true" weight="0.21816881" />
       <window_info id="Structure" order="1" sideWeight="0.15400411" weight="0.22389127" />
       <window_info id="Nl-Palette" order="2" />
       <window_info id="Capture Tool" order="3" />
@@ -1259,7 +1385,7 @@
       <window_info id="Web" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.323219" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.35224274" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.35224274" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.5629139" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.399361" />
@@ -1272,7 +1398,7 @@
       <window_info anchor="bottom" id="Terminal" order="12" weight="0.45514512" />
       <window_info anchor="bottom" id="CheckStyle" order="13" />
       <window_info anchor="bottom" id="SonarLint" order="14" />
-      <window_info anchor="bottom" id="Messages" order="15" weight="0.3125828" />
+      <window_info anchor="bottom" id="Messages" order="15" weight="0.31134564" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -1663,35 +1789,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/designPattern/src/main/java/com/BehavioralPatterns/interpreter/demo1/OrExpression.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="23" selection-start-line="23" selection-end-line="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/designPattern/src/main/java/com/BehavioralPatterns/iterator/demo1/MenuIterator.java" />
-    <entry file="file://$PROJECT_DIR$/tutorialspoint/src/com/java/exceptionHandling/ExceptionControlFlow.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="23" column="5" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tutorialspoint/src/com/java/exceptionHandling/CustomExcDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="21" column="39" selection-start-line="21" selection-start-column="39" selection-end-line="21" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/JavaDataStructure/src/com/java/arrayQuestion/ArrangementRearrangement/MinimumSwapsRequiredBringElementsLessEqualKTogether.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="5" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/designPattern/src/main/java/com/BehavioralPatterns/iterator/demo1/Item.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="330">
@@ -1968,6 +2065,20 @@
     <entry file="file://$PROJECT_DIR$/JavaDataStructure/src/com/java/tree/BSTDemo.java">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/JavaDataStructure/src/com/java/tree/PrintSpiralTree.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="615">
+          <caret line="41" column="9" selection-start-line="41" selection-start-column="9" selection-end-line="41" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JavaDataStructure/src/com/java/tree/FindAllPreorderFromInorderTraversal.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="50" lean-forward="true" selection-start-line="7" selection-start-column="50" selection-end-line="7" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/JavaDataStructure/src/com/java/tree/VerticalMap.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
@@ -1975,17 +2086,73 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/JavaDataStructure/src/com/java/tree/PrintSpiralTree.java">
+    <entry file="file://$PROJECT_DIR$/designPattern/src/main/java/com/BehavioralPatterns/state/demo1/StrategyDemo1.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="576">
-          <caret line="41" column="9" selection-start-line="41" selection-start-column="9" selection-end-line="41" selection-end-column="9" />
+        <state relative-caret-position="23">
+          <caret line="4" column="56" selection-start-line="4" selection-start-column="56" selection-end-line="4" selection-end-column="56" />
+          <folding>
+            <element signature="e#356#357#0" expanded="true" />
+            <element signature="e#378#379#0" expanded="true" />
+            <element signature="e#530#531#0" expanded="true" />
+            <element signature="e#582#583#0" expanded="true" />
+            <element signature="e#1100#1101#0" expanded="true" />
+            <element signature="e#1134#1135#0" expanded="true" />
+            <element signature="e#974#975#0" expanded="true" />
+            <element signature="e#994#995#0" expanded="true" />
+            <element signature="e#1066#1067#0" expanded="true" />
+            <element signature="e#1085#1086#0" expanded="true" />
+            <element signature="e#1144#1145#0" expanded="true" />
+            <element signature="e#1172#1173#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/JavaDataStructure/src/com/java/tree/FindAllPreorderFromInorderTraversal.java">
+    <entry file="file://$PROJECT_DIR$/designPattern/src/main/java/com/BehavioralPatterns/templateMethod/demo1/Lunch.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+        <state relative-caret-position="234">
+          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+          <folding>
+            <element signature="e#383#384#0" expanded="true" />
+            <element signature="e#419#420#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/designPattern/src/main/java/com/BehavioralPatterns/templateMethod/demo1/McDonaldMeal.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" column="36" selection-start-line="20" selection-start-column="36" selection-end-line="20" selection-end-column="36" />
+          <folding>
+            <element signature="e#211#212#0" expanded="true" />
+            <element signature="e#263#264#0" expanded="true" />
+            <element signature="e#309#310#0" expanded="true" />
+            <element signature="e#374#375#0" expanded="true" />
+            <element signature="e#431#432#0" expanded="true" />
+            <element signature="e#502#503#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/designPattern/src/main/java/com/BehavioralPatterns/templateMethod/demo1/KFCMeal.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="30" lean-forward="true" selection-start-line="14" selection-start-column="30" selection-end-line="14" selection-end-column="30" />
+          <folding>
+            <element signature="e#210#211#0" expanded="true" />
+            <element signature="e#246#247#0" expanded="true" />
+            <element signature="e#307#308#0" expanded="true" />
+            <element signature="e#335#336#0" expanded="true" />
+            <element signature="e#371#372#0" expanded="true" />
+            <element signature="e#535#536#0" expanded="true" />
+            <element signature="e#571#572#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/designPattern/src/main/java/com/BehavioralPatterns/templateMethod/demo1/TemplateMedhodTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="54" selection-start-line="4" selection-start-column="54" selection-end-line="4" selection-end-column="54" />
         </state>
       </provider>
     </entry>
