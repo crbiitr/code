@@ -36,6 +36,7 @@ public class Island {
 
             }
         }
-
+        // Temporary adding it for stopping compilation error.
+        return -1;
     }
 }
