@@ -1,2 +1,4 @@
 *.class
 .idea
+
+#git rm --cached -r .idea/
