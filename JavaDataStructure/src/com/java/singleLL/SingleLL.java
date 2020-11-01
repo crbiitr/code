@@ -3,10 +3,27 @@ package com.java.singleLL;
 class Node<T> {
 	private T data;
 	private Node<T> next;
+	private Node<T> down; // Using in Flattening a single LL
 
 	public Node(T d) {
 		data = d;
 		next = null;
+	}
+
+	public Node(T data, Node<T> next) {
+		this.data = data;
+		this.next = next;
+	}
+
+	public Node(Node<T> next, Node<T> down) {
+		this.next = next;
+		this.down = down;
+	}
+
+	public Node(T data, Node<T> next, Node<T> down) {
+		this.data = data;
+		this.next = next;
+		this.down = down;
 	}
 
 	public Node(){}
@@ -26,6 +43,13 @@ class Node<T> {
 		this.next = next;
 	}
 
+	public Node<T> getDown() {
+		return down;
+	}
+
+	public void setDown(Node<T> down) {
+		this.down = down;
+	}
 }
 
 class SLL<T> {
@@ -399,7 +423,7 @@ public class SingleLL {
 
 	public static void main(String [] args) {
 
-		SLL<Integer> ll = new SLL<Integer>(); 
+		SLL<Integer> ll = new SLL<Integer>();
 		ll.insertInStart(1);
 		ll.insertInStart(2);
 		ll.insertInStart(3);

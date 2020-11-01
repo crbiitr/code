@@ -1,12 +1,13 @@
 package com.java.arrayQuestion;
 
-import javafx.util.Pair;
+//import javafx.util.Pair;
 
 import java.util.*;
 
 /*
 * Its not working, Please check it, I think wrong solution in geeksforgeeks site
 */
+/*
 
 public class MinSwaps {
 
@@ -60,3 +61,5 @@ public class MinSwaps {
         return result;
     }
 }
+
+ */
