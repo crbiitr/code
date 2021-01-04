@@ -142,8 +142,53 @@ public class Solution {
         int B[] = {5,15,44,72,36,2,69,24};
         System.out.println(solution(A, B));
 
+        interpret("G()()()()(al)");
+        int[][] matrix = {  {1,5},
+                            {7,3},
+                            {3,5}
+                        };
+        System.out.println("\nMaximum Wealth");
+        System.out.println("Result: " + maximumWealth(matrix));
+
+    }
 
 
+        public static String interpret(String command) {
+            char[] a = command.toCharArray();
+            StringBuilder sb = new StringBuilder("");
+
+            for(int i = 0; i<a.length; i++) {
+                if(a[i]=='G') {
+                    sb.append("G");
+                } else {
+                    if(a[i]=='(') {
+                        if (a[i+1]==')') {
+                            sb.append("o");
+                            i++;
+                        } else {
+                            sb.append("al");
+                            i+=3;
+                        }
+                    }
+                }
+            }
+            return sb.toString();
+    }
+
+    public static int maximumWealth(int[][] accounts) {
+        int result = 0;
+
+        for(int[] row:accounts) {
+            int rowSum = 0;
+            for(int value:row) {
+                System.out.print(value + " ");
+                rowSum+=value;
+            }
+            System.out.println();
+            if(result<rowSum)
+                result = rowSum;
+        }
+        return result;
     }
 }
 

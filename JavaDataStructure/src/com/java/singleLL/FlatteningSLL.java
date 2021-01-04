@@ -46,7 +46,7 @@ public class FlatteningSLL {
         while (temp != null) {
             System.out.print(temp.getData() + " -> ");
             Node down = temp.getDown();
-            while (down!=null) {
+            while (down != null) {
                 System.out.print(down.getData() + " -> ");
                 down = down.getDown();
             }
@@ -58,25 +58,25 @@ public class FlatteningSLL {
     }
 
     public static Node<Integer> flattenTheLL(Node curr) {
-        if(curr == null || curr.getNext() ==null) return curr;
+        if (curr == null || curr.getNext() == null) return curr;
 
-            curr.setNext(flattenTheLL(curr.getNext()));
-            curr = (merge(curr,curr.getNext()));
+        curr.setNext(flattenTheLL(curr.getNext()));
+        curr = (merge(curr, curr.getNext()));
 
         return curr;
     }
 
     private static Node<Integer> merge(Node<Integer> a, Node<Integer> b) {
-        if (a==null) return b;
-        if (b==null) return a;
+        if (a == null) return b;
+        if (b == null) return a;
 
         Node<Integer> result = null;
-        if(a.getData() < b.getData()) {
+        if (a.getData() < b.getData()) {
             result = a;
-            result.setDown(merge(a.getDown(),b));
+            result.setDown(merge(a.getDown(), b));
         } else {
             result = b;
-            result.setDown(merge(a,b.getDown()));
+            result.setDown(merge(a, b.getDown()));
         }
 
         result.setNext(null);
