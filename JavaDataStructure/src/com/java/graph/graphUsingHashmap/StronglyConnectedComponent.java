@@ -21,6 +21,8 @@ import java.util.*;
  * References
  * https://en.wikipedia.org/wiki/Strongly_connected_component
  * http://www.geeksforgeeks.org/strongly-connected-components/
+ *
+ * KOSARAJU's ALGO
  */
 
 public class StronglyConnectedComponent {
@@ -43,7 +45,7 @@ public class StronglyConnectedComponent {
         SCC.dfs(graph);
         graph.graph = graph.transposeGraph();
         int count = SCC.countSCC(graph);
-        System.out.println("Count: " + count);
+        System.out.println("\nStrongly Connected Component Count: " + count);
     }
 
     public void dfs(Graph<Integer> graph) {
@@ -73,6 +75,7 @@ public class StronglyConnectedComponent {
                 result.add(set);
             }
         }
+        printResultSet(result);
         return result.size();
     }
 
@@ -82,6 +85,14 @@ public class StronglyConnectedComponent {
         for (Integer adjacent : graph.graph.get(vertex)) {
             if (!graph.visited.get(adjacent))
                 dfsUtilsForReverseGraph(adjacent, graph, set);
+        }
+    }
+
+    public void printResultSet(List<Set<Integer>> result) {
+        System.out.println("\nStrongly Connected Components ::");
+        for (Set<Integer> set: result) {
+            set.stream().forEach(e-> System.out.print(e +" "));
+            System.out.println();
         }
     }
 }

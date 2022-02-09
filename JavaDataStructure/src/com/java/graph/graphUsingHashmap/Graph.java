@@ -60,15 +60,14 @@ public class Graph<T> {
 
     public void traverse() {
         for (T i : graph.keySet()) {
-            System.out.print(i + " -> ");
+            System.out.print(i + " ");
             int count = 0;
             int size = graph.get(i).size();
             for (T l : graph.get(i)) {
                 count++;
                 if (size >= count) {
-                    System.out.print(l + " -> ");
+                    System.out.print( " -> " + l);
                 }
-
             }
             System.out.println();
         }

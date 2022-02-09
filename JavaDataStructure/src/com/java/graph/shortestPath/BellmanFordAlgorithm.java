@@ -1,4 +1,4 @@
-package com.java.graph.sotestPath;
+package com.java.graph.shortestPath;
 
 import java.util.ArrayList;
 import java.util.HashMap;

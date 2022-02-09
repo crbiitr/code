@@ -1,6 +1,6 @@
 package com.java.graph;
 
-import com.java.graph.graphUsingHashmap.EulerianCircuit;
+import com.java.graph.graphUsingHashmap.EulerianCircuitDirectedGraph;
 import com.java.graph.graphUsingHashmap.Graph;
 
 /*
@@ -22,7 +22,7 @@ public class ChainedString {
             System.out.println(string.substring(0, 1) + " <-----> " + string.substring(string.length() - 1));
             graph.addDirectEdge(string.substring(0, 1), string.substring(string.length() - 1));
         }
-        EulerianCircuit eulerianCircuit = new EulerianCircuit();
-        return eulerianCircuit.isEulerianCycle(str[0].substring(0, 1), graph);
+        EulerianCircuitDirectedGraph eulerianCircuitDirectedGraph = new EulerianCircuitDirectedGraph();
+        return eulerianCircuitDirectedGraph.isEulerianCycle(str[0].substring(0, 1), graph);
     }
 }

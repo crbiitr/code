@@ -1,7 +1,5 @@
 package com.java.graph.graphUsingHashmap;
 
-import java.util.HashMap;
-
 /**
  * Date 23/07/2018
  *
@@ -12,7 +10,7 @@ import java.util.HashMap;
  * References
  * https://www.geeksforgeeks.org/euler-circuit-directed-graph/
  */
-public class EulerianCircuit<T> {
+public class EulerianCircuitDirectedGraph<T> {
 
     public void DFSUtil(T vertex, Graph<T> graph) {
         graph.visited.put(vertex, true);
@@ -79,8 +77,8 @@ public class EulerianCircuit<T> {
 
         graph.traverse();
 
-        EulerianCircuit<Integer> eulerianCircuit = new EulerianCircuit<>();
-        System.out.println("isEulerianCircuit: " + eulerianCircuit.isEulerianCycle(0, graph));
+        EulerianCircuitDirectedGraph<Integer> eulerianCircuitDirectedGraph = new EulerianCircuitDirectedGraph<>();
+        System.out.println("isEulerianCircuit: " + eulerianCircuitDirectedGraph.isEulerianCycle(0, graph));
     }
 
 

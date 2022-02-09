@@ -1,4 +1,6 @@
-package com.java.graph.sotestPath;
+package com.java.graph.shortestPath;
+
+import com.java.graph.topologicalSort.KahnAlgo;
 
 import java.util.*;
 
@@ -107,6 +109,9 @@ public class DijkstraAlgo {
             V = v;
             E = e;
             graph = new HashMap<>();
+            for (int i = 0; i < v; i++) {
+                graph.put(i,new ArrayList<>());
+            }
         }
 
         public void addEdge(int source, int destination, int weight) {
@@ -118,6 +123,7 @@ public class DijkstraAlgo {
                 listOfEdges.add(edge);
                 graph.put(source, listOfEdges);
             }
+
             E++;
         }
     }
